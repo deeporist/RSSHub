@@ -25,7 +25,7 @@ jobs:
       with:
         target_sync_branch: master
         # REQUIRED 'target_repo_token' exactly like this!
-        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        target_repo_token: ${{ secrets.PAT }}
         upstream_sync_branch: master
         upstream_sync_repo: DIYgod/RSSHub
 
