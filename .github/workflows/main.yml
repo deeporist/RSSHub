@@ -3,10 +3,6 @@ on:
     - cron:  '0 0 * * *'
     # scheduled at 07:00 every Monday and Thursday
   workflow_dispatch:
-permissions:
-  actions: write
-  contents: write
-  pull-requests: write
   
 jobs:
   sync_with_upstream:
@@ -15,9 +11,10 @@ jobs:
 
     steps:
     - name: Checkout master
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         ref: master
+        token: ${{ secrets.PAT }}
         
     - name: Pull upstream changes
       id: sync
