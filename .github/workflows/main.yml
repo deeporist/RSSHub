@@ -3,7 +3,8 @@ on:
     - cron:  '0 0 * * *'
     # scheduled at 07:00 every Monday and Thursday
   workflow_dispatch:
-
+permissions:
+  actions: write
 jobs:
   sync_with_upstream:
     runs-on: ubuntu-latest
