@@ -40992,16 +40992,14 @@
           {
             "source": [
               "nea.gov.cn/sjzz/ghs/"
-            ],
-            "target": "/nea/sjzz/ghs"
+            ]
           }
         ],
         "name": "发展规划司",
         "maintainers": [
-          "nczitzk",
-          "pseudoyu"
+          "nczitzk"
         ],
-        "url": "www.nea.gov.cn/sjzz/ghs/",
+        "url": "nea.gov.cn/sjzz/ghs/",
         "location": "nea/ghs.ts"
       },
       "/nifdc/:path{.+}?": {
@@ -81758,7 +81756,7 @@
           "/:subforumid?",
           ""
         ],
-        "name": "Forum",
+        "name": "Unknown",
         "maintainers": [
           "qiwihui",
           "junfengP",
@@ -81778,7 +81776,7 @@
           "/:subforumid?",
           ""
         ],
-        "name": "Forum",
+        "name": "Unknown",
         "maintainers": [
           "qiwihui",
           "junfengP",
@@ -81798,7 +81796,7 @@
           "/:subforumid?",
           ""
         ],
-        "name": "Forum",
+        "name": "Unknown",
         "maintainers": [
           "qiwihui",
           "junfengP",
@@ -81818,7 +81816,7 @@
           "/:subforumid?",
           ""
         ],
-        "name": "Forum",
+        "name": "Unknown",
         "maintainers": [
           "qiwihui",
           "junfengP",
@@ -81838,7 +81836,7 @@
           "/:subforumid?",
           ""
         ],
-        "name": "Forum",
+        "name": "Unknown",
         "maintainers": [
           "qiwihui",
           "junfengP",
@@ -101294,15 +101292,14 @@
         "features": {
           "requireConfig": false,
           "requirePuppeteer": false,
-          "antiCrawler": true,
+          "antiCrawler": false,
           "supportBT": false,
           "supportPodcast": false,
           "supportScihub": false
         },
         "name": "公众号（搜狗来源）",
         "maintainers": [
-          "EthanWng97",
-          "pseudoyu"
+          "EthanWng97"
         ],
         "location": "sogou.ts"
       },
