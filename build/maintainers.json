@@ -3127,7 +3127,8 @@
     "nczitzk"
   ],
   "/gov/nea/sjzz/ghs": [
-    "nczitzk"
+    "nczitzk",
+    "pseudoyu"
   ],
   "/gov/nifdc/:path{.+}?": [],
   "/gov/nmpa/*": [],
@@ -4229,6 +4230,9 @@
   ],
   "/jou/yztzgg": [
     "real-jiakai"
+  ],
+  "/jpmorganchase/": [
+    "dousha"
   ],
   "/jpxgmn/search/:kw": [
     "Urabartin"
@@ -7868,7 +7872,8 @@
     "MisteryMonster"
   ],
   "/wechat/sogou/:id": [
-    "EthanWng97"
+    "EthanWng97",
+    "pseudoyu"
   ],
   "/wechat/tgchannel/:id/:mpName?/:searchQueryType?": [
     "LogicJake",
