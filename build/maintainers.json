@@ -1708,6 +1708,9 @@
   "/cqwu/news/:type?": [
     "Fatpandac"
   ],
+  "/crac/exam": [
+    "admxj"
+  ],
   "/crac/:type?": [
     "Misaka13514"
   ],
@@ -7220,10 +7223,10 @@
     "DIYgod",
     "NeverBehave"
   ],
-  "/tfc-taiwan/:type?": [
+  "/tfc-taiwan/category/:category": [
     "TonyRL"
   ],
-  "/tfc-taiwan/:type/:id{.+}": [
+  "/tfc-taiwan/": [
     "TonyRL"
   ],
   "/tgbus/list/:category": [
