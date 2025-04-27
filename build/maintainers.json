@@ -8515,8 +8515,7 @@
     "pseudoyu"
   ],
   "/zhihu/hot/:category?": [
-    "nczitzk",
-    "pseudoyu"
+    "nczitzk"
   ],
   "/zhihu/posts/:usertype/:id": [
     "whtsky",

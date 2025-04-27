@@ -110702,8 +110702,7 @@ export default {
         },
         "name": "知乎热榜",
         "maintainers": [
-          "nczitzk",
-          "pseudoyu"
+          "nczitzk"
         ],
         "location": "hot.ts",
         "module": () => import('@/routes/zhihu/hot.ts')
