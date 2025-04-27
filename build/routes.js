@@ -21715,6 +21715,35 @@ export default {
     "url": "clickme.net",
     "lang": "en"
   },
+  "cline": {
+    "name": "cline",
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/cline/blog",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "Blog",
+        "maintainers": [
+          "yeshan333"
+        ],
+        "description": "Cline Official Blog articles",
+        "url": "cline.bot/blog",
+        "location": "blog.ts",
+        "module": () => import('@/routes/cline/blog.ts')
+      }
+    }
+  },
   "cloudnative": {
     "routes": {
       "/blog": {
@@ -110673,7 +110702,8 @@ export default {
         },
         "name": "知乎热榜",
         "maintainers": [
-          "nczitzk"
+          "nczitzk",
+          "pseudoyu"
         ],
         "location": "hot.ts",
         "module": () => import('@/routes/zhihu/hot.ts')

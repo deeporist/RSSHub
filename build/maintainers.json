@@ -1499,6 +1499,9 @@
   "/clickme/:site/:grouping/:name": [
     "hoilc"
   ],
+  "/cline/blog": [
+    "yeshan333"
+  ],
   "/cloudnative/blog": [
     "aneasystone"
   ],
@@ -8512,7 +8515,8 @@
     "pseudoyu"
   ],
   "/zhihu/hot/:category?": [
-    "nczitzk"
+    "nczitzk",
+    "pseudoyu"
   ],
   "/zhihu/posts/:usertype/:id": [
     "whtsky",
