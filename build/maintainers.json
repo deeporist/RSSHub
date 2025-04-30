@@ -4161,22 +4161,8 @@
   "/jiaoliudao/": [
     "TonyRL"
   ],
-  "/jiemian/account/main/1": [
-    "nczitzk"
-  ],
-  "/jiemian/lists/:id": [
-    "WenhuWee",
-    "nczitzk"
-  ],
-  "/jiemian/special/1192": [
-    "nczitzk"
-  ],
-  "/jiemian/video/lists/258_1": [
-    "nczitzk"
-  ],
-  "/jiemian/pro/lists/12": [
-    "nczitzk"
-  ],
+  "/jiemian/list/:id": [],
+  "/jiemian/:category{.+}?": [],
   "/jike/topic/text/:id": [
     "HenryQW"
   ],
@@ -4978,13 +4964,9 @@
   "/mycard520/category/:category?": [
     "nczitzk"
   ],
-  "/mydrivers/cid/:id?": [
-    "nczitzk"
-  ],
-  "/mydrivers/:category{.+}?": [
-    "kt286",
-    "nczitzk"
-  ],
+  "/mydrivers/cid/:id?": [],
+  "/mydrivers/zhibo": [],
+  "/mydrivers/:category{.+}?": [],
   "/mydrivers/rank/:range?": [
     "nczitzk"
   ],
@@ -7486,6 +7468,9 @@
   ],
   "/transformer-circuits/": [
     "shinmohuang"
+  ],
+  "/trending/:keywords/:numberOfDays?": [
+    "Jkker"
   ],
   "/trendingpapers/papers/:category?/:time?/:cited?": [
     "CookiePieWw"
