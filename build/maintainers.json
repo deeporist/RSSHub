@@ -1426,9 +1426,6 @@
   "/chinacdc/:category{.+}?": [
     "nczitzk"
   ],
-  "/chinadaily/language/:category{.+}?": [
-    "nczitzk"
-  ],
   "/chinadegrees/:province?": [
     "TonyRL"
   ],
@@ -8682,9 +8679,6 @@
   ],
   "/zuvio/student5/:board?": [
     "TonyRL"
-  ],
-  "/zxcs/novel/:type": [
-    "liaochuan"
   ],
   "/zyshow*": [],
   "/zyw/hot/:site?": [
