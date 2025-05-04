@@ -45407,9 +45407,9 @@ export default {
   },
   "hanime1": {
     "routes": {
-      "/previews/:date": {
-        "path": "/previews/:date",
-        "name": "新番预告",
+      "/previews/:date?": {
+        "path": "/previews/:date?",
+        "name": "每月新番",
         "maintainers": [
           "kjasn"
         ],
@@ -45419,7 +45419,7 @@ export default {
         ],
         "parameters": {
           "date": {
-            "description": "Date in YYYYMM format"
+            "description": "日期格式为 `YYYYMM`，默认值当月"
           }
         },
         "features": {
@@ -45433,13 +45433,40 @@ export default {
         "radar": [
           {
             "source": [
-              "hanime1.me/previews/:date"
+              "hanime1.me/previews/:date",
+              "hanime1.me/previews"
             ],
             "target": "/previews/:date"
           }
         ],
         "location": "previews.ts",
         "module": () => import('@/routes/hanime1/previews.ts')
+      },
+      "/search/:params": {
+        "path": "/search/:params",
+        "name": "搜索结果",
+        "maintainers": [
+          "kjasn"
+        ],
+        "example": "/hanime1/search/tags%5B%5D=%E7%B4%94%E6%84%9B&",
+        "categories": [
+          "anime"
+        ],
+        "parameters": {
+          "params": {
+            "description": "\n| 参数                | 说明                              | 示例或可选值                                                                                                          |\n| ------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |\n| `query`           | 搜索框输入的内容                  | 任意值都可以，例如：`辣妹`                                                                                          |\n| `genre`           | 番剧类型，默认为`全部`          | 可选值有：`全部` / `裏番` / `泡麵番` / `Motion+Anime` / `3D動畫` / `同人作品` / `MMD` / `Cosplay`     |\n| `tags[]`          | 标签                              | 可选值过多，不一一列举，详细请查看原网址。例如：`tags[]=純愛&tags[]=中文字幕`                                       |\n| `broad`           | 标签模糊匹配，默认为 `off`      | `on`（模糊匹配，包含任一标签） / `off`（精确匹配，包含全部标签）                                                  |\n| `sort`            | 搜索结果排序，默认 `最新上市`   | `最新上市` / `最新上傳` / `本日排行` / `本週排行` / `本月排行` / `觀看次數` / `讚好比例` / `他們在看` |\n| `year`, `month` | 筛选发布时间，默认为 `全部时间` | 例如：`year=2025&month=5`                                                                                           |\n\n**Tips**: 如果你不确定标签或类型的具体名字，可以直接去原网址选好筛选条件后，把网址中的参数复制过来使用。例如： `https://hanime1.me/search?query=&genre=裏番&broad=on&sort=最新上市&tags[]=純愛&tags[]=中文字幕`，`/search?`后面的部分就是参数了,最后得到类似这样的路由 `https://rsshub.app/hanime1/search/query=&genre=裏番&broad=on&sort=最新上市&tags[]=純愛&tags[]=中文字幕`\n"
+          }
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "location": "search.ts",
+        "module": () => import('@/routes/hanime1/search.ts')
       }
     },
     "name": "Hanime1",
@@ -76406,13 +76433,13 @@ export default {
         "radar": [
           {
             "source": [
-              "pixwox.com/profile/:id"
+              "www.pixnoy.com/profile/:id"
             ],
             "target": "/user/:id"
           },
           {
             "source": [
-              "pixwox.com/profile/:id/tagged"
+              "www.pixnoy.com/profile/:id/tagged"
             ],
             "target": "/user/:id/tagged"
           }
@@ -84065,7 +84092,7 @@ export default {
           "Ji4n1ng",
           "wiketool"
         ],
-        "description": "| 学院公告 | 学术报告 | 科技简讯 | 本科教育 | 研究生教育 | \n| -------- | -------- | -------- | -------- | -------- |\n| announcement | academic | technology | undergraduate | postgraduate |",
+        "description": "| 学院公告 | 学术报告 | 科技简讯 | 本科教育 | 研究生教育 |\n| -------- | -------- | -------- | -------- | -------- |\n| announcement | academic | technology | undergraduate | postgraduate |",
         "location": "cs/index.ts",
         "module": () => import('@/routes/sdu/cs/index.ts')
       },
