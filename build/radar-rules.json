@@ -20831,9 +20831,9 @@
       }
     ]
   },
-  "12356782.xyz": {
+  "mei5.vip": {
     "_name": "极品性感美女",
-    "www": [
+    ".": [
       {
         "title": "分类",
         "docs": "https://docs.rsshub.app/routes/picture",
@@ -20933,6 +20933,20 @@
           "/tag/:tag"
         ],
         "target": "/juejin/tag/:tag"
+      }
+    ]
+  },
+  "jumeili.cn": {
+    "_name": "聚美丽",
+    "www": [
+      {
+        "title": "首页资讯",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/",
+          "/"
+        ],
+        "target": "/jumeili/home/:column?"
       }
     ]
   },
