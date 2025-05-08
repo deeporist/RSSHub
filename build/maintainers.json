@@ -1652,8 +1652,7 @@
     "TonyRL"
   ],
   "/cool18/:id?/:type?/:keyword?": [
-    "nczitzk",
-    "Gabrlie"
+    "nczitzk"
   ],
   "/coolapk/dyh/:dyhId": [
     "xizeyoupan"
@@ -3631,7 +3630,7 @@
   "/hpoi/items/character/:id/:order?": [
     "DIYgod"
   ],
-  "/hpoi/info/:type?/:catType?": [
+  "/hpoi/info/:type?": [
     "sanmmm DIYgod"
   ],
   "/hpoi/user/:user_id/:caty": [

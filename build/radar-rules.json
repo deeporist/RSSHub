@@ -10236,12 +10236,12 @@
     "_name": "禁忌书屋",
     ".": [
       {
-        "title": "禁忌书屋",
-        "docs": "https://docs.rsshub.app/routes/bbs",
+        "title": "Unknown",
+        "docs": "https://docs.rsshub.app/routes/other",
         "source": [
-          "/:id/"
+          "/"
         ],
-        "target": "/cool18/:id/:type?/:keyword?"
+        "target": "/cool18/:id?/:type?/:keyword?"
       }
     ]
   },
