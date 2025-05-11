@@ -4978,6 +4978,15 @@
     "_name": "Anthropic",
     "www": [
       {
+        "title": "Engineering",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/engineering",
+          "/"
+        ],
+        "target": "/anthropic/engineering"
+      },
+      {
         "title": "News",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
@@ -9640,6 +9649,19 @@
           "/blogs/*"
         ],
         "target": "/chlinlearn/chlinlearn/daily-blog"
+      }
+    ]
+  },
+  "chongbuluo.com": {
+    "_name": "虫部落",
+    "www": [
+      {
+        "title": "最新发表",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/"
+        ],
+        "target": "/chongbuluo/newthread"
       }
     ]
   },

@@ -9168,6 +9168,28 @@
   },
   "anthropic": {
     "routes": {
+      "/engineering": {
+        "path": "/engineering",
+        "categories": [
+          "programming"
+        ],
+        "example": "/anthropic/engineering",
+        "radar": [
+          {
+            "source": [
+              "www.anthropic.com/engineering",
+              "www.anthropic.com"
+            ]
+          }
+        ],
+        "name": "Engineering",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.anthropic.com/engineering",
+        "location": "engineering.ts",
+        "module": "() => import('@/routes/anthropic/engineering.ts')"
+      },
       "/news": {
         "path": "/news",
         "categories": [
@@ -21522,6 +21544,41 @@
     },
     "name": "chlinlearn 的技术博客",
     "url": "daily-blog.chlinlearn.top",
+    "lang": "zh-CN"
+  },
+  "chongbuluo": {
+    "routes": {
+      "/newthread": {
+        "path": "/newthread",
+        "categories": [
+          "bbs"
+        ],
+        "example": "/chongbuluo/newthread",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.chongbuluo.com/"
+            ]
+          }
+        ],
+        "name": "最新发表",
+        "maintainers": [
+          "qiye45"
+        ],
+        "location": "index.ts",
+        "module": "() => import('@/routes/chongbuluo/index.ts')"
+      }
+    },
+    "name": "虫部落",
+    "url": "www.chongbuluo.com",
     "lang": "zh-CN"
   },
   "chongdiantou": {
