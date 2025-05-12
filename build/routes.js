@@ -21546,6 +21546,41 @@ export default {
     "url": "daily-blog.chlinlearn.top",
     "lang": "zh-CN"
   },
+  "chongbuluo": {
+    "routes": {
+      "/newthread": {
+        "path": "/newthread",
+        "categories": [
+          "bbs"
+        ],
+        "example": "/chongbuluo/newthread",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.chongbuluo.com/"
+            ]
+          }
+        ],
+        "name": "最新发表",
+        "maintainers": [
+          "qiye45"
+        ],
+        "location": "index.ts",
+        "module": () => import('@/routes/chongbuluo/index.ts')
+      }
+    },
+    "name": "虫部落",
+    "url": "www.chongbuluo.com",
+    "lang": "zh-CN"
+  },
   "chongdiantou": {
     "routes": {
       "/": {
@@ -111547,7 +111582,12 @@ export default {
           }
         },
         "features": {
-          "requireConfig": false,
+          "requireConfig": [
+            {
+              "name": "ZHIHU_COOKIES",
+              "description": ""
+            }
+          ],
           "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
@@ -111559,6 +111599,7 @@ export default {
           "nczitzk",
           "pseudoyu"
         ],
+        "description": "::: warning\n  需要登录后的 Cookie 值，所以只能自建，详情见部署页面的配置模块。\n:::",
         "location": "hot.ts",
         "module": () => import('@/routes/zhihu/hot.ts')
       },
