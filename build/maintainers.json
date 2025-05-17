@@ -1508,9 +1508,6 @@
   "/cib/whpj/:format?": [
     "Qixingchen"
   ],
-  "/cih-index/report/list/:report?": [
-    "TonyRL"
-  ],
   "/ciidbnu/:id?": [
     "nczitzk"
   ],
