@@ -22230,6 +22230,45 @@ export default {
     "url": "cib.com.cn",
     "lang": "zh-CN"
   },
+  "cih-index": {
+    "routes": {
+      "/report/list/:report?": {
+        "path": "/report/list/:report?",
+        "categories": [
+          "finance"
+        ],
+        "example": "/cih-index/report/list/p1-oaddtime-ddesc",
+        "parameters": {
+          "report": "报告 id，可在 URL 中找到，留空为 `p1-oaddtime-ddesc`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "报告",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "url": "www.cih-index.com/report/list/p1-oaddtime-ddesc",
+        "radar": [
+          {
+            "source": [
+              "www.cih-index.com/report/list/:report"
+            ]
+          }
+        ],
+        "location": "report.ts",
+        "module": () => import('@/routes/cih-index/report.ts')
+      }
+    },
+    "name": "中指研究院",
+    "url": "www.cih-index.com",
+    "lang": "zh-CN"
+  },
   "ciidbnu": {
     "routes": {
       "/:id?": {
@@ -110517,7 +110556,8 @@ export default {
           "requireConfig": [
             {
               "name": "YOUTUBE_KEY",
-              "description": " YouTube API Key, support multiple keys, split them with `,`, [API Key application](https://console.developers.google.com/)"
+              "description": " YouTube API Key, support multiple keys, split them with `,`, [API Key application](https://console.developers.google.com/)",
+              "optional": true
             }
           ],
           "requirePuppeteer": false,
@@ -110728,7 +110768,8 @@ export default {
           "requireConfig": [
             {
               "name": "YOUTUBE_KEY",
-              "description": " YouTube API Key, support multiple keys, split them with `,`, [API Key application](https://console.developers.google.com/)"
+              "description": " YouTube API Key, support multiple keys, split them with `,`, [API Key application](https://console.developers.google.com/)",
+              "optional": true
             }
           ],
           "requirePuppeteer": false,
