@@ -699,9 +699,6 @@
   "/baijing/article": [
     "p3psi-boo"
   ],
-  "/bakamh/manga/:name": [
-    "yoyobase"
-  ],
   "/bandcamp/live": [
     "nczitzk"
   ],
@@ -7190,9 +7187,6 @@
     "cnzgray"
   ],
   "/tableau/viz-of-the-day": [],
-  "/tailwindcss/blog": [
-    "goestav"
-  ],
   "/taiwanmobile/rate-plans": [
     "Tsuyumi25"
   ],
