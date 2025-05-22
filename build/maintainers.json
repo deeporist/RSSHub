@@ -699,6 +699,9 @@
   "/baijing/article": [
     "p3psi-boo"
   ],
+  "/bakamh/manga/:name": [
+    "yoyobase"
+  ],
   "/bandcamp/live": [
     "nczitzk"
   ],
@@ -1609,10 +1612,10 @@
   ],
   "/cneb/yjxx/*": [],
   "/cngal/entry/:id": [
-    "chengyuhui"
+    "kmod-midori"
   ],
   "/cngal/weekly": [
-    "chengyuhui"
+    "kmod-midori"
   ],
   "/cngold/:category?": [
     "nczitzk"
@@ -2481,10 +2484,10 @@
     "TonyRL"
   ],
   "/ff14/global/:lang/:type?": [
-    "chengyuhui"
+    "kmod-midori"
   ],
   "/ff14/ff14_global/:lang/:type?": [
-    "chengyuhui"
+    "kmod-midori"
   ],
   "/ff14/zh/:type?": [
     "Kiotlin",
@@ -7187,6 +7190,9 @@
     "cnzgray"
   ],
   "/tableau/viz-of-the-day": [],
+  "/tailwindcss/blog": [
+    "goestav"
+  ],
   "/taiwanmobile/rate-plans": [
     "Tsuyumi25"
   ],
