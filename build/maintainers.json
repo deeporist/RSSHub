@@ -7029,9 +7029,6 @@
     "naremloa",
     "fenxer"
   ],
-  "/steam/news/:appid/:language?": [
-    "keocheung"
-  ],
   "/steam/search/:params": [
     "moppman"
   ],
