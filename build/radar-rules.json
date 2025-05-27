@@ -21894,19 +21894,6 @@
       }
     ]
   },
-  "lenovo.com.cn": {
-    "_name": "联想",
-    ".": [
-      {
-        "title": "驱动",
-        "docs": "https://docs.rsshub.app/routes/program-update",
-        "source": [
-          "/"
-        ],
-        "target": "/lenovo/drive/:selName"
-      }
-    ]
-  },
   "hey.xyz": {
     "_name": "Lens",
     ".": [
@@ -27338,10 +27325,9 @@
         "title": "新聞",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
-          "/home/:category",
           "/"
         ],
-        "target": "/now/news/:category?"
+        "target": "/now/news/:category?/:id?"
       }
     ]
   },

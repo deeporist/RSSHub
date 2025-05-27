@@ -59705,45 +59705,6 @@ export default {
     "url": "join-lemmy.org",
     "lang": "en"
   },
-  "lenovo": {
-    "routes": {
-      "/drive/:selName": {
-        "path": "/drive/:selName",
-        "categories": [
-          "program-update"
-        ],
-        "example": "/lenovo/drive/PF3WRD2G",
-        "parameters": {
-          "selName": "产品序列号"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "radar": [
-          {
-            "source": [
-              "lenovo.com.cn"
-            ],
-            "target": "/drive/:selName"
-          }
-        ],
-        "name": "驱动",
-        "maintainers": [
-          "cscnk52"
-        ],
-        "location": "drive.ts",
-        "module": () => import('@/routes/lenovo/drive.ts')
-      }
-    },
-    "name": "联想",
-    "url": "lenovo.com.cn",
-    "lang": "zh-CN"
-  },
   "lens": {
     "routes": {
       "/profile/:handle": {
@@ -71915,10 +71876,8 @@ export default {
         "radar": [
           {
             "source": [
-              "news.now.com/home/:category?",
               "news.now.com/"
-            ],
-            "target": "/news/:category?"
+            ]
           }
         ],
         "name": "新聞",
@@ -77552,8 +77511,7 @@ export default {
         "maintainers": [
           "TonyRL",
           "micheal-death",
-          "AiraNadih",
-          "DIYgod"
+          "AiraNadih"
         ],
         "view": 2,
         "location": "user.ts",
@@ -98019,8 +97977,7 @@ export default {
         "name": "新闻快讯",
         "maintainers": [
           "Fatpandac",
-          "jameshih",
-          "DIYgod"
+          "jameshih"
         ],
         "radar": [
           {
@@ -109537,7 +109494,7 @@ export default {
         },
         "features": {
           "requireConfig": false,
-          "requirePuppeteer": true,
+          "requirePuppeteer": false,
           "antiCrawler": false,
           "supportBT": false,
           "supportPodcast": false,
