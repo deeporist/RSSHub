@@ -482,7 +482,6 @@ export default {
       }
     },
     "name": "网易公开课",
-    "apiRoutes": {},
     "url": "163.com",
     "description": "::: tip\n部分歌单及听歌排行信息为登陆后可见，自建时将环境变量`NCM_COOKIES`设为登陆后的 Cookie 值，即可正常获取。\n:::",
     "lang": "zh-CN"
@@ -517,7 +516,6 @@ export default {
       }
     },
     "name": "591 Rental house",
-    "apiRoutes": {},
     "url": "rent.591.com.tw",
     "lang": "zh-TW"
   },
@@ -550,7 +548,6 @@ export default {
       }
     },
     "name": "2048 核基地",
-    "apiRoutes": {},
     "url": "hjd2048.com",
     "lang": "zh-CN"
   },
@@ -583,7 +580,6 @@ export default {
       }
     },
     "name": "8264",
-    "apiRoutes": {},
     "url": "8264.com",
     "lang": "zh-CN"
   },
@@ -652,7 +648,6 @@ export default {
       }
     },
     "name": "12306",
-    "apiRoutes": {},
     "url": "kyfw.12306.cn",
     "lang": "zh-CN"
   },
@@ -754,7 +749,6 @@ export default {
       }
     },
     "name": "幻之羁绊动漫网",
-    "apiRoutes": {},
     "url": "005.tv",
     "categories": [
       "anime"
@@ -791,7 +785,6 @@ export default {
       }
     },
     "name": "0818 团",
-    "apiRoutes": {},
     "url": "0818tuan.com",
     "lang": "zh-CN"
   },
@@ -813,7 +806,6 @@ export default {
       }
     },
     "name": "Wojciech Muła",
-    "apiRoutes": {},
     "url": "0x80.pl",
     "description": "",
     "lang": "en"
@@ -924,7 +916,6 @@ export default {
       }
     },
     "name": "10000万联网",
-    "apiRoutes": {},
     "url": "10000link.com",
     "categories": [
       "new-media"
@@ -1050,7 +1041,6 @@ export default {
       }
     },
     "name": "141JAV",
-    "apiRoutes": {},
     "url": "141jav.com",
     "description": "::: tip\n官方提供的订阅源不支持 BT 下载订阅，地址为 [https://141jav.com/feeds/](https://141jav.com/feeds/)\n:::",
     "lang": "en"
@@ -1077,7 +1067,6 @@ export default {
       }
     },
     "name": "141PPV",
-    "apiRoutes": {},
     "url": "141ppv.com",
     "description": "::: tip\n官方提供的订阅源不支持 BT 下载订阅，地址为 [https://141ppv.com/feeds/](https://141ppv.com/feeds/)\n:::",
     "lang": "en"
@@ -1224,7 +1213,6 @@ export default {
       }
     },
     "name": "禁漫天堂",
-    "apiRoutes": {},
     "url": "18comic.org",
     "description": "::: tip\n禁漫天堂有多个备用域名，本路由默认使用域名 `https://jmcomic.me`，若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 `https://jmcomic1.me`，则在所有禁漫天堂路由最后加上 `?domain=jmcomic1.me` 即可，此时路由为 [`/18comic?domain=jmcomic1.me`](https://rsshub.app/18comic?domain=jmcomic1.me)\n:::",
     "lang": "zh-CN"
@@ -1414,8 +1402,7 @@ export default {
         "location": "index.ts",
         "module": () => import('@/routes/199it/index.ts')
       }
-    },
-    "apiRoutes": {}
+    }
   },
   "19lou": {
     "routes": {
@@ -1446,7 +1433,6 @@ export default {
       }
     },
     "name": "19 楼",
-    "apiRoutes": {},
     "url": "19lou.com",
     "lang": "zh-CN"
   },
@@ -1489,7 +1475,6 @@ export default {
       }
     },
     "name": "BT 之家 1LOU 站",
-    "apiRoutes": {},
     "url": "1lou.me",
     "categories": [
       "multimedia"
@@ -1724,7 +1709,6 @@ export default {
       }
     },
     "name": "一亩三分地",
-    "apiRoutes": {},
     "url": "blog.1point3acres.com",
     "lang": "zh-CN"
   },
@@ -1769,7 +1753,6 @@ export default {
       }
     },
     "name": "1x.com",
-    "apiRoutes": {},
     "url": "1x.com",
     "categories": [
       "design",
@@ -1809,7 +1792,6 @@ export default {
       }
     },
     "name": "游戏星辰",
-    "apiRoutes": {},
     "url": "www.2023game.com",
     "lang": "zh-CN"
   },
@@ -2911,7 +2893,6 @@ export default {
       }
     },
     "name": "21财经",
-    "apiRoutes": {},
     "url": "21caijing.com",
     "categories": [
       "finance"
@@ -2931,7 +2912,6 @@ export default {
       }
     },
     "name": "二次元虫洞",
-    "apiRoutes": {},
     "url": "2cycd.com",
     "lang": "zh-CN"
   },
@@ -3024,7 +3004,6 @@ export default {
       }
     },
     "name": "30 Seconds of code",
-    "apiRoutes": {},
     "url": "www.30secondsofcode.org",
     "lang": "en"
   },
@@ -3088,7 +3067,6 @@ export default {
       }
     },
     "name": "36kr",
-    "apiRoutes": {},
     "url": "36kr.com",
     "lang": "zh-CN"
   },
@@ -3152,7 +3130,6 @@ export default {
       }
     },
     "name": "3DMGame",
-    "apiRoutes": {},
     "url": "3dmgame.com",
     "lang": "zh-CN"
   },
@@ -3187,7 +3164,6 @@ export default {
       }
     },
     "name": "3k-Switch游戏库",
-    "apiRoutes": {},
     "url": "www.3kns.com",
     "lang": "zh-CN"
   },
@@ -3370,7 +3346,6 @@ export default {
       }
     },
     "name": "423Down",
-    "apiRoutes": {},
     "url": "423down.com",
     "categories": [
       "program-update"
@@ -3490,7 +3465,6 @@ export default {
       }
     },
     "name": "4Gamers",
-    "apiRoutes": {},
     "url": "www.4gamers.com.tw",
     "lang": "zh-TW"
   },
@@ -3562,7 +3536,6 @@ export default {
       }
     },
     "name": "4KHD",
-    "apiRoutes": {},
     "url": "www.4khd.com",
     "description": "4KHD - HD Beautiful Girls",
     "lang": "en"
@@ -3589,7 +3562,6 @@ export default {
       }
     },
     "name": "4k 世界",
-    "apiRoutes": {},
     "url": "4ksj.com",
     "lang": "zh-CN"
   },
@@ -3727,7 +3699,6 @@ export default {
       }
     },
     "name": "4KUP",
-    "apiRoutes": {},
     "url": "4kup.net",
     "description": "4KUP - Beautiful Girls Collection",
     "lang": "en"
@@ -3855,7 +3826,6 @@ export default {
       }
     },
     "name": "51Read",
-    "apiRoutes": {},
     "url": "m.51read.org",
     "lang": "zh-CN"
   },
@@ -3923,7 +3893,6 @@ export default {
       }
     },
     "name": "52hrtt 华人头条",
-    "apiRoutes": {},
     "url": "52hrtt.com",
     "lang": "zh-CN"
   },
@@ -3981,7 +3950,6 @@ export default {
       }
     },
     "name": "明月中文网",
-    "apiRoutes": {},
     "url": "56kog.com",
     "lang": "zh-CN"
   },
@@ -4020,7 +3988,6 @@ export default {
       }
     },
     "name": "5EPLAY",
-    "apiRoutes": {},
     "url": "csgo.5eplay.com",
     "lang": "zh-CN"
   },
@@ -4063,7 +4030,6 @@ export default {
       }
     },
     "name": "五大唱片",
-    "apiRoutes": {},
     "url": "5music.com.tw",
     "lang": "zh-TW",
     "categories": [
@@ -4108,7 +4074,6 @@ export default {
       }
     },
     "name": "69书吧",
-    "apiRoutes": {},
     "url": "69shuba.cx",
     "lang": "zh-CN"
   },
@@ -4167,7 +4132,6 @@ export default {
       }
     },
     "name": "留园网",
-    "apiRoutes": {},
     "url": "club.6parkbbs.com",
     "lang": "zh-CN"
   },
@@ -4237,7 +4201,6 @@ export default {
       }
     },
     "name": "6v 电影",
-    "apiRoutes": {},
     "url": "hao6v.cc",
     "lang": "zh-CN"
   },
@@ -4608,7 +4571,6 @@ export default {
       }
     },
     "name": "78 动漫",
-    "apiRoutes": {},
     "url": "78dm.net",
     "categories": [
       "anime"
@@ -4647,7 +4609,6 @@ export default {
       }
     },
     "name": "7mmtv",
-    "apiRoutes": {},
     "url": "7mmtv.tv",
     "lang": "zh-CN"
   },
@@ -4734,7 +4695,6 @@ export default {
       }
     },
     "name": "8KCosplay",
-    "apiRoutes": {},
     "url": "8kcosplay.com",
     "lang": "zh-CN"
   },
@@ -4749,7 +4709,6 @@ export default {
       }
     },
     "name": "8 视界",
-    "apiRoutes": {},
     "url": "8world.com",
     "lang": "zh-CN"
   },
@@ -4825,7 +4784,6 @@ export default {
       }
     },
     "name": "91porn",
-    "apiRoutes": {},
     "url": "91porn.com",
     "description": "::: tip\n91porn has multiple backup domains, routes use the permanent domain `https://91porn.com` by default. If the domain is not accessible, you can add `?domain=<domain>` to specify the domain to be used. If you want to specify the backup domain to `https://0122.91p30.com`, you can add `?domain=0122.91p30.com` to the end of all 91porn routes, then the route will become [`/91porn?domain=0122.91p30.com`](https://rsshub.app/91porn?domain=0122.91p30.com)\n:::",
     "lang": "zh-CN"
@@ -4932,7 +4890,6 @@ export default {
       }
     },
     "name": "MM 范",
-    "apiRoutes": {},
     "url": "95mm.org",
     "lang": "zh-CN"
   },
@@ -5052,7 +5009,6 @@ export default {
       }
     },
     "name": "A9VG 电玩部落",
-    "apiRoutes": {},
     "url": "a9vg.com",
     "description": "",
     "lang": "zh-CN"
@@ -5093,7 +5049,6 @@ export default {
       }
     },
     "name": "論盡媒體 AllAboutMacau Media",
-    "apiRoutes": {},
     "url": "aamacau.com",
     "lang": "zh-HK"
   },
@@ -5127,7 +5082,6 @@ export default {
       }
     },
     "name": "ABC News",
-    "apiRoutes": {},
     "url": "abc.net.au",
     "lang": "en"
   },
@@ -5194,7 +5148,6 @@ export default {
       }
     },
     "name": "链新闻 ABMedia",
-    "apiRoutes": {},
     "url": "www.abmedia.io",
     "lang": "zh-TW"
   },
@@ -5238,7 +5191,6 @@ export default {
       }
     },
     "name": "A 姐分享",
-    "apiRoutes": {},
     "url": "nsfw.abskoop.com",
     "lang": "zh-TW"
   },
@@ -5384,7 +5336,6 @@ export default {
       }
     },
     "name": "Access Briefing",
-    "apiRoutes": {},
     "url": "accessbriefing.com",
     "categories": [
       "new-media"
@@ -5548,7 +5499,6 @@ export default {
       }
     },
     "name": "AcFun",
-    "apiRoutes": {},
     "url": "www.acfun.cn",
     "lang": "zh-CN"
   },
@@ -5618,7 +5568,6 @@ export default {
       }
     },
     "name": "中华全国专利代理师协会",
-    "apiRoutes": {},
     "url": "acpaa.cn",
     "lang": "zh-CN"
   },
@@ -5643,7 +5592,6 @@ export default {
       }
     },
     "name": "ACS Publications",
-    "apiRoutes": {},
     "url": "pubs.acs.org",
     "lang": "en"
   },
@@ -5715,7 +5663,6 @@ export default {
       }
     },
     "name": "广告门",
-    "apiRoutes": {},
     "url": "adquan.com",
     "categories": [
       "new-media"
@@ -5760,7 +5707,6 @@ export default {
       }
     },
     "name": "American Economic Association",
-    "apiRoutes": {},
     "url": "aeaweb.org",
     "lang": "en"
   },
@@ -5873,7 +5819,6 @@ export default {
       }
     },
     "name": "AEON",
-    "apiRoutes": {},
     "url": "aeon.co",
     "lang": "en"
   },
@@ -5915,7 +5860,6 @@ export default {
       }
     },
     "name": "爱发电",
-    "apiRoutes": {},
     "url": "afdian.net",
     "lang": "zh-CN"
   },
@@ -5955,7 +5899,6 @@ export default {
       }
     },
     "name": "AFL-CIO",
-    "apiRoutes": {},
     "url": "aflcio.org",
     "categories": [
       "other"
@@ -6029,7 +5972,6 @@ export default {
       }
     },
     "name": "The Australian Financial Review",
-    "apiRoutes": {},
     "url": "afr.com",
     "lang": "en"
   },
@@ -6099,7 +6041,6 @@ export default {
       }
     },
     "name": "AGE 动漫",
-    "apiRoutes": {},
     "url": "agemys.cc",
     "lang": "zh-CN"
   },
@@ -6276,7 +6217,6 @@ export default {
       }
     },
     "name": "AG⓪RA",
-    "apiRoutes": {},
     "url": "agorahub.github.io",
     "lang": "en"
   },
@@ -6479,7 +6419,6 @@ export default {
       }
     },
     "name": "中国农业农村信息网",
-    "apiRoutes": {},
     "url": "agri.cn",
     "categories": [
       "new-media"
@@ -7577,7 +7516,6 @@ export default {
       }
     },
     "name": "AIbase",
-    "apiRoutes": {},
     "url": "aibase.com",
     "categories": [
       "new-media"
@@ -7596,7 +7534,6 @@ export default {
       }
     },
     "name": "AI 财经社",
-    "apiRoutes": {},
     "url": "www.aicaijing.com",
     "lang": "zh-CN"
   },
@@ -7629,7 +7566,6 @@ export default {
       }
     },
     "name": "Asian Innovation and Entrepreneurship Association",
-    "apiRoutes": {},
     "url": "www.aiea.org",
     "lang": "en"
   },
@@ -7661,7 +7597,6 @@ export default {
       }
     },
     "name": "极术社区",
-    "apiRoutes": {},
     "url": "www.aijishu",
     "lang": "zh-CN"
   },
@@ -7731,7 +7666,6 @@ export default {
       }
     },
     "name": "AInvest",
-    "apiRoutes": {},
     "url": "ainvest.com",
     "lang": "en"
   },
@@ -7773,7 +7707,6 @@ export default {
       }
     },
     "name": "American Institute of Physics",
-    "apiRoutes": {},
     "url": "pubs.aip.org",
     "lang": "en"
   },
@@ -7826,7 +7759,6 @@ export default {
       }
     },
     "name": "Air-Level",
-    "apiRoutes": {},
     "url": "air-level.com",
     "description": "\n  - 可以订阅每个城市的空气质量，按照拼音订阅\n  - 支持订阅每天的实时排名\n    ",
     "categories": [
@@ -7868,7 +7800,6 @@ export default {
       }
     },
     "name": "中国国际航空公司",
-    "apiRoutes": {},
     "url": "www.airchina.com.cn",
     "lang": "zh-CN"
   },
@@ -7981,7 +7912,6 @@ export default {
       }
     },
     "name": "爱思想",
-    "apiRoutes": {},
     "url": "aisixiang.com",
     "lang": "zh-CN"
   },
@@ -8051,7 +7981,6 @@ export default {
       }
     },
     "name": "阿基米德 FM",
-    "apiRoutes": {},
     "url": "m.ajmide.com",
     "lang": "zh-CN"
   },
@@ -8274,7 +8203,6 @@ export default {
       }
     },
     "name": "ALICESOFT",
-    "apiRoutes": {},
     "url": "www.alicesoft.com",
     "lang": "ja"
   },
@@ -8305,7 +8233,6 @@ export default {
       }
     },
     "name": "阿里云盘",
-    "apiRoutes": {},
     "url": "www.alipan.com",
     "categories": [
       "multimedia"
@@ -8352,7 +8279,6 @@ export default {
       }
     },
     "name": "阿里研究院",
-    "apiRoutes": {},
     "url": "aliresearch.com",
     "lang": "zh-CN"
   },
@@ -8416,7 +8342,6 @@ export default {
       }
     },
     "name": "A List Apart",
-    "apiRoutes": {},
     "url": "alistapart.com",
     "lang": "en"
   },
@@ -8511,7 +8436,6 @@ export default {
       }
     },
     "name": "阿里云",
-    "apiRoutes": {},
     "url": "developer.aliyun.com",
     "lang": "zh-CN"
   },
@@ -8528,7 +8452,6 @@ export default {
       }
     },
     "name": "Aljazeera",
-    "apiRoutes": {},
     "url": "aljazeera.com",
     "lang": "en"
   },
@@ -8977,7 +8900,6 @@ export default {
       }
     },
     "name": "Amazfitwatchfaces",
-    "apiRoutes": {},
     "url": "amazfitwatchfaces.com",
     "categories": [
       "program-update"
@@ -9020,7 +8942,6 @@ export default {
       }
     },
     "name": "Amazon",
-    "apiRoutes": {},
     "url": "amazon.com",
     "lang": "en"
   },
@@ -9060,7 +8981,6 @@ export default {
       }
     },
     "name": "Amz123",
-    "apiRoutes": {},
     "url": "www.amz123.com",
     "categories": [
       "new-media"
@@ -9169,7 +9089,6 @@ export default {
       }
     },
     "name": "Anime1",
-    "apiRoutes": {},
     "url": "anime1.me",
     "lang": "zh-TW"
   },
@@ -9210,7 +9129,6 @@ export default {
       }
     },
     "name": "Annual Reviews",
-    "apiRoutes": {},
     "url": "annualreviews.org",
     "lang": "en"
   },
@@ -9244,7 +9162,6 @@ export default {
       }
     },
     "name": "安全客",
-    "apiRoutes": {},
     "url": "anquanke.com",
     "description": "::: tip\n官方提供了混合的主页资讯 RSS: [https://api.anquanke.com/data/v1/rss](https://api.anquanke.com/data/v1/rss)\n:::",
     "lang": "zh-CN"
@@ -9298,7 +9215,6 @@ export default {
       }
     },
     "name": "Anthropic",
-    "apiRoutes": {},
     "url": "anthropic.com",
     "lang": "en"
   },
@@ -9400,7 +9316,6 @@ export default {
       }
     },
     "name": "支流科技",
-    "apiRoutes": {},
     "url": "apiseven.com",
     "lang": "zh-CN"
   },
@@ -9632,7 +9547,6 @@ export default {
       }
     },
     "name": "AP News",
-    "apiRoutes": {},
     "url": "apnews.com",
     "lang": "en"
   },
@@ -9654,7 +9568,6 @@ export default {
       }
     },
     "name": "APNIC",
-    "apiRoutes": {},
     "url": "blog.apnic.net",
     "description": "Asia-Pacific Network Information Centre",
     "lang": "en"
@@ -9980,7 +9893,6 @@ export default {
       }
     },
     "name": "AppSales",
-    "apiRoutes": {},
     "url": "app-sales.net",
     "categories": [
       "program-update"
@@ -10170,7 +10082,6 @@ export default {
       }
     },
     "name": "Apple",
-    "apiRoutes": {},
     "url": "apps.apple.com",
     "lang": "en"
   },
@@ -10213,7 +10124,6 @@ export default {
       }
     },
     "name": "AppleInsider",
-    "apiRoutes": {},
     "url": "appleinsider.com",
     "lang": "en"
   },
@@ -10255,7 +10165,6 @@ export default {
       }
     },
     "name": "AppStare",
-    "apiRoutes": {},
     "url": "appstare.net",
     "lang": "zh-CN"
   },
@@ -10352,7 +10261,6 @@ export default {
       }
     },
     "name": "App Store/Mac App Store",
-    "apiRoutes": {},
     "url": "apps.apple.com",
     "lang": "en"
   },
@@ -10427,7 +10335,6 @@ export default {
       }
     },
     "name": "Aqara",
-    "apiRoutes": {},
     "url": "aqara.com",
     "lang": "zh-CN"
   },
@@ -10461,7 +10368,6 @@ export default {
       }
     },
     "name": "空气质量",
-    "apiRoutes": {},
     "url": "aqicn.org",
     "lang": "zh-CN"
   },
@@ -11221,7 +11127,6 @@ export default {
       }
     },
     "name": "亚洲水果",
-    "apiRoutes": {},
     "url": "asiafruitchina.net",
     "categories": [
       "new-media"
@@ -11307,7 +11212,6 @@ export default {
       }
     },
     "name": "Asian to lick",
-    "apiRoutes": {},
     "url": "asiantolick.com",
     "lang": "zh-CN"
   },
@@ -11351,7 +11255,6 @@ export default {
       }
     },
     "name": "ASMR Online",
-    "apiRoutes": {},
     "url": "asmr-200.com",
     "lang": "zh-CN"
   },
@@ -11444,7 +11347,6 @@ export default {
       }
     },
     "name": "ASUS",
-    "apiRoutes": {},
     "url": "asus.com.cn",
     "lang": "zh-CN"
   },
@@ -11505,7 +11407,6 @@ export default {
       }
     },
     "name": "AtCoder",
-    "apiRoutes": {},
     "url": "atcoder.jp",
     "lang": "en"
   },
@@ -11569,7 +11470,6 @@ export default {
       }
     },
     "name": "中国汽车工业协会统计信息网",
-    "apiRoutes": {},
     "url": "auto-stats.org.cn",
     "lang": "zh-CN"
   },
@@ -11590,7 +11490,6 @@ export default {
       }
     },
     "name": "Автоцентр.ua",
-    "apiRoutes": {},
     "url": "autocentre.ua",
     "description": "Автоцентр.ua: автоновини - Автомобільний сайт N1 в Україні",
     "lang": "ru"
@@ -11649,7 +11548,6 @@ export default {
       }
     },
     "name": "北京智源人工智能研究院",
-    "apiRoutes": {},
     "url": "hub.baai.ac.cn",
     "lang": "zh-CN"
   },
@@ -11688,7 +11586,6 @@ export default {
       }
     },
     "name": "Backlinko",
-    "apiRoutes": {},
     "url": "backlinko.com",
     "lang": "en"
   },
@@ -11703,7 +11600,6 @@ export default {
       }
     },
     "name": "Bad.news",
-    "apiRoutes": {},
     "url": "bad.news",
     "lang": "zh-CN"
   },
@@ -11991,7 +11887,6 @@ export default {
       }
     },
     "name": "白鲸出海",
-    "apiRoutes": {},
     "url": "baijing.cn",
     "description": "白鲸出海",
     "lang": "zh-CN"
@@ -12024,7 +11919,6 @@ export default {
       }
     },
     "name": "巴卡漫画",
-    "apiRoutes": {},
     "url": "bakamh.com",
     "categories": [
       "anime"
@@ -12127,7 +12021,6 @@ export default {
       }
     },
     "name": "Bandcamp",
-    "apiRoutes": {},
     "url": "bandcamp.com",
     "lang": "en"
   },
@@ -12156,7 +12049,6 @@ export default {
       }
     },
     "name": "萌番组",
-    "apiRoutes": {},
     "url": "bangumi.online",
     "lang": "zh-CN"
   },
@@ -12642,7 +12534,6 @@ export default {
       }
     },
     "name": "BaoBua",
-    "apiRoutes": {},
     "url": "baobua.com",
     "description": "BaoBua.Com - Hot beauty girl pics, girls photos, free watch online hd photo sets",
     "lang": "en"
@@ -12673,7 +12564,6 @@ export default {
       }
     },
     "name": "宝玉",
-    "apiRoutes": {},
     "url": "baoyu.io",
     "description": "宝玉的博客",
     "lang": "zh-CN"
@@ -12713,7 +12603,6 @@ export default {
       }
     },
     "name": "包子漫画",
-    "apiRoutes": {},
     "url": "www.baozimh.com",
     "lang": "zh-CN"
   },
@@ -12755,7 +12644,6 @@ export default {
       }
     },
     "name": "巴伦周刊中文版",
-    "apiRoutes": {},
     "url": "barronschina.com.cn",
     "lang": "zh-CN"
   },
@@ -12770,7 +12658,6 @@ export default {
       }
     },
     "name": "北京市科学技术协会",
-    "apiRoutes": {},
     "url": "bast.net.cn",
     "lang": "zh-CN"
   },
@@ -12815,7 +12702,6 @@ export default {
       }
     },
     "name": "BBC",
-    "apiRoutes": {},
     "url": "bbc.com",
     "lang": "en"
   },
@@ -12883,7 +12769,6 @@ export default {
       }
     },
     "name": "爆料公社",
-    "apiRoutes": {},
     "url": "web.bc3ts.net",
     "categories": [
       "new-media"
@@ -12923,7 +12808,6 @@ export default {
       }
     },
     "name": "哔嘀影视",
-    "apiRoutes": {},
     "url": "52bdys.com",
     "description": "::: tip\n哔嘀影视有多个备用域名，路由默认使用域名 `https://bdys01.com`。若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 `https://bde4.icu`，则在所有哔嘀影视路由最后加上 `?domain=bde4.icu` 即可，此时路由为 [`/bdys?domain=bde4.icu`](https://rsshub.app/bdys?domain=bde4.icu)\n:::",
     "lang": "zh-CN"
@@ -13070,7 +12954,6 @@ export default {
       }
     },
     "name": "北京价格",
-    "apiRoutes": {},
     "url": "beijingprice.cn",
     "categories": [
       "government"
@@ -13184,7 +13067,6 @@ export default {
       }
     },
     "name": "bestblogs.dev",
-    "apiRoutes": {},
     "url": "www.bestblogs.dev",
     "lang": "zh-CN"
   },
@@ -13255,7 +13137,6 @@ export default {
       }
     },
     "name": "BigQuant",
-    "apiRoutes": {},
     "url": "bigquant.com",
     "lang": "zh-CN"
   },
@@ -14531,17 +14412,6 @@ export default {
       }
     },
     "name": "哔哩哔哩 bilibili",
-    "apiRoutes": {
-      "/check-cookie": {
-        "path": "/check-cookie",
-        "description": "检查 bilibili cookie 是否有效",
-        "maintainers": [
-          "DIYgod"
-        ],
-        "location": "check-cookie.ts",
-        "module": () => import('@/routes/bilibili/check-cookie.ts')
-      }
-    },
     "url": "www.bilibili.com",
     "lang": "zh-CN"
   },
@@ -14625,7 +14495,6 @@ export default {
       }
     },
     "name": "Binance",
-    "apiRoutes": {},
     "url": "binance.com",
     "lang": "en"
   },
@@ -14696,7 +14565,6 @@ export default {
       }
     },
     "name": "Bing",
-    "apiRoutes": {},
     "url": "cn.bing.com",
     "lang": "zh-CN"
   },
@@ -14721,7 +14589,6 @@ export default {
       }
     },
     "name": "biodiscover.com 生物探索",
-    "apiRoutes": {},
     "url": "www.biodiscover.com",
     "lang": "zh-CN"
   },
@@ -14792,7 +14659,6 @@ export default {
       }
     },
     "name": "BioOne",
-    "apiRoutes": {},
     "url": "bioone.org",
     "lang": "en"
   },
@@ -14807,7 +14673,6 @@ export default {
       }
     },
     "name": "笔趣阁",
-    "apiRoutes": {},
     "url": "xbiquwx.la",
     "description": "::: tip\n此处的 **笔趣阁** 指网络上使用和 **笔趣阁** 样式相似模板的小说阅读网站，包括但不限于下方列举的网址。\n:::\n\n| 网址                                                 | 名称       |\n| ---------------------------------------------------- | ---------- |\n| [https://www.xbiquwx.la](https://www.xbiquwx.la)     | 笔尖中文   |\n| [http://www.biqu5200.net](http://www.biqu5200.net)   | 笔趣阁     |\n| [https://www.xbiquge.so](https://www.xbiquge.so)     | 笔趣阁     |\n| [https://www.biqugeu.net](https://www.biqugeu.net)   | 顶点小说网 |\n| [http://www.b520.cc](http://www.b520.cc)             | 笔趣阁     |\n| [https://www.ahfgb.com](https://www.ahfgb.com)       | 笔趣鸽     |\n| [https://www.ibiquge.la](https://www.ibiquge.la)     | 香书小说   |\n| [https://www.biquge.tv](https://www.biquge.tv)       | 笔趣阁     |\n| [https://www.bswtan.com](https://www.bswtan.com)     | 笔书网     |\n| [https://www.biquge.co](https://www.biquge.co)       | 笔趣阁     |\n| [https://www.bqzhh.com](https://www.bqzhh.com)       | 笔趣阁     |\n| [http://www.biqugse.com](http://www.biqugse.com)     | 笔趣阁     |\n| [https://www.ibiquge.info](https://www.ibiquge.info) | 爱笔楼     |\n| [https://www.ishuquge.com](https://www.ishuquge.com) | 书趣阁     |\n| [https://www.mayiwxw.com](https://www.mayiwxw.com)   | 蚂蚁文学   |",
     "lang": "zh-CN"
@@ -15003,7 +14868,6 @@ export default {
       }
     },
     "name": "Bitbucket",
-    "apiRoutes": {},
     "url": "bitbucket.com",
     "lang": "en"
   },
@@ -15097,7 +14961,6 @@ export default {
       }
     },
     "name": "Bitget",
-    "apiRoutes": {},
     "url": "bitget.com",
     "lang": "zh-CN"
   },
@@ -15136,7 +14999,6 @@ export default {
       }
     },
     "name": "Bitmovin",
-    "apiRoutes": {},
     "url": "bitmovin.com",
     "lang": "en"
   },
@@ -15300,7 +15162,6 @@ export default {
       }
     },
     "name": "北京林业大学",
-    "apiRoutes": {},
     "url": "graduate.bjfu.edu.cn",
     "lang": "zh-CN"
   },
@@ -15358,7 +15219,6 @@ export default {
       }
     },
     "name": "新京报",
-    "apiRoutes": {},
     "url": "www.bjnews.com.cn",
     "lang": "zh-CN"
   },
@@ -15400,7 +15260,6 @@ export default {
       }
     },
     "name": "北京天文馆",
-    "apiRoutes": {},
     "url": "www.bjp.org.cn",
     "lang": "zh-CN"
   },
@@ -15468,7 +15327,6 @@ export default {
       }
     },
     "name": "北京社科网",
-    "apiRoutes": {},
     "url": "bjsk.org.cn",
     "lang": "zh-CN"
   },
@@ -15508,7 +15366,6 @@ export default {
       }
     },
     "name": "Beijing Jiaotong University",
-    "apiRoutes": {},
     "url": "bjtu.edu.cn",
     "zh": {
       "name": "北京交通大学"
@@ -15544,7 +15401,6 @@ export default {
       }
     },
     "name": "北京无线电协会",
-    "apiRoutes": {},
     "url": "www.bjwxdxh.org.cn",
     "lang": "zh-CN"
   },
@@ -15633,7 +15489,6 @@ export default {
       }
     },
     "name": "北极星电力网",
-    "apiRoutes": {},
     "url": "www.bjx.com.cn",
     "lang": "zh-CN"
   },
@@ -15740,7 +15595,6 @@ export default {
       }
     },
     "name": "Blockworks",
-    "apiRoutes": {},
     "url": "blockworks.co",
     "lang": "en"
   },
@@ -15768,7 +15622,6 @@ export default {
       }
     },
     "name": "技术头条",
-    "apiRoutes": {},
     "url": "blogread.cn",
     "lang": "zh-CN"
   },
@@ -15893,7 +15746,6 @@ export default {
       }
     },
     "name": "Bloomberg",
-    "apiRoutes": {},
     "url": "www.bloomberg.com",
     "lang": "en"
   },
@@ -16037,7 +15889,6 @@ export default {
       }
     },
     "name": "BADAN METEOROLOGI, KLIMATOLOGI, DAN GEOFISIKA(Indonesian)",
-    "apiRoutes": {},
     "url": "bmkg.go.id",
     "lang": "en"
   },
@@ -16297,7 +16148,6 @@ export default {
       }
     },
     "name": "北京师范大学",
-    "apiRoutes": {},
     "url": "bs.bnu.edu.cn",
     "lang": "zh-CN"
   },
@@ -16399,7 +16249,6 @@ export default {
       }
     },
     "name": "书伴",
-    "apiRoutes": {},
     "url": "bookfere.com",
     "lang": "zh-CN"
   },
@@ -16440,7 +16289,6 @@ export default {
       }
     },
     "name": "Booru",
-    "apiRoutes": {},
     "url": "mmda.booru.org",
     "lang": "en"
   },
@@ -16473,7 +16321,6 @@ export default {
       }
     },
     "name": "Boss 设计",
-    "apiRoutes": {},
     "url": "bossdesign.cn",
     "lang": "zh-CN"
   },
@@ -16512,7 +16359,6 @@ export default {
       }
     },
     "name": "Brave",
-    "apiRoutes": {},
     "url": "brave.com",
     "lang": "en"
   },
@@ -16542,7 +16388,6 @@ export default {
       }
     },
     "name": "Brooklyn Museum",
-    "apiRoutes": {},
     "url": "www.brooklynmuseum.org",
     "lang": "en"
   },
@@ -16584,7 +16429,6 @@ export default {
       }
     },
     "name": "北京证券交易所",
-    "apiRoutes": {},
     "url": "bse.cn",
     "lang": "zh-CN"
   },
@@ -16678,7 +16522,6 @@ export default {
       }
     },
     "name": "Bluesky (bsky)",
-    "apiRoutes": {},
     "url": "bsky.app",
     "lang": "en"
   },
@@ -16750,7 +16593,6 @@ export default {
       }
     },
     "name": "不太灵影视",
-    "apiRoutes": {},
     "url": "2bt0.com",
     "description": "::: tip\n  (1-9)bt0.com 都指向同一个\n:::",
     "lang": "zh-CN"
@@ -16792,7 +16634,6 @@ export default {
       }
     },
     "name": "BT 之家",
-    "apiRoutes": {},
     "url": "btbtt20.com",
     "lang": "zh-CN"
   },
@@ -16903,7 +16744,6 @@ export default {
       }
     },
     "name": "北京航空航天大学",
-    "apiRoutes": {},
     "url": "news.buaa.edu.cn",
     "lang": "zh-CN"
   },
@@ -17036,7 +16876,6 @@ export default {
       }
     },
     "name": "北京化工大学",
-    "apiRoutes": {},
     "url": "buct.edu.cn",
     "lang": "zh-CN"
   },
@@ -17066,7 +16905,6 @@ export default {
       }
     },
     "name": "Bugzilla",
-    "apiRoutes": {},
     "url": "bugzilla.org",
     "description": "Bugzilla instances hosted by organizations.",
     "zh": {
@@ -17223,7 +17061,6 @@ export default {
       }
     },
     "name": "BullionVault",
-    "apiRoutes": {},
     "url": "bullionvault.com",
     "categories": [
       "finance"
@@ -17308,7 +17145,6 @@ export default {
       }
     },
     "name": "北京邮电大学",
-    "apiRoutes": {},
     "url": "bupt.edu.cn",
     "lang": "zh-CN"
   },
@@ -17399,7 +17235,6 @@ export default {
       }
     },
     "name": "字节点击",
-    "apiRoutes": {},
     "url": "byteclicks.com",
     "lang": "zh-CN"
   },
@@ -17426,7 +17261,6 @@ export default {
       }
     },
     "name": "ui.dev",
-    "apiRoutes": {},
     "url": "bytes.dev",
     "lang": "en"
   },
@@ -17503,7 +17337,6 @@ export default {
       }
     },
     "name": "中国人工智能学会",
-    "apiRoutes": {},
     "url": "caai.cn",
     "lang": "zh-CN"
   },
@@ -17520,7 +17353,6 @@ export default {
       }
     },
     "name": "中国汽车工业协会",
-    "apiRoutes": {},
     "url": "caam.org.cn",
     "lang": "zh-CN"
   },
@@ -17618,7 +17450,6 @@ export default {
       }
     },
     "name": "caa.reviews",
-    "apiRoutes": {},
     "url": "caareviews.org",
     "lang": "en"
   },
@@ -17700,7 +17531,6 @@ export default {
       }
     },
     "name": "全国港澳研究会",
-    "apiRoutes": {},
     "url": "cahkms.org",
     "lang": "zh-CN"
   },
@@ -17933,7 +17763,6 @@ export default {
       }
     },
     "name": "财新博客",
-    "apiRoutes": {},
     "url": "caixin.com",
     "description": "> 网站部分内容需要付费订阅，RSS 仅做更新提醒，不含付费内容。若需要得到付费内容全文，请使用订阅账户在手机网页版登录，然后设置`CAIXIN_COOKIE`为至少包含cookie中的以下字段: `SA_USER_UID`, `SA_USER_UNIT`, `SA_USER_DEVICE_TYPE`, `USER_LOGIN_CODE`",
     "lang": "zh-CN"
@@ -17973,7 +17802,6 @@ export default {
       }
     },
     "name": "Caixin Global",
-    "apiRoutes": {},
     "url": "caixinglobal.com",
     "lang": "en"
   },
@@ -18014,7 +17842,6 @@ export default {
       }
     },
     "name": "中国管理现代化研究会",
-    "apiRoutes": {},
     "url": "cste.org.cn",
     "lang": "zh-CN"
   },
@@ -18080,7 +17907,6 @@ export default {
       }
     },
     "name": "参考消息",
-    "apiRoutes": {},
     "url": "cankaoxiaoxi.com",
     "lang": "zh-CN"
   },
@@ -18172,7 +17998,6 @@ export default {
       }
     },
     "name": "Cara",
-    "apiRoutes": {},
     "url": "cara.app",
     "lang": "en"
   },
@@ -18211,7 +18036,6 @@ export default {
       }
     },
     "name": "動漫狂",
-    "apiRoutes": {},
     "url": "cartoonmad.com",
     "lang": "zh-TW"
   },
@@ -18465,7 +18289,6 @@ export default {
       }
     },
     "name": "中国科学技术协会",
-    "apiRoutes": {},
     "url": "cast.org.cn",
     "lang": "zh-CN"
   },
@@ -18575,7 +18398,6 @@ export default {
       }
     },
     "name": "中国农业大学",
-    "apiRoutes": {},
     "url": "ciee.cau.edu.cn",
     "lang": "zh-CN"
   },
@@ -18608,7 +18430,6 @@ export default {
       }
     },
     "name": "加美财经",
-    "apiRoutes": {},
     "url": "caus.com",
     "lang": "zh-CN"
   },
@@ -18623,7 +18444,6 @@ export default {
       }
     },
     "name": "纪妖",
-    "apiRoutes": {},
     "url": "cbaigui.com",
     "lang": "zh-CN"
   },
@@ -18688,7 +18508,6 @@ export default {
       }
     },
     "name": "中国银行保险监督管理委员会",
-    "apiRoutes": {},
     "url": "cbirc.gov.cn",
     "lang": "zh-CN"
   },
@@ -18714,7 +18533,6 @@ export default {
       }
     },
     "name": "第一财经杂志",
-    "apiRoutes": {},
     "url": "cbnweek.com",
     "lang": "zh-CN"
   },
@@ -19051,7 +18869,6 @@ export default {
       }
     },
     "name": "中国豆制品网",
-    "apiRoutes": {},
     "url": "cbpanet.com",
     "categories": [
       "new-media"
@@ -19121,7 +18938,6 @@ export default {
       }
     },
     "name": "中国食品土畜进出口商会",
-    "apiRoutes": {},
     "url": "www.cccfna.org.cn",
     "lang": "zh-CN"
   },
@@ -19283,7 +19099,6 @@ export default {
       }
     },
     "name": "中国五矿化工进出口商会",
-    "apiRoutes": {},
     "url": "www.cccmc.org.cn",
     "categories": [
       "new-media"
@@ -19510,7 +19325,6 @@ export default {
       }
     },
     "name": "中国连锁经营协会",
-    "apiRoutes": {},
     "url": "ccfa.org.cn",
     "categories": [
       "new-media"
@@ -19646,7 +19460,6 @@ export default {
       }
     },
     "name": "华中师范大学",
-    "apiRoutes": {},
     "url": "ccnu.91wllm.com",
     "lang": "zh-CN"
   },
@@ -19685,7 +19498,6 @@ export default {
       }
     },
     "name": "消费者报道",
-    "apiRoutes": {},
     "url": "www.ccreports.com.cn",
     "lang": "zh-CN"
   },
@@ -19834,7 +19646,6 @@ export default {
       }
     },
     "name": "央视新闻",
-    "apiRoutes": {},
     "url": "news.cctv.com",
     "lang": "zh-CN"
   },
@@ -19918,7 +19729,6 @@ export default {
       }
     },
     "name": "国家药品审评网站",
-    "apiRoutes": {},
     "url": "www.cde.org.cn",
     "lang": "zh-CN"
   },
@@ -19951,7 +19761,6 @@ export default {
       }
     },
     "name": "国家高端智库 / 综合开发研究院",
-    "apiRoutes": {},
     "url": "cdi.com.cn",
     "lang": "zh-CN"
   },
@@ -20049,7 +19858,6 @@ export default {
       }
     },
     "name": "成都大学",
-    "apiRoutes": {},
     "url": "www.cdu.edu.cn",
     "lang": "zh-CN"
   },
@@ -20143,7 +19951,6 @@ export default {
       }
     },
     "name": "中国经济网",
-    "apiRoutes": {},
     "url": "www.ce.cn",
     "categories": [
       "traditional-media"
@@ -20211,7 +20018,6 @@ export default {
       }
     },
     "name": "中国光大银行",
-    "apiRoutes": {},
     "url": "cebbank.com",
     "lang": "zh-CN"
   },
@@ -20251,7 +20057,6 @@ export default {
       }
     },
     "name": "Ceph",
-    "apiRoutes": {},
     "url": "ceph.io",
     "description": "Ceph is an open source distributed storage system designed to evolve with data.",
     "lang": "en"
@@ -20293,7 +20098,6 @@ export default {
       }
     },
     "name": "中国期货业协会",
-    "apiRoutes": {},
     "url": "cfachina.org",
     "lang": "zh-CN"
   },
@@ -20333,7 +20137,6 @@ export default {
       }
     },
     "name": "中国金融期货交易所",
-    "apiRoutes": {},
     "url": "cffex.com.cn",
     "lang": "zh-CN"
   },
@@ -20348,7 +20151,6 @@ export default {
       }
     },
     "name": "中国期货市场监控中心",
-    "apiRoutes": {},
     "url": "cfmmc.com",
     "lang": "zh-CN"
   },
@@ -20385,7 +20187,6 @@ export default {
       }
     },
     "name": "Council on Foreign Relations",
-    "apiRoutes": {},
     "url": "www.cfr.org",
     "lang": "en"
   },
@@ -20482,7 +20283,6 @@ export default {
       }
     },
     "name": "链捕手 ChainCatcher",
-    "apiRoutes": {},
     "url": "chaincatcher.com",
     "lang": "zh-CN"
   },
@@ -20653,7 +20453,6 @@ export default {
       }
     },
     "name": "差评",
-    "apiRoutes": {},
     "url": "chaping.cn",
     "lang": "zh-CN"
   },
@@ -20674,7 +20473,6 @@ export default {
       }
     },
     "name": "Cherry Times",
-    "apiRoutes": {},
     "url": "cherrytimes.it"
   },
   "chiculture": {
@@ -20966,7 +20764,6 @@ export default {
       }
     },
     "name": "乳首ふぇち",
-    "apiRoutes": {},
     "url": "chikubi.jp",
     "description": "::: tip\nThe content of 乳首ふぇち is divided into two parts:\n\nWorks: Only reposts official product descriptions.\nPosts: Contains the website author's thoughts and additional information.\n\nSometimes a product may exist in both posts and works.\nSometimes there might be only a single post without any reposted work, and vice versa.\n:::",
     "lang": "ja"
@@ -21482,7 +21279,6 @@ export default {
       }
     },
     "name": "中国疾病预防控制中心",
-    "apiRoutes": {},
     "url": "www.chinacdc.cn",
     "categories": [
       "government"
@@ -21654,7 +21450,6 @@ export default {
       }
     },
     "name": "中国日报网",
-    "apiRoutes": {},
     "url": "chinadaily.com.cn",
     "categories": [
       "traditional-media"
@@ -21716,7 +21511,6 @@ export default {
       }
     },
     "name": "有据",
-    "apiRoutes": {},
     "url": "chinafactcheck.com",
     "lang": "zh-CN"
   },
@@ -21749,7 +21543,6 @@ export default {
       }
     },
     "name": "中国钢铁工业协会",
-    "apiRoutes": {},
     "url": "chinaisa.org.cn",
     "lang": "zh-CN"
   },
@@ -21807,7 +21600,6 @@ export default {
       }
     },
     "name": "中国新闻网",
-    "apiRoutes": {},
     "url": "chinanews.com.cn",
     "lang": "zh-CN"
   },
@@ -21968,7 +21760,6 @@ export default {
       }
     },
     "name": "中国有色金属工业网",
-    "apiRoutes": {},
     "url": "chinania.org.cn",
     "categories": [
       "new-media"
@@ -22015,7 +21806,6 @@ export default {
       }
     },
     "name": "中债资信评估有限责任公司",
-    "apiRoutes": {},
     "url": "chinaratings.com.cn",
     "categories": [
       "finance"
@@ -22092,7 +21882,6 @@ export default {
       }
     },
     "name": "投中网",
-    "apiRoutes": {},
     "url": "chinaventure.com.cn",
     "lang": "zh-CN"
   },
@@ -22107,7 +21896,6 @@ export default {
       }
     },
     "name": "中国作家网",
-    "apiRoutes": {},
     "url": "chinawriter.com.cn",
     "lang": "zh-CN"
   },
@@ -22144,7 +21932,6 @@ export default {
       }
     },
     "name": "chlinlearn 的技术博客",
-    "apiRoutes": {},
     "url": "daily-blog.chlinlearn.top",
     "lang": "zh-CN"
   },
@@ -22250,7 +22037,6 @@ export default {
       }
     },
     "name": "虫部落",
-    "apiRoutes": {},
     "url": "www.chongbuluo.com",
     "lang": "zh-CN"
   },
@@ -22279,7 +22065,6 @@ export default {
       }
     },
     "name": "充电头网",
-    "apiRoutes": {},
     "url": "www.chongdiantou.com",
     "categories": [
       "new-media"
@@ -22383,7 +22168,6 @@ export default {
       }
     },
     "name": "中国研究生招生信息网",
-    "apiRoutes": {},
     "url": "yz.chsi.com.cn",
     "lang": "zh-CN"
   },
@@ -22467,7 +22251,6 @@ export default {
       }
     },
     "name": "触乐",
-    "apiRoutes": {},
     "url": "chuapp.com",
     "lang": "zh-CN"
   },
@@ -22489,7 +22272,6 @@ export default {
       }
     },
     "name": "Chub",
-    "apiRoutes": {},
     "url": "chub.ai",
     "lang": "en"
   },
@@ -22602,7 +22384,6 @@ export default {
       }
     },
     "name": "中国收入分配研究院",
-    "apiRoutes": {},
     "url": "ciidbnu.org",
     "lang": "zh-CN"
   },
@@ -22791,7 +22572,6 @@ export default {
       }
     },
     "name": "中国无机盐工业协会",
-    "apiRoutes": {},
     "url": "www.cisia.org",
     "categories": [
       "government"
@@ -22870,7 +22650,6 @@ export default {
       }
     },
     "name": "Civitai",
-    "apiRoutes": {},
     "url": "civitai.com",
     "lang": "en"
   },
@@ -22909,7 +22688,6 @@ export default {
       }
     },
     "name": "刺猬猫",
-    "apiRoutes": {},
     "url": "wap.ciweimao.com",
     "lang": "zh-CN"
   },
@@ -22997,7 +22775,6 @@ export default {
       }
     },
     "name": "ClickMe",
-    "apiRoutes": {},
     "url": "clickme.net",
     "lang": "en"
   },
@@ -23028,8 +22805,7 @@ export default {
         "location": "blog.ts",
         "module": () => import('@/routes/cline/blog.ts')
       }
-    },
-    "apiRoutes": {}
+    }
   },
   "cloudnative": {
     "routes": {
@@ -23057,7 +22833,6 @@ export default {
       }
     },
     "name": "云原生社区",
-    "apiRoutes": {},
     "url": "cloudnative.to",
     "lang": "zh-CN"
   },
@@ -23190,7 +22965,6 @@ export default {
       }
     },
     "name": "财联社",
-    "apiRoutes": {},
     "url": "cls.cn",
     "lang": "zh-CN"
   },
@@ -23223,7 +22997,6 @@ export default {
       }
     },
     "name": "中国气象局",
-    "apiRoutes": {},
     "url": "weather.cma.cn",
     "lang": "zh-CN"
   },
@@ -23238,7 +23011,6 @@ export default {
       }
     },
     "name": "国家药品监督管理局医疗器械技术审评中心",
-    "apiRoutes": {},
     "url": "www.cmde.org.cn",
     "lang": "zh-CN"
   },
@@ -23276,7 +23048,6 @@ export default {
       }
     },
     "name": "cmpxchg8b",
-    "apiRoutes": {},
     "url": "lock.cmpxchg8b.com",
     "lang": "en"
   },
@@ -23343,7 +23114,6 @@ export default {
       }
     },
     "name": "健康界",
-    "apiRoutes": {},
     "url": "cn-healthcare.com",
     "lang": "zh-CN"
   },
@@ -23400,7 +23170,6 @@ export default {
       }
     },
     "name": "中央通讯社",
-    "apiRoutes": {},
     "url": "cna.com.tw",
     "lang": "zh-TW"
   },
@@ -23519,7 +23288,6 @@ export default {
       }
     },
     "name": "cnBeta.COM",
-    "apiRoutes": {},
     "url": "cnbeta.com.tw",
     "categories": [
       "new-media",
@@ -23716,7 +23484,6 @@ export default {
       }
     },
     "name": "博客园",
-    "apiRoutes": {},
     "url": "www.cnblogs.com",
     "lang": "zh-CN"
   },
@@ -23764,7 +23531,6 @@ export default {
       }
     },
     "name": "CNCF",
-    "apiRoutes": {},
     "url": "cncf.io",
     "lang": "en"
   },
@@ -23893,7 +23659,6 @@ export default {
       }
     },
     "name": "CnGal",
-    "apiRoutes": {},
     "url": "www.cngal.org",
     "lang": "zh-CN"
   },
@@ -24012,7 +23777,6 @@ export default {
       }
     },
     "name": "中国黄金协会",
-    "apiRoutes": {},
     "url": "cngold.org.cn",
     "categories": [
       "new-media"
@@ -24031,7 +23795,6 @@ export default {
       }
     },
     "name": "南湖清风",
-    "apiRoutes": {},
     "url": "cnjxol.com",
     "lang": "zh-CN"
   },
@@ -24130,7 +23893,6 @@ export default {
       }
     },
     "name": "中国知网",
-    "apiRoutes": {},
     "url": "navi.cnki.net",
     "lang": "zh-CN"
   },
@@ -24145,7 +23907,6 @@ export default {
       }
     },
     "name": "中国炼焦行业协会",
-    "apiRoutes": {},
     "url": "cnljxh.com",
     "lang": "zh-CN"
   },
@@ -24219,7 +23980,6 @@ export default {
       }
     },
     "name": "CNTV",
-    "apiRoutes": {},
     "url": "navi.cctv.com",
     "lang": "zh-CN"
   },
@@ -24288,7 +24048,6 @@ export default {
       }
     },
     "name": "Codeforces",
-    "apiRoutes": {},
     "url": "codeforces.com",
     "lang": "en"
   },
@@ -24329,7 +24088,6 @@ export default {
       }
     },
     "name": "Cohere",
-    "apiRoutes": {},
     "url": "cohere.com",
     "lang": "en"
   },
@@ -24398,7 +24156,6 @@ export default {
       }
     },
     "name": "CoinDesk",
-    "apiRoutes": {},
     "url": "coindesk.com",
     "lang": "en",
     "description": "CoinDesk is a news site specializing in bitcoin and digital currencies, delivering news, analysis, and information about the blockchain ecosystem."
@@ -24438,7 +24195,6 @@ export default {
       }
     },
     "name": "Cointelegraph",
-    "apiRoutes": {},
     "url": "cointelegraph.com",
     "lang": "en"
   },
@@ -24478,7 +24234,6 @@ export default {
       }
     },
     "name": "COLAMANGA",
-    "apiRoutes": {},
     "url": "www.colamanga.com",
     "zh": {
       "name": "可乐漫画"
@@ -24558,7 +24313,6 @@ export default {
       }
     },
     "name": "コラボカフェ",
-    "apiRoutes": {},
     "url": "collabo-cafe.com",
     "description": "コラボカフェ - アニメ・漫画・ゲームのコラボ情報一覧まとめ",
     "lang": "ja",
@@ -24633,7 +24387,6 @@ export default {
       }
     },
     "name": "Comics Kingdom",
-    "apiRoutes": {},
     "url": "comicskingdom.com",
     "lang": "en"
   },
@@ -24702,7 +24455,6 @@ export default {
       }
     },
     "name": "消费者委员会",
-    "apiRoutes": {},
     "url": "consumer.org.hk",
     "lang": "zh-CN"
   },
@@ -24739,7 +24491,6 @@ export default {
       }
     },
     "name": "禁忌书屋",
-    "apiRoutes": {},
     "url": "cool18.com",
     "lang": "zh-CN"
   },
@@ -24934,7 +24685,6 @@ export default {
       }
     },
     "name": "酷安",
-    "apiRoutes": {},
     "url": "coolapk.com",
     "description": "\n::: tip\n即日起，多数路由图片防盗链。\n需要将 `ALLOW_USER_HOTLINK_TEMPLATE` 环境变量设置为 `true` ，然后配置`image_hotlink_template` 。\n详见 [#16715](https://github.com/DIYgod/RSSHub/issues/16715)\n:::",
     "lang": "zh-CN"
@@ -25015,7 +24765,6 @@ export default {
       }
     },
     "name": "Coomer",
-    "apiRoutes": {},
     "url": "coomer.su",
     "lang": "en"
   },
@@ -25049,7 +24798,6 @@ export default {
       }
     },
     "name": "拷贝漫画",
-    "apiRoutes": {},
     "url": "copymanga.com",
     "lang": "zh-CN"
   },
@@ -25187,7 +24935,6 @@ export default {
       }
     },
     "name": "CosplayTele",
-    "apiRoutes": {},
     "url": "cosplaytele.com",
     "description": "Cosplaytele - Fast - Security - Free",
     "lang": "en"
@@ -25430,7 +25177,6 @@ export default {
       }
     },
     "name": "cpcaauto.com",
-    "apiRoutes": {},
     "url": "中国汽车流通协会汽车市场研究分会",
     "categories": [
       "new-media"
@@ -25467,7 +25213,6 @@ export default {
       }
     },
     "name": "台湾行政院消费者保护会",
-    "apiRoutes": {},
     "url": "cpc.ey.gov.tw",
     "lang": "zh-TW"
   },
@@ -25519,7 +25264,6 @@ export default {
       }
     },
     "name": "中国人事考试网",
-    "apiRoutes": {},
     "url": "www.cpta.com.cn"
   },
   "cpuid": {
@@ -25624,7 +25368,6 @@ export default {
       }
     },
     "name": "重庆文理学院",
-    "apiRoutes": {},
     "url": "www.cqwu.net",
     "lang": "zh-CN"
   },
@@ -25693,7 +25436,6 @@ export default {
       }
     },
     "name": "中国无线电协会业余无线电分会",
-    "apiRoutes": {},
     "url": "www.crac.org.cn",
     "categories": [
       "government"
@@ -25738,7 +25480,6 @@ export default {
       }
     },
     "name": "CCC 創作集",
-    "apiRoutes": {},
     "url": "creative-comic.tw",
     "lang": "zh-TW"
   },
@@ -25904,7 +25645,6 @@ export default {
       }
     },
     "name": "CryptoSlate",
-    "apiRoutes": {},
     "url": "cryptoslate.com",
     "lang": "en"
   },
@@ -25970,7 +25710,6 @@ export default {
       }
     },
     "name": "中证网",
-    "apiRoutes": {},
     "url": "cs.com.cn",
     "categories": [
       "finance"
@@ -26012,7 +25751,6 @@ export default {
       }
     },
     "name": "CSDN",
-    "apiRoutes": {},
     "url": "blog.csdn.net",
     "lang": "zh-CN"
   },
@@ -26044,7 +25782,6 @@ export default {
       }
     },
     "name": "Chinese Social Science Net",
-    "apiRoutes": {},
     "url": "iolaw.cssn.cn",
     "lang": "zh-CN"
   },
@@ -26077,7 +25814,6 @@ export default {
       }
     },
     "name": "中国技术经济学会",
-    "apiRoutes": {},
     "url": "cste.org.cn",
     "lang": "zh-CN"
   },
@@ -26167,7 +25903,6 @@ export default {
       }
     },
     "name": "中南大学",
-    "apiRoutes": {},
     "url": "career.csu.edu.cn",
     "lang": "zh-CN"
   },
@@ -26374,7 +26109,6 @@ export default {
       }
     },
     "name": "萃嶺网",
-    "apiRoutes": {},
     "url": "cuilingmag.com",
     "categories": [
       "new-media"
@@ -26418,7 +26152,6 @@ export default {
       }
     },
     "name": "CUPL",
-    "apiRoutes": {},
     "url": "jwc.cupl.edu.cn/index/tzgg.htm",
     "description": "China University of Political Science and Law Academic Affairs Office Notices",
     "zh": {
@@ -26492,7 +26225,6 @@ export default {
       }
     },
     "name": "Curius",
-    "apiRoutes": {},
     "url": "curius.app",
     "lang": "en"
   },
@@ -26533,7 +26265,6 @@ export default {
       }
     },
     "name": "Cursor",
-    "apiRoutes": {},
     "url": "www.cursor.com",
     "description": "",
     "lang": "en"
@@ -26653,7 +26384,6 @@ export default {
       }
     },
     "name": "天下雜誌",
-    "apiRoutes": {},
     "url": "cw.com.tw",
     "lang": "zh-TW"
   },
@@ -26882,7 +26612,6 @@ export default {
       }
     },
     "name": "创业邦",
-    "apiRoutes": {},
     "url": "cyzone.cn",
     "lang": "zh-CN"
   },
@@ -26952,7 +26681,6 @@ export default {
       }
     },
     "name": "新蓝网（浙江广播电视集团）",
-    "apiRoutes": {},
     "url": "cztv.com",
     "lang": "zh-CN"
   },
@@ -26985,7 +26713,6 @@ export default {
       }
     },
     "name": "大河财立方",
-    "apiRoutes": {},
     "url": "dahecube.com",
     "lang": "zh-CN"
   },
@@ -27281,7 +27008,6 @@ export default {
       }
     },
     "name": "Daily.dev",
-    "apiRoutes": {},
     "url": "app.daily.dev",
     "categories": [
       "social-media"
@@ -27321,7 +27047,6 @@ export default {
       }
     },
     "name": "大麦网",
-    "apiRoutes": {},
     "url": "search.damai.cn",
     "lang": "zh-CN"
   },
@@ -27462,7 +27187,6 @@ export default {
       }
     },
     "name": "Darwin Awards",
-    "apiRoutes": {},
     "url": "darwinawards.com",
     "categories": [
       "other"
@@ -27491,7 +27215,6 @@ export default {
       }
     },
     "name": "DataGuidance",
-    "apiRoutes": {},
     "url": "dataguidance.com",
     "categories": [
       "other"
@@ -27535,7 +27258,6 @@ export default {
       }
     },
     "name": "大眼仔旭",
-    "apiRoutes": {},
     "url": "dayanzai.me",
     "lang": "zh-CN"
   },
@@ -27786,7 +27508,6 @@ export default {
       }
     },
     "name": "雨苁博客",
-    "apiRoutes": {},
     "url": "ddosi.org",
     "lang": "zh-CN"
   },
@@ -27824,7 +27545,6 @@ export default {
       }
     },
     "name": "DeadbyDaylight",
-    "apiRoutes": {},
     "url": "deadbydaylight.com",
     "description": "\n      DeadbyDaylight Official\n    ",
     "zh": {
@@ -27906,7 +27626,6 @@ export default {
       }
     },
     "name": "DealStreetAsia",
-    "apiRoutes": {},
     "url": "dealstreetasia.com",
     "lang": "en"
   },
@@ -27945,7 +27664,6 @@ export default {
       }
     },
     "name": "Decrypt",
-    "apiRoutes": {},
     "url": "decrypt.co",
     "lang": "en"
   },
@@ -28100,7 +27818,6 @@ export default {
       }
     },
     "name": "得到",
-    "apiRoutes": {},
     "url": "dedao.cn",
     "lang": "zh-CN"
   },
@@ -28168,7 +27885,6 @@ export default {
       }
     },
     "name": "Deepin",
-    "apiRoutes": {},
     "url": "bbs.deepin.org",
     "zh": {
       "name": "深度Linux"
@@ -28393,7 +28109,6 @@ export default {
       }
     },
     "name": "DeepMind",
-    "apiRoutes": {},
     "url": "deepmind.com",
     "lang": "en"
   },
@@ -28489,7 +28204,6 @@ export default {
       }
     },
     "name": "德恒律师事务所",
-    "apiRoutes": {},
     "url": "dehenglaw.com",
     "categories": [
       "new-media"
@@ -28531,7 +28245,6 @@ export default {
       }
     },
     "name": "Delta Lake",
-    "apiRoutes": {},
     "url": "delta.io",
     "lang": "en"
   },
@@ -28569,7 +28282,6 @@ export default {
       }
     },
     "name": "DevolverDigital",
-    "apiRoutes": {},
     "url": "devolverdigital.com",
     "lang": "en"
   },
@@ -28639,7 +28351,6 @@ export default {
       }
     },
     "name": "得物",
-    "apiRoutes": {},
     "url": "dewu.com",
     "lang": "zh-CN"
   },
@@ -28654,7 +28365,6 @@ export default {
       }
     },
     "name": "东莞教研网",
-    "apiRoutes": {},
     "url": "dgjyw.com",
     "lang": "zh-CN"
   },
@@ -28922,7 +28632,6 @@ export default {
       }
     },
     "name": "Diario Frutícola",
-    "apiRoutes": {},
     "url": "diariofruticola.cl",
     "categories": [
       "new-media"
@@ -29105,7 +28814,6 @@ export default {
       }
     },
     "name": "Discord",
-    "apiRoutes": {},
     "url": "discord.com",
     "lang": "en"
   },
@@ -29242,7 +28950,6 @@ export default {
       }
     },
     "name": "Discuz",
-    "apiRoutes": {},
     "url": "https://www.discuz.vip/",
     "lang": "zh-CN"
   },
@@ -29343,7 +29050,6 @@ export default {
       }
     },
     "name": "Distill",
-    "apiRoutes": {},
     "url": "distill.pub",
     "lang": "en"
   },
@@ -29370,7 +29076,6 @@ export default {
       }
     },
     "name": "DL NEWS",
-    "apiRoutes": {},
     "url": "dlnews.com",
     "lang": "en"
   },
@@ -29552,7 +29257,6 @@ export default {
       }
     },
     "name": "DLsite",
-    "apiRoutes": {},
     "url": "dlsite.com",
     "lang": "ja"
   },
@@ -29769,7 +29473,6 @@ export default {
       }
     },
     "name": "Docker Hub",
-    "apiRoutes": {},
     "url": "hub.docker.com",
     "lang": "en"
   },
@@ -29838,7 +29541,6 @@ export default {
       }
     },
     "name": "Thailand Department of Lands",
-    "apiRoutes": {},
     "url": "announce.dol.go.th",
     "lang": "en"
   },
@@ -29945,7 +29647,6 @@ export default {
       }
     },
     "name": "DoMP4 影视",
-    "apiRoutes": {},
     "url": "www.xlmp4.com",
     "description": "::: tip\n    域名频繁更换，目前使用 www.xlmp4.com\n:::",
     "lang": "zh-CN"
@@ -30108,7 +29809,6 @@ export default {
       }
     },
     "name": "懂球帝",
-    "apiRoutes": {},
     "url": "m.dongqiudi.com",
     "description": "::: tip\n-   可以通过头条新闻 + 参数过滤的形式获得早报、专题等内容。\n:::",
     "lang": "zh-CN"
@@ -30151,7 +29851,6 @@ export default {
       }
     },
     "name": "Doraemon Channel",
-    "apiRoutes": {},
     "url": "www.dora-world.com",
     "lang": "en"
   },
@@ -31047,7 +30746,6 @@ export default {
       }
     },
     "name": "抖音直播",
-    "apiRoutes": {},
     "url": "douyin.com",
     "description": "::: warning\n反爬严格，需要启用 puppeteer。抖音的视频 CDN 会验证 Referer，意味着许多阅读器都无法直接播放内嵌视频，以下是一些变通解决方案：\n\n1.  启用内嵌视频 (`embed=1`), 参考 [通用参数 -> 多媒体处理](/parameter#多媒体处理) 配置 `multimedia_hotlink_template` **或** `wrap_multimedia_in_iframe`。\n2.  关闭内嵌视频 (`embed=0`)，手动点击 `视频直链` 超链接，一般情况下均可成功播放视频。若仍然出现 HTTP 403，请复制 URL 以后到浏览器打开。\n3.  点击原文链接打开抖音网页版的视频详情页播放视频。\n:::\n\n额外参数\n\n| 键      | 含义             | 值                     | 默认值  |\n| ------- | ---------------- | ---------------------- | ------- |\n| `embed` | 是否启用内嵌视频 | `0`/`1`/`true`/`false` | `false` |",
     "lang": "zh-CN"
@@ -31158,7 +30856,6 @@ export default {
       }
     },
     "name": "斗鱼直播",
-    "apiRoutes": {},
     "url": "www.douyu.com",
     "lang": "zh-CN"
   },
@@ -31257,7 +30954,6 @@ export default {
       }
     },
     "name": "Dribbble",
-    "apiRoutes": {},
     "url": "dribbble.com",
     "lang": "en"
   },
@@ -31324,7 +31020,6 @@ export default {
       }
     },
     "name": "DT 财经",
-    "apiRoutes": {},
     "url": "dtcj.com",
     "lang": "zh-CN"
   },
@@ -31456,7 +31151,6 @@ export default {
       }
     },
     "name": "大连理工大学",
-    "apiRoutes": {},
     "url": "dutdice.dlut.edu.cn",
     "lang": "zh-CN"
   },
@@ -31556,7 +31250,6 @@ export default {
       }
     },
     "name": "东西智库",
-    "apiRoutes": {},
     "url": "dx2025.com",
     "lang": "zh-CN"
   },
@@ -31650,7 +31343,6 @@ export default {
       }
     },
     "name": "丁香园",
-    "apiRoutes": {},
     "url": "dxy.cn",
     "lang": "zh-CN"
   },
@@ -31887,7 +31579,6 @@ export default {
       }
     },
     "name": "电影天堂",
-    "apiRoutes": {},
     "url": "www.dydytt.net",
     "lang": "zh-CN"
   },
@@ -31902,7 +31593,6 @@ export default {
       }
     },
     "name": "E-Hentai",
-    "apiRoutes": {},
     "url": "e-hentai.org",
     "lang": "en"
   },
@@ -31966,7 +31656,6 @@ export default {
       }
     },
     "name": "EA Games",
-    "apiRoutes": {},
     "url": "www.ea.com"
   },
   "eagle": {
@@ -32049,7 +31738,6 @@ export default {
       }
     },
     "name": "Eagle",
-    "apiRoutes": {},
     "url": "cn.eagle.cool",
     "lang": "zh-CN"
   },
@@ -32127,7 +31815,6 @@ export default {
       }
     },
     "name": "地震速报",
-    "apiRoutes": {},
     "url": "www.ceic.ac.cn",
     "lang": "zh-CN"
   },
@@ -32229,7 +31916,6 @@ export default {
       }
     },
     "name": "东方网",
-    "apiRoutes": {},
     "url": "mini.eastday.com",
     "lang": "zh-CN"
   },
@@ -32383,7 +32069,6 @@ export default {
       }
     },
     "name": "轻松游牧-远程工作聚集地",
-    "apiRoutes": {},
     "url": "easynomad.cn",
     "lang": "zh-CN"
   },
@@ -32522,7 +32207,6 @@ export default {
       }
     },
     "name": "East China Normal University 华东师范大学",
-    "apiRoutes": {},
     "url": "ecnu.edu.cn",
     "lang": "zh-CN"
   },
@@ -32629,7 +32313,6 @@ export default {
       }
     },
     "name": "The Economist",
-    "apiRoutes": {},
     "url": "economist.com",
     "lang": "en"
   },
@@ -32761,7 +32444,6 @@ export default {
       }
     },
     "name": "e 公司",
-    "apiRoutes": {},
     "url": "egsea.com",
     "lang": "zh-CN"
   },
@@ -32851,7 +32533,6 @@ export default {
       }
     },
     "name": "E-Hentai",
-    "apiRoutes": {},
     "description": "For RSS content, specify options in the `routeParams` parameter in query string format to control additional functionality\n\n| Key          | Meaning                                                                         | Accepted keys  | Default value |\n| ------------ | ------------------------------------------------------------------------------- | -------------- | ------------- |\n| bittorrent   | Whether include a link to the latest torrent                                    | 0/1/true/false | false         |\n| embed_thumb | Whether the cover image is embedded in the RSS feed rather than given as a link | 0/1/true/false | false         |",
     "lang": "en"
   },
@@ -32892,7 +32573,6 @@ export default {
       }
     },
     "name": "Ekantipur / कान्तिपुर (Nepal)",
-    "apiRoutes": {},
     "url": "ekantipur.com",
     "lang": "ne"
   },
@@ -32934,7 +32614,6 @@ export default {
       }
     },
     "name": "Elastic 中文社区",
-    "apiRoutes": {},
     "url": "elasticsearch.cn",
     "lang": "zh-CN"
   },
@@ -32998,7 +32677,6 @@ export default {
       }
     },
     "name": "电鸭社区",
-    "apiRoutes": {},
     "url": "eleduck.com",
     "lang": "zh-CN"
   },
@@ -33078,7 +32756,6 @@ export default {
       }
     },
     "name": "ELSEVIER",
-    "apiRoutes": {},
     "url": "www.sciencedirect.com",
     "lang": "en"
   },
@@ -33095,7 +32772,6 @@ export default {
       }
     },
     "name": "中国驻外使领馆",
-    "apiRoutes": {},
     "url": "ca.china-embassy.org",
     "description": "支持国家列表\n\n加拿大 `CA`\n\n-   大使馆: `/embassy/ca`\n\n-   领事馆城市列表:\n\n| 城市     | 路由                   |\n| -------- | ---------------------- |\n| 蒙特利尔 | `/embassy/ca/montreal` |\n\n* * *\n\n德国 `DE`\n\n-   大使馆: `/embassy/de`\n\n-   领事馆城市列表:\n\n| 城市   | 路由                 |\n| ------ | -------------------- |\n| 慕尼黑 | `/embassy/de/munich` |\n\n* * *\n\n法国 `FR`\n\n-   大使馆: `/embassy/fr`\n\n-   领事馆城市列表:\n\n| 城市       | 路由                     |\n| ---------- | ------------------------ |\n| 马赛       | `/embassy/fr/marseille`  |\n| 斯特拉斯堡 | `/embassy/fr/strasbourg` |\n| 里昂       | `/embassy/fr/lyon`       |\n\n* * *\n\n日本 `JP`\n\n-   大使馆: `/embassy/jp`\n\n-   领事馆城市列表:\n\n| 城市   | 路由                   |\n| ------ | ---------------------- |\n| 长崎   | `/embassy/jp/nagasaki` |\n| 大阪   | `/embassy/jp/osaka`    |\n| 福冈   | `/embassy/jp/fukuoka`  |\n| 名古屋 | `/embassy/jp/nagoya`   |\n| 札幌   | `/embassy/jp/sapporo`  |\n| 新潟   | `/embassy/jp/niigata`  |\n\n* * *\n\n韩国 `KR`\n\n-   大使馆: `/embassy/kr`\n\n-   领事馆城市列表:\n\n| 城市 | 路由                  |\n| ---- | --------------------- |\n| 釜山 | `/embassy/kr/busan`   |\n| 济州 | `/embassy/kr/jeju`    |\n| 光州 | `/embassy/kr/gwangju` |\n\n* * *\n\n马来西亚 `MY`\n\n-   大使馆: `/embassy/my`\n\n* * *\n\n新加坡 `SG`\n\n-   大使馆: `/embassy/sg`\n\n* * *\n\n美国 `US`\n\n-   大使馆: `/embassy/us`\n\n-   领事馆城市列表:\n\n| 城市   | 路由                       |\n| ------ | -------------------------- |\n| 纽约   | `/embassy/us/newyork`      |\n| 芝加哥 | `/embassy/us/chicago`      |\n| 旧金山 | `/embassy/us/sanfrancisco` |\n\n* * *\n\n英国 `UK`\n\n-   大使馆: `/embassy/uk`\n\n-   领事馆城市列表:\n\n| 城市       | 路由                     |\n| ---------- | ------------------------ |\n| 爱丁堡     | `/embassy/uk/edinburgh`  |\n| 贝尔法斯特 | `/embassy/uk/belfast`    |\n| 曼彻斯特   | `/embassy/uk/manchester` |",
     "lang": "zh-CN"
@@ -33126,7 +32802,6 @@ export default {
       }
     },
     "name": "Enterprise Craftsmanship",
-    "apiRoutes": {},
     "url": "enterprisecraftsmanship.com",
     "lang": "en"
   },
@@ -33180,7 +32855,6 @@ export default {
       }
     },
     "name": "Epic Games Store",
-    "apiRoutes": {},
     "url": "store.epicgames.com",
     "lang": "en"
   },
@@ -33254,7 +32928,6 @@ export default {
       }
     },
     "name": "万维书刊网",
-    "apiRoutes": {},
     "url": "eshukan.com",
     "categories": [
       "study"
@@ -33359,7 +33032,6 @@ export default {
       }
     },
     "name": "歐洲動態（國際）",
-    "apiRoutes": {},
     "url": "europechinese.blogspot.com",
     "lang": "zh-TW"
   },
@@ -33401,7 +33073,6 @@ export default {
       }
     },
     "name": "Eventernote",
-    "apiRoutes": {},
     "url": "www.eventernote.com",
     "lang": "ja"
   },
@@ -33440,7 +33111,6 @@ export default {
       }
     },
     "name": "F-Droid",
-    "apiRoutes": {},
     "url": "f-droid.org",
     "lang": "zh-CN"
   },
@@ -33472,7 +33142,6 @@ export default {
       }
     },
     "name": "ファミ通",
-    "apiRoutes": {},
     "url": "famitsu.com",
     "lang": "ja"
   },
@@ -33505,7 +33174,6 @@ export default {
       }
     },
     "name": "fanbox",
-    "apiRoutes": {},
     "url": "www.fanbox.cc",
     "lang": "zh-CN"
   },
@@ -33585,7 +33253,6 @@ export default {
       }
     },
     "name": "中房网",
-    "apiRoutes": {},
     "url": "fangchan.com",
     "categories": [
       "new-media"
@@ -33968,7 +33635,6 @@ export default {
       }
     },
     "name": "追新番",
-    "apiRoutes": {},
     "url": "fanxinzhui.com",
     "lang": "zh-CN"
   },
@@ -34167,7 +33833,6 @@ export default {
       }
     },
     "name": "Farmatters",
-    "apiRoutes": {},
     "url": "farmatters.com",
     "categories": [
       "new-media"
@@ -34268,7 +33933,6 @@ export default {
       }
     },
     "name": "FashionNetwork",
-    "apiRoutes": {},
     "url": "fashionnetwork.cn",
     "categories": [
       "new-media",
@@ -34347,7 +34011,6 @@ export default {
       }
     },
     "name": "FastBull",
-    "apiRoutes": {},
     "url": "fastbull.com",
     "lang": "en"
   },
@@ -34372,7 +34035,6 @@ export default {
       }
     },
     "name": "U.S. Food and Drug Administration",
-    "apiRoutes": {},
     "url": "fda.gov",
     "lang": "en"
   },
@@ -34449,7 +34111,6 @@ export default {
       }
     },
     "name": "威锋",
-    "apiRoutes": {},
     "url": "feng.com",
     "lang": "zh-CN"
   },
@@ -34593,7 +34254,6 @@ export default {
       }
     },
     "name": "FINAL FANTASY XIV",
-    "apiRoutes": {},
     "url": "eu.finalfantasyxiv.com",
     "lang": "en"
   },
@@ -34745,7 +34405,6 @@ export default {
       }
     },
     "name": "Finology Insider",
-    "apiRoutes": {},
     "url": "insider.finology.in",
     "lang": "en"
   },
@@ -34856,7 +34515,6 @@ export default {
       }
     },
     "name": "Infuse",
-    "apiRoutes": {},
     "url": "firecore.com",
     "lang": "en"
   },
@@ -34934,7 +34592,6 @@ export default {
       }
     },
     "name": "Mozilla",
-    "apiRoutes": {},
     "url": "monitor.firefox.com",
     "lang": "en"
   },
@@ -34997,7 +34654,6 @@ export default {
       }
     },
     "name": "fish shell",
-    "apiRoutes": {},
     "url": "fishshell.com",
     "lang": "en"
   },
@@ -35038,7 +34694,6 @@ export default {
       }
     },
     "name": "福建考试报名网",
-    "apiRoutes": {},
     "url": "fjksbm.com",
     "lang": "zh-CN"
   },
@@ -35076,7 +34731,6 @@ export default {
       }
     },
     "name": "Flashcat",
-    "apiRoutes": {},
     "url": "flashcat.cloud",
     "lang": "zh-CN"
   },
@@ -35181,7 +34835,6 @@ export default {
       }
     },
     "name": "飞客茶馆",
-    "apiRoutes": {},
     "url": "flyert.com.cn",
     "description": "",
     "lang": "zh-CN"
@@ -35215,7 +34868,6 @@ export default {
       }
     },
     "name": "Focus Taiwan",
-    "apiRoutes": {},
     "url": "focustaiwan.tw",
     "lang": "zh-TW"
   },
@@ -35504,7 +35156,6 @@ export default {
       }
     },
     "name": "Followin",
-    "apiRoutes": {},
     "url": "followin.io",
     "lang": "zh-CN"
   },
@@ -35533,7 +35184,6 @@ export default {
       }
     },
     "name": "FoodTalks全球食品资讯网",
-    "apiRoutes": {},
     "url": "www.foodtalks.cn",
     "categories": [
       "new-media"
@@ -35694,7 +35344,6 @@ export default {
       }
     },
     "name": "Foresight News",
-    "apiRoutes": {},
     "url": "foresightnews.pro",
     "lang": "en"
   },
@@ -35733,7 +35382,6 @@ export default {
       }
     },
     "name": "十年之约",
-    "apiRoutes": {},
     "url": "www.foreverblog.cn",
     "lang": "zh-CN"
   },
@@ -35763,7 +35411,6 @@ export default {
       }
     },
     "name": "Forklog",
-    "apiRoutes": {},
     "url": "forklog.com",
     "lang": "ru"
   },
@@ -35836,7 +35483,6 @@ export default {
       }
     },
     "name": "财富中文网",
-    "apiRoutes": {},
     "url": "fortunechina.com",
     "lang": "zh-CN"
   },
@@ -35868,7 +35514,6 @@ export default {
       }
     },
     "name": "FossHub",
-    "apiRoutes": {},
     "url": "fosshub.com",
     "lang": "en"
   },
@@ -35937,7 +35582,6 @@ export default {
       }
     },
     "name": "FreeBuf",
-    "apiRoutes": {},
     "url": "freebuf.com",
     "lang": "zh-CN"
   },
@@ -35980,7 +35624,6 @@ export default {
       }
     },
     "name": "Free Computer Books",
-    "apiRoutes": {},
     "url": "freecomputerbooks.com",
     "lang": "en"
   },
@@ -36047,7 +35690,6 @@ export default {
       }
     },
     "name": "漫小肆韓漫",
-    "apiRoutes": {},
     "url": "freexcomic.com",
     "categories": [
       "anime"
@@ -36083,7 +35725,6 @@ export default {
       }
     },
     "name": "Financial Times",
-    "apiRoutes": {},
     "url": "ft.com",
     "lang": "en"
   },
@@ -36118,7 +35759,6 @@ export default {
       }
     },
     "name": "FT 中文网",
-    "apiRoutes": {},
     "url": "ftchinese.com",
     "lang": "zh-CN"
   },
@@ -36148,7 +35788,6 @@ export default {
       }
     },
     "name": "Follow The Money",
-    "apiRoutes": {},
     "url": "www.ftm.eu",
     "lang": "en"
   },
@@ -36186,7 +35825,6 @@ export default {
       }
     },
     "name": "福利吧",
-    "apiRoutes": {},
     "url": "fuliba2023.net",
     "lang": "zh-CN"
   },
@@ -36658,7 +36296,6 @@ export default {
       }
     },
     "name": "Furaffinity",
-    "apiRoutes": {},
     "url": "furaffinity.net",
     "lang": "en"
   },
@@ -36765,7 +36402,6 @@ export default {
       }
     },
     "name": "Furstar",
-    "apiRoutes": {},
     "url": "furstar.jp",
     "lang": "ja"
   },
@@ -36809,7 +36445,6 @@ export default {
       }
     },
     "name": "Futubull 富途牛牛",
-    "apiRoutes": {},
     "url": "news.futunn.com",
     "lang": "zh-CN"
   },
@@ -36840,7 +36475,6 @@ export default {
       }
     },
     "name": "FX Markets",
-    "apiRoutes": {},
     "url": "fx-markets.com",
     "lang": "en"
   },
@@ -36881,7 +36515,6 @@ export default {
       }
     },
     "name": "汇通网",
-    "apiRoutes": {},
     "url": "fx678.com",
     "lang": "zh-CN"
   },
@@ -36914,7 +36547,6 @@ export default {
       }
     },
     "name": "纷享销客 CRM",
-    "apiRoutes": {},
     "url": "fxiaoke.com",
     "lang": "zh-CN"
   },
@@ -36944,7 +36576,6 @@ export default {
       }
     },
     "name": "福州地铁",
-    "apiRoutes": {},
     "url": "www.fzmtr.com",
     "lang": "zh-CN"
   },
@@ -36982,7 +36613,6 @@ export default {
       }
     },
     "name": "Galxe",
-    "apiRoutes": {},
     "url": "app.galxe.com",
     "zh": {
       "name": "銀河"
@@ -37011,7 +36641,6 @@ export default {
       }
     },
     "name": "GameApps.hk 香港手机游戏网",
-    "apiRoutes": {},
     "url": "gameapps.hk",
     "lang": "zh-HK"
   },
@@ -37348,7 +36977,6 @@ export default {
       }
     },
     "name": "巴哈姆特電玩資訊站",
-    "apiRoutes": {},
     "url": "acg.gamer.com.tw",
     "lang": "zh-TW"
   },
@@ -37378,7 +37006,6 @@ export default {
       }
     },
     "name": "全球游戏交流中心",
-    "apiRoutes": {},
     "url": "www.gamer520.com",
     "lang": "zh-CN"
   },
@@ -37421,7 +37048,6 @@ export default {
       }
     },
     "name": "Gamer Secret",
-    "apiRoutes": {},
     "url": "gamersecret.com",
     "lang": "en"
   },
@@ -37521,7 +37147,6 @@ export default {
       }
     },
     "name": "GamerSky",
-    "apiRoutes": {},
     "url": "gamersky.com",
     "zh": {
       "name": "游民星空"
@@ -37546,7 +37171,6 @@ export default {
       }
     },
     "name": "卡卡洛普",
-    "apiRoutes": {},
     "url": "news.gamme.com.tw",
     "lang": "zh-TW"
   },
@@ -38105,7 +37729,6 @@ export default {
       }
     },
     "name": "机核网",
-    "apiRoutes": {},
     "url": "gcores.com",
     "lang": "zh-CN",
     "description": "机核 GCORES"
@@ -38137,7 +37760,6 @@ export default {
       }
     },
     "name": "广东省食品药品审评认证技术协会",
-    "apiRoutes": {},
     "url": "gdsrx.org.cn",
     "lang": "zh-CN"
   },
@@ -38336,7 +37958,6 @@ export default {
       }
     },
     "name": "极客公园",
-    "apiRoutes": {},
     "url": "geekpark.net",
     "categories": [
       "new-media"
@@ -38625,7 +38246,6 @@ export default {
       }
     },
     "name": "格隆汇",
-    "apiRoutes": {},
     "url": "gelonghui.com",
     "lang": "zh-CN"
   },
@@ -38669,7 +38289,6 @@ export default {
       }
     },
     "name": "Genossenschaften.immo",
-    "apiRoutes": {},
     "url": "genossenschaften.immo",
     "description": "Search engine for Genossenschaft housing in Austria",
     "lang": "de"
@@ -38745,7 +38364,6 @@ export default {
       }
     },
     "name": "Geocaching",
-    "apiRoutes": {},
     "url": "geocaching.com",
     "lang": "en"
   },
@@ -38771,7 +38389,6 @@ export default {
       }
     },
     "name": "趨勢科技防詐達人",
-    "apiRoutes": {},
     "url": "getdr.com",
     "lang": "zh-TW"
   },
@@ -38786,7 +38403,6 @@ export default {
       }
     },
     "name": "正版中国",
-    "apiRoutes": {},
     "url": "getitfree.cn",
     "lang": "zh-CN"
   },
@@ -38905,7 +38521,6 @@ export default {
       }
     },
     "name": "gihyo.jp",
-    "apiRoutes": {},
     "url": "gihyo.jp",
     "lang": "ja"
   },
@@ -38936,7 +38551,6 @@ export default {
       }
     },
     "name": "GIS Reports",
-    "apiRoutes": {},
     "url": "www.gisreportsonline.com",
     "lang": "en"
   },
@@ -39852,7 +39466,6 @@ export default {
       }
     },
     "name": "GitHub",
-    "apiRoutes": {},
     "url": "github.com",
     "description": "::: tip\nGitHub provides some official RSS feeds:\n\n-   Repo releases: `https://github.com/:owner/:repo/releases.atom`\n-   Repo commits: `https://github.com/:owner/:repo/commits.atom`\n-   User activities: `https://github.com/:user.atom`\n-   Private feed: `https://github.com/:user.private.atom?token=:secret` (You can find **Subscribe to your news feed** in [dashboard](https://github.com) page after login)\n-   Wiki history: `https://github.com/:owner/:repo/wiki.atom`\n:::",
     "lang": "en"
@@ -39923,7 +39536,6 @@ export default {
       }
     },
     "name": "Gitpod",
-    "apiRoutes": {},
     "url": "gitpod.io",
     "lang": "en"
   },
@@ -39950,7 +39562,6 @@ export default {
       }
     },
     "name": "环球法律评论",
-    "apiRoutes": {},
     "url": "globallawreview.org",
     "lang": "zh-CN"
   },
@@ -39989,7 +39600,6 @@ export default {
       }
     },
     "name": "国门传媒在线",
-    "apiRoutes": {},
     "url": "gmcmonline.com",
     "categories": [
       "journal"
@@ -40170,7 +39780,6 @@ export default {
       }
     },
     "name": "GoCN",
-    "apiRoutes": {},
     "url": "gocn.vip",
     "lang": "zh-CN"
   },
@@ -40202,7 +39811,6 @@ export default {
       }
     },
     "name": "GoFans",
-    "apiRoutes": {},
     "url": "gofans.cn",
     "lang": "zh-CN"
   },
@@ -40566,7 +40174,6 @@ export default {
       }
     },
     "name": "Google",
-    "apiRoutes": {},
     "url": "www.google.com",
     "lang": "en"
   },
@@ -45240,7 +44847,6 @@ export default {
       }
     },
     "name": "上海市人民政府",
-    "apiRoutes": {},
     "url": "sh.gov.cn",
     "categories": [
       "government"
@@ -45406,7 +45012,6 @@ export default {
       }
     },
     "name": "国家粮油信息中心",
-    "apiRoutes": {},
     "url": "load.grainoil.com.cn",
     "categories": [
       "new-media"
@@ -45556,7 +45161,6 @@ export default {
       }
     },
     "name": "Greasy Fork",
-    "apiRoutes": {},
     "url": "greasyfork.org",
     "lang": "en"
   },
@@ -45685,7 +45289,6 @@ export default {
       }
     },
     "name": "Grist",
-    "apiRoutes": {},
     "url": "grist.org",
     "lang": "en"
   },
@@ -45711,7 +45314,6 @@ export default {
       }
     },
     "name": "Grub Street",
-    "apiRoutes": {},
     "url": "grubstreet.com",
     "lang": "en"
   },
@@ -45904,7 +45506,6 @@ export default {
       }
     },
     "name": "观察者网",
-    "apiRoutes": {},
     "url": "guancha.cn",
     "lang": "zh-CN"
   },
@@ -46015,7 +45616,6 @@ export default {
       }
     },
     "name": "逛丢",
-    "apiRoutes": {},
     "url": "guangdiu.com",
     "lang": "zh-CN"
   },
@@ -46070,7 +45670,6 @@ export default {
       }
     },
     "name": "观海新闻",
-    "apiRoutes": {},
     "url": "guanhai.com.cn",
     "lang": "zh-CN"
   },
@@ -46108,7 +45707,6 @@ export default {
       }
     },
     "name": "骨朵数据",
-    "apiRoutes": {},
     "url": "data.guduodata.com",
     "lang": "zh-CN"
   },
@@ -46142,7 +45740,6 @@ export default {
       }
     },
     "name": "Gumroad",
-    "apiRoutes": {},
     "url": "gumroad.com",
     "lang": "en"
   },
@@ -46201,7 +45798,6 @@ export default {
       }
     },
     "name": "果壳网",
-    "apiRoutes": {},
     "url": "guokr.com",
     "lang": "zh-CN"
   },
@@ -46232,7 +45828,6 @@ export default {
       }
     },
     "name": "guozaoke",
-    "apiRoutes": {},
     "url": "guozaoke.com",
     "lang": "zh-CN"
   },
@@ -46333,7 +45928,6 @@ export default {
       }
     },
     "name": "广西民族大学",
-    "apiRoutes": {},
     "url": "ai.gxmzu.edu.cn",
     "lang": "zh-CN"
   },
@@ -46366,7 +45960,6 @@ export default {
       }
     },
     "name": "广州日报",
-    "apiRoutes": {},
     "url": "gzdaily.cn",
     "lang": "zh-CN"
   },
@@ -46456,7 +46049,6 @@ export default {
       }
     },
     "name": "Hacker News",
-    "apiRoutes": {},
     "url": "ycombinator.com",
     "lang": "en"
   },
@@ -46482,7 +46074,6 @@ export default {
       }
     },
     "name": "HACKER TALK 黑客说",
-    "apiRoutes": {},
     "url": "hackertalk.net",
     "lang": "zh-CN"
   },
@@ -46556,7 +46147,6 @@ export default {
       }
     },
     "name": "Hacking8",
-    "apiRoutes": {},
     "url": "hacking8.com",
     "lang": "zh-CN"
   },
@@ -46614,7 +46204,6 @@ export default {
       }
     },
     "name": "HackYourNews",
-    "apiRoutes": {},
     "url": "hackyournews.com",
     "lang": "en"
   },
@@ -46715,7 +46304,6 @@ export default {
       }
     },
     "name": "Hamel's Blog",
-    "apiRoutes": {},
     "url": "hamel.dev",
     "lang": "en"
   },
@@ -46755,7 +46343,6 @@ export default {
       }
     },
     "name": "hameln",
-    "apiRoutes": {},
     "url": "syosetu.org",
     "lang": "ja"
   },
@@ -46902,7 +46489,6 @@ export default {
       }
     },
     "name": "hashnode",
-    "apiRoutes": {},
     "url": "hashnode.dev",
     "lang": "en"
   },
@@ -46941,7 +46527,6 @@ export default {
       }
     },
     "name": "欢乐书客",
-    "apiRoutes": {},
     "url": "hbooker.com",
     "lang": "zh-CN"
   },
@@ -47251,7 +46836,6 @@ export default {
       }
     },
     "name": "白话区块链",
-    "apiRoutes": {},
     "url": "hellobtc.com",
     "lang": "zh-CN"
   },
@@ -47338,7 +46922,6 @@ export default {
       }
     },
     "name": "HelloGitHub",
-    "apiRoutes": {},
     "url": "hellogithub.com",
     "lang": "zh-CN"
   },
@@ -47379,7 +46962,6 @@ export default {
       }
     },
     "name": "Hex-Rays",
-    "apiRoutes": {},
     "url": "hex-rays.com",
     "lang": "en"
   },
@@ -47401,7 +46983,6 @@ export default {
       }
     },
     "name": "和讯网",
-    "apiRoutes": {},
     "url": "hexun.com",
     "description": "",
     "lang": "zh-CN"
@@ -47567,7 +47148,6 @@ export default {
       }
     },
     "name": "Sakamichi Series 坂道系列官网资讯",
-    "apiRoutes": {},
     "url": "hinatazaka46.com",
     "lang": "zh-CN"
   },
@@ -47606,7 +47186,6 @@ export default {
       }
     },
     "name": "HiringCafe",
-    "apiRoutes": {},
     "url": "hiring.cafe",
     "description": "HiringCafe is a platform for job seekers to find job opportunities and for employers to post job listings.",
     "zh": {
@@ -47709,7 +47288,6 @@ export default {
       }
     },
     "name": "哈尔滨工业大学",
-    "apiRoutes": {},
     "url": "jwc.hit.edu.cn",
     "description": "::: warning\n哈工大网站疑似禁止了`rsshub.app`的访问，使用路由需要自行 [部署](https://docs.rsshub.app/deploy/)。\n:::",
     "lang": "zh-CN"
@@ -47777,7 +47355,6 @@ export default {
       }
     },
     "name": "哈尔滨工业大学（深圳）",
-    "apiRoutes": {},
     "url": "hitsz.edu.cn",
     "lang": "zh-CN"
   },
@@ -47856,7 +47433,6 @@ export default {
       }
     },
     "name": "珠海网",
-    "apiRoutes": {},
     "url": "hizh.cn",
     "lang": "zh-CN"
   },
@@ -47988,7 +47564,6 @@ export default {
       }
     },
     "name": "香港 01",
-    "apiRoutes": {},
     "url": "hk01.com",
     "lang": "zh-HK"
   },
@@ -48029,7 +47604,6 @@ export default {
       }
     },
     "name": "信报财经新闻",
-    "apiRoutes": {},
     "url": "hkej.com",
     "lang": "zh-HK"
   },
@@ -48072,7 +47646,6 @@ export default {
       }
     },
     "name": "HKEPC",
-    "apiRoutes": {},
     "url": "hkepc.com",
     "lang": "zh-HK"
   },
@@ -48138,7 +47711,6 @@ export default {
       }
     },
     "name": "香港经济日报",
-    "apiRoutes": {},
     "url": "china.hket.com",
     "lang": "zh-HK"
   },
@@ -48164,7 +47736,6 @@ export default {
       }
     },
     "name": "HKJunkCall 資訊中心",
-    "apiRoutes": {},
     "url": "hkjunkcall.com",
     "lang": "zh-HK"
   },
@@ -48207,7 +47778,6 @@ export default {
       }
     },
     "name": "Hong Kong Observatory",
-    "apiRoutes": {},
     "url": "www.hko.gov.hk",
     "categories": [
       "forecast"
@@ -48332,7 +47902,6 @@ export default {
       }
     },
     "name": "湖南日报",
-    "apiRoutes": {},
     "url": "voc.com.cn",
     "lang": "zh-CN"
   },
@@ -48370,7 +47939,6 @@ export default {
       }
     },
     "name": "湖南大学",
-    "apiRoutes": {},
     "url": "scc.hnu.edu.cn",
     "lang": "zh-CN"
   },
@@ -48391,7 +47959,6 @@ export default {
       }
     },
     "name": "Home Assistant",
-    "apiRoutes": {},
     "url": "www.home-assistant.io",
     "lang": "en"
   },
@@ -48449,7 +48016,6 @@ export default {
       }
     },
     "name": "Hong Kong Department of Health 香港卫生署",
-    "apiRoutes": {},
     "url": "dh.gov.hk",
     "lang": "zh-HK"
   },
@@ -48489,7 +48055,6 @@ export default {
       }
     },
     "name": "全球主机监控",
-    "apiRoutes": {},
     "url": "stock.hostmonit.com",
     "lang": "zh-CN"
   },
@@ -48521,7 +48086,6 @@ export default {
       }
     },
     "name": "Hot Toys",
-    "apiRoutes": {},
     "url": "www.hottoys.com.hk",
     "lang": "zh-HK"
   },
@@ -48583,7 +48147,6 @@ export default {
       }
     },
     "name": "hotukdeals",
-    "apiRoutes": {},
     "url": "www.hotukdeals.com",
     "lang": "en"
   },
@@ -48686,7 +48249,6 @@ export default {
       }
     },
     "name": "后续",
-    "apiRoutes": {},
     "url": "houxu.app",
     "lang": "zh-CN"
   },
@@ -49085,7 +48647,6 @@ export default {
       }
     },
     "name": "Hpoi 手办维基",
-    "apiRoutes": {},
     "url": "www.hpoi.net",
     "lang": "zh-CN"
   },
@@ -49608,7 +49169,6 @@ export default {
       }
     },
     "name": "哈尔滨理工大学",
-    "apiRoutes": {},
     "url": "hrbust.edu.cn",
     "categories": [
       "university"
@@ -49652,7 +49212,6 @@ export default {
       }
     },
     "name": "环球网",
-    "apiRoutes": {},
     "url": "huanqiu.com",
     "lang": "zh-CN"
   },
@@ -49858,7 +49417,6 @@ export default {
       }
     },
     "name": "湖北大学",
-    "apiRoutes": {},
     "url": "hubu.edu.cn",
     "categories": [
       "university"
@@ -50010,7 +49568,6 @@ export default {
       }
     },
     "name": "Huggingface",
-    "apiRoutes": {},
     "url": "huggingface.co",
     "lang": "en"
   },
@@ -50199,7 +49756,6 @@ export default {
       }
     },
     "name": "湖南农业大学",
-    "apiRoutes": {},
     "url": "gfxy.hunau.edu.cn",
     "lang": "zh-CN"
   },
@@ -50392,7 +49948,6 @@ export default {
       }
     },
     "name": "虎扑",
-    "apiRoutes": {},
     "url": ".hupu.com",
     "lang": "zh-CN"
   },
@@ -51295,7 +50850,6 @@ export default {
       }
     },
     "name": "华中科技大学",
-    "apiRoutes": {},
     "url": "hust.edu.cn",
     "lang": "zh-CN"
   },
@@ -51581,7 +51135,6 @@ export default {
       }
     },
     "name": "虎嗅",
-    "apiRoutes": {},
     "url": "huxiu.com",
     "lang": "zh-CN"
   },
@@ -51767,7 +51320,6 @@ export default {
       }
     },
     "name": "Ian Spriggss",
-    "apiRoutes": {},
     "url": "ianspriggs.com",
     "lang": "en"
   },
@@ -51879,7 +51431,6 @@ export default {
       }
     },
     "name": "iDaily",
-    "apiRoutes": {},
     "url": "idai.ly",
     "lang": "zh-CN"
   },
@@ -52009,7 +51560,6 @@ export default {
       }
     },
     "name": "IEEE Xplore",
-    "apiRoutes": {},
     "url": "www.ieee.org",
     "lang": "en"
   },
@@ -52097,7 +51647,6 @@ export default {
       }
     },
     "name": "网猴线报",
-    "apiRoutes": {},
     "url": "iehou.com",
     "categories": [
       "new-media"
@@ -52127,7 +51676,6 @@ export default {
       }
     },
     "name": "IELTS 雅思",
-    "apiRoutes": {},
     "url": "ielts.neea.cn",
     "lang": "zh-CN"
   },
@@ -52253,7 +51801,6 @@ export default {
       }
     },
     "name": "爱范儿",
-    "apiRoutes": {},
     "url": "www.ifanr.com",
     "description": "",
     "lang": "zh-CN"
@@ -52295,7 +51842,6 @@ export default {
       }
     },
     "name": "凤凰网",
-    "apiRoutes": {},
     "url": "feng.ifeng.com",
     "lang": "zh-CN"
   },
@@ -52329,7 +51875,6 @@ export default {
       }
     },
     "name": "iFi audio",
-    "apiRoutes": {},
     "url": "ifi-audio.com",
     "lang": "en"
   },
@@ -52504,7 +52049,6 @@ export default {
       }
     },
     "name": "爱果果",
-    "apiRoutes": {},
     "url": "iguoguo.net",
     "lang": "zh-CN"
   },
@@ -52526,7 +52070,6 @@ export default {
       }
     },
     "name": "i黑马网",
-    "apiRoutes": {},
     "url": "www.iheima.com",
     "description": "",
     "lang": "zh-CN"
@@ -52553,7 +52096,6 @@ export default {
       }
     },
     "name": "人人都是自媒体",
-    "apiRoutes": {},
     "url": "www.iiilab.com",
     "lang": "zh-CN"
   },
@@ -52740,7 +52282,6 @@ export default {
       }
     },
     "name": "I Know What You Download",
-    "apiRoutes": {},
     "url": "iknowwhatyoudownload.com",
     "description": "",
     "lang": "en"
@@ -52781,7 +52322,6 @@ export default {
       }
     },
     "name": "ImageMagick",
-    "apiRoutes": {},
     "url": "imagemagick.org",
     "lang": "en"
   },
@@ -52837,7 +52377,6 @@ export default {
       }
     },
     "name": "IMDb",
-    "apiRoutes": {},
     "url": "www.imdb.com",
     "lang": "en"
   },
@@ -52869,7 +52408,6 @@ export default {
       }
     },
     "name": "imhcg的信息站",
-    "apiRoutes": {},
     "url": "infos.imhcg.cn",
     "description": "包含多种技术和新闻信息的网站",
     "lang": "zh-CN"
@@ -52908,7 +52446,6 @@ export default {
       }
     },
     "name": "米课",
-    "apiRoutes": {},
     "url": "imiker.com",
     "lang": "zh-CN"
   },
@@ -52978,7 +52515,6 @@ export default {
       }
     },
     "name": "Indians in Kuwait",
-    "apiRoutes": {},
     "url": "indiansinkuwait.com",
     "lang": "en"
   },
@@ -53083,7 +52619,6 @@ export default {
       }
     },
     "name": "indienova 独立游戏",
-    "apiRoutes": {},
     "url": "indienova.com",
     "lang": "zh-CN"
   },
@@ -53124,7 +52659,6 @@ export default {
       }
     },
     "name": "中国新闻周刊",
-    "apiRoutes": {},
     "url": "inewsweek.cn",
     "lang": "zh-CN"
   },
@@ -53273,7 +52807,6 @@ export default {
       }
     },
     "name": "Informed AI News",
-    "apiRoutes": {},
     "url": "informedainews.com",
     "description": "\n::: tip\ninformed AI RSS feeds:\n\n-   World News Daily: 'https://rsshub.app/informedainews/zh-Hans/docs/world-news-daily'\n-   Tech Enthusiast Weekly: 'https://rsshub.app/informedainews/zh-Hans/docs/tech-enthusiast-weekly'\n-   AI Enthusiast Weekly: 'https://rsshub.app/informedainews/zh-Hans/docs/ai-enthusiast-daily'\n:::",
     "zh": {
@@ -53309,7 +52842,6 @@ export default {
       }
     },
     "name": "INFORMS",
-    "apiRoutes": {},
     "url": "pubsonline.informs.org",
     "lang": "en"
   },
@@ -53366,7 +52898,6 @@ export default {
       }
     },
     "name": "南方周末",
-    "apiRoutes": {},
     "url": "www.infzm.com",
     "lang": "zh-CN"
   },
@@ -53416,7 +52947,6 @@ export default {
       }
     },
     "name": "Inoreader",
-    "apiRoutes": {},
     "url": "inoreader.com",
     "lang": "en"
   },
@@ -53464,7 +52994,6 @@ export default {
       }
     },
     "name": "INSPIRE",
-    "apiRoutes": {},
     "url": "inspirehep.net",
     "categories": [
       "journal"
@@ -53694,7 +53223,6 @@ export default {
       }
     },
     "name": "中国投资者网",
-    "apiRoutes": {},
     "url": "investor.org.cn",
     "categories": [
       "finance"
@@ -53811,7 +53339,6 @@ export default {
       }
     },
     "name": "异次元软件世界",
-    "apiRoutes": {},
     "url": "www.iplaysoft.com",
     "categories": [
       "new-media"
@@ -53867,7 +53394,6 @@ export default {
       }
     },
     "name": "IPSW.me",
-    "apiRoutes": {},
     "url": "ipsw.me",
     "lang": "zh-CN"
   },
@@ -53891,7 +53417,6 @@ export default {
       }
     },
     "name": "IPSW.dev",
-    "apiRoutes": {},
     "url": "ipsw.dev",
     "description": "Download the latest beta firmware for iPhone, iPad, Mac, Apple Vision Pro, and Apple TV. Check the signing status of the beta firmware.",
     "lang": "en"
@@ -53971,7 +53496,6 @@ export default {
       }
     },
     "name": "爱奇艺",
-    "apiRoutes": {},
     "url": "iq.com",
     "lang": "zh-CN"
   },
@@ -54010,7 +53534,6 @@ export default {
       }
     },
     "name": "爱 Q 生活网",
-    "apiRoutes": {},
     "url": "iqnew.com",
     "lang": "zh-CN"
   },
@@ -54248,7 +53771,6 @@ export default {
       }
     },
     "name": "艾瑞",
-    "apiRoutes": {},
     "url": "www.iresearch.com.cn",
     "lang": "zh-CN"
   },
@@ -54324,7 +53846,6 @@ export default {
       }
     },
     "name": "Issue Hunt",
-    "apiRoutes": {},
     "url": "issuehunt.io",
     "lang": "en"
   },
@@ -54352,7 +53873,6 @@ export default {
       }
     },
     "name": "Open Github社区",
-    "apiRoutes": {},
     "url": "open.itc.cn",
     "lang": "zh-CN"
   },
@@ -54425,7 +53945,6 @@ export default {
       }
     },
     "name": "itch.io",
-    "apiRoutes": {},
     "url": "itch.io",
     "lang": "en"
   },
@@ -54583,7 +54102,6 @@ export default {
       }
     },
     "name": "iThome 台灣",
-    "apiRoutes": {},
     "url": "ithome.com",
     "lang": "zh-TW"
   },
@@ -54640,7 +54158,6 @@ export default {
       }
     },
     "name": "iwara",
-    "apiRoutes": {},
     "url": "ecchi.iwara.tv",
     "lang": "en"
   },
@@ -54829,7 +54346,6 @@ export default {
       }
     },
     "name": "煎蛋",
-    "apiRoutes": {},
     "url": "jandan.net",
     "lang": "zh-CN"
   },
@@ -54918,7 +54434,6 @@ export default {
       }
     },
     "name": "JavBus",
-    "apiRoutes": {},
     "url": "www.javbus.com",
     "description": "::: warning\nRequests from non-Asia areas will be redirected to login page.\n:::\n\n::: tip Language\nYou can change the language of each route to the languages listed below.\n\n| English | 日本语 | 한국의 | 中文             |\n| ------- | ------ | ------ | ---------------- |\n| en      | ja     | ko     | (leave it empty) |\n:::\n\n::: tip\nJavBus has multiple backup domains, these routes use default domain `https://javbus.com`. If the domain is unreachable, you can add `?domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain `https://javsee.icu`, you can add `?domain=javsee.icu` to the end of the route, then the route will be [`/javbus/en?domain=javsee.icu`](https://rsshub.app/javbus?domain=javsee.icu)\n\n**Note**: **Western** has different domain than the main site, the backup domains are also different. The default domain is `https://javbus.org` and you can add `?western_domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain `https://javsee.one`, you can add `?western_domain=javsee.one` to the end of the route, then the route will be [`/javbus/western/en?western_domain=javsee.one`](https://rsshub.app/javbus/western?western_domain=javsee.one)\n:::",
     "lang": "en"
@@ -55257,7 +54772,6 @@ export default {
       }
     },
     "name": "JavDB",
-    "apiRoutes": {},
     "url": "javdb.com",
     "description": "::: tip\nJavDB 有多个备用域名，本路由默认使用永久域名 `https://javdb.com` ，若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 `https://javdb36.com`，则在所有 JavDB 路由最后加上 `?domain=javdb36.com` 即可，此时路由为 [`/javdb?domain=javdb36.com`](https://rsshub.app/javdb?domain=javdb36.com)\n\n如果加入了 **分類** 参数，直接在分類参数后加入 `?domain=<域名>` 即可。如指定分類 URL 为 `https://javdb.com/tags?c2=5&c10=1` 并指定备用域名为 `https://javdb36.com`，即在 `/javdb/tags/c2=5&c10=1` 最后加上 `?domain=javdb36.com`，此时路由为 [`/javdb/tags/c2=5&c10=1?domain=javdb36.com`](https://rsshub.app/javdb/tags/c2=5&c10=1?domain=javdb36.com)\n\n**排行榜**、**搜索**、**演員**、**片商** 参数同适用于 **分類** 参数的上述规则\n:::\n\n::: tip\n你可以通过指定 `limit` 参数来获取特定数量的条目，即可以通过在路由后方加上 `?limit=25`，默认为单次获取 20 个条目，即默认 `?limit=20`\n\n因为该站有反爬检测，所以不应将此值调整过高\n:::",
     "lang": "zh-CN"
@@ -55494,7 +55008,6 @@ export default {
       }
     },
     "name": "JAVLibrary",
-    "apiRoutes": {},
     "url": "javlibrary.com",
     "lang": "en"
   },
@@ -55552,7 +55065,6 @@ export default {
       }
     },
     "name": "Javtiful",
-    "apiRoutes": {},
     "url": "javtiful.com",
     "lang": "en"
   },
@@ -55631,7 +55143,6 @@ export default {
       }
     },
     "name": "JavTrailers",
-    "apiRoutes": {},
     "url": "javtrailers.com",
     "lang": "ja"
   },
@@ -55693,7 +55204,6 @@ export default {
       }
     },
     "name": "The Jewish Museum",
-    "apiRoutes": {},
     "url": "thejewishmuseum.org",
     "lang": "en"
   },
@@ -55805,7 +55315,6 @@ export default {
       }
     },
     "name": "简书",
-    "apiRoutes": {},
     "url": "www.jianshu.com",
     "lang": "zh-CN"
   },
@@ -55831,7 +55340,6 @@ export default {
       }
     },
     "name": "交流岛资源网",
-    "apiRoutes": {},
     "url": "jiaoliudao.com",
     "lang": "zh-CN"
   },
@@ -55909,7 +55417,6 @@ export default {
       }
     },
     "name": "界面新闻",
-    "apiRoutes": {},
     "url": "jiemian.com",
     "lang": "zh-CN"
   },
@@ -56116,7 +55623,6 @@ export default {
       }
     },
     "name": "幾米 JIMMY S.P.A. Official Website",
-    "apiRoutes": {},
     "url": "www.jimmyspa.com",
     "lang": "zh-TW"
   },
@@ -56228,7 +55734,6 @@ export default {
       }
     },
     "name": "金十数据",
-    "apiRoutes": {},
     "url": "jin10.com",
     "lang": "zh-CN"
   },
@@ -56289,7 +55794,6 @@ export default {
       }
     },
     "name": "抖店开放平台",
-    "apiRoutes": {},
     "url": "op.jinritemai.com",
     "lang": "zh-CN"
   },
@@ -56466,7 +55970,6 @@ export default {
       }
     },
     "name": "金色财经",
-    "apiRoutes": {},
     "url": "jinse.cn",
     "lang": "zh-CN"
   },
@@ -56662,7 +56165,6 @@ export default {
       }
     },
     "name": "集思录",
-    "apiRoutes": {},
     "url": "jisilu.cn",
     "description": "一个以数据为本的投资社区",
     "lang": "zh-CN"
@@ -56693,7 +56195,6 @@ export default {
       }
     },
     "name": "韭研公社",
-    "apiRoutes": {},
     "url": "www.jiuyangongshe.com",
     "categories": [
       "finance"
@@ -56754,7 +56255,6 @@ export default {
       }
     },
     "name": "晋江文学城",
-    "apiRoutes": {},
     "url": "jjwxc.net",
     "lang": "zh-CN"
   },
@@ -56844,7 +56344,6 @@ export default {
       }
     },
     "name": "吉林大学",
-    "apiRoutes": {},
     "url": "jlu.edu.cn",
     "lang": "zh-CN"
   },
@@ -56977,7 +56476,6 @@ export default {
       }
     },
     "name": "中央日报",
-    "apiRoutes": {},
     "url": "joins.com",
     "categories": [
       "traditional-media"
@@ -57110,7 +56608,6 @@ export default {
       }
     },
     "name": "Jones Lang LaSalle",
-    "apiRoutes": {},
     "url": "joneslanglasalle.com.cn",
     "categories": [
       "new-media"
@@ -57152,7 +56649,6 @@ export default {
       }
     },
     "name": "La Jornada",
-    "apiRoutes": {},
     "url": "jornada.com.mx",
     "lang": "es"
   },
@@ -57255,7 +56751,6 @@ export default {
       }
     },
     "name": "Josh W Comeau",
-    "apiRoutes": {},
     "url": "www.joshwcomeau.com",
     "categories": [
       "programming"
@@ -57328,7 +56823,6 @@ export default {
       }
     },
     "name": "江苏海洋大学",
-    "apiRoutes": {},
     "url": "www.jou.edu.cn",
     "lang": "zh-CN"
   },
@@ -57553,7 +57047,6 @@ export default {
       }
     },
     "name": "金融界",
-    "apiRoutes": {},
     "url": "www.jrj.com.cn",
     "description": "金融界是国内领先的金融信息服务平台，日均触达千万用户，年度访问量超过3亿，受众覆盖中国主流金融机构、上市公司和活跃投资理财群体",
     "lang": "zh-CN"
@@ -57686,7 +57179,6 @@ export default {
       }
     },
     "name": "吉首大学",
-    "apiRoutes": {},
     "url": "jsu.edu.cn",
     "lang": "zh-CN"
   },
@@ -57998,7 +57490,6 @@ export default {
       }
     },
     "name": "掘金",
-    "apiRoutes": {},
     "url": "juejin.cn",
     "lang": "zh-CN"
   },
@@ -58042,7 +57533,6 @@ export default {
       }
     },
     "name": "聚美丽",
-    "apiRoutes": {},
     "url": "jumeili.cn",
     "lang": "zh-CN"
   },
@@ -58077,7 +57567,6 @@ export default {
       }
     },
     "name": "JUMP",
-    "apiRoutes": {},
     "url": "switch.jumpvg.com",
     "lang": "zh-CN"
   },
@@ -58117,7 +57606,6 @@ export default {
       }
     },
     "name": "君合律师事务所",
-    "apiRoutes": {},
     "url": "junhe.com",
     "categories": [
       "new-media"
@@ -58161,7 +57649,6 @@ export default {
       }
     },
     "name": "台灣角川",
-    "apiRoutes": {},
     "url": "kadokawa.com.tw",
     "categories": [
       "shopping"
@@ -58246,7 +57733,6 @@ export default {
       }
     },
     "name": "Kantar Worldpanel",
-    "apiRoutes": {},
     "url": "kantarworldpanel.com",
     "lang": "en"
   },
@@ -58561,16 +58047,15 @@ export default {
   },
   "kemono": {
     "routes": {
-      "/:source?/:id?/:type?": {
-        "path": "/:source?/:id?/:type?",
+      "/:source?/:id?": {
+        "path": "/:source?/:id?",
         "categories": [
           "anime"
         ],
         "example": "/kemono",
         "parameters": {
           "source": "Source, see below, Posts by default",
-          "id": "User id, can be found in URL",
-          "type": "Content type: announcements or fancards"
+          "id": "User id, can be found in URL"
         },
         "features": {
           "requireConfig": false,
@@ -58583,41 +58068,21 @@ export default {
         "radar": [
           {
             "source": [
+              "kemono.su/:source/user/:id",
               "kemono.su/"
-            ],
-            "target": "/kemono"
-          },
-          {
-            "source": [
-              "kemono.su/:source/user/:id"
-            ],
-            "target": "/kemono/:source/:id"
-          },
-          {
-            "source": [
-              "kemono.su/:source/user/:id/announcements"
-            ],
-            "target": "/kemono/:source/:id/announcements"
-          },
-          {
-            "source": [
-              "kemono.su/:source/user/:id/fancards"
-            ],
-            "target": "/kemono/:source/:id/fancards"
+            ]
           }
         ],
         "name": "Posts",
         "maintainers": [
-          "nczitzk",
-          "AiraNadih"
+          "nczitzk"
         ],
-        "description": "Sources\n\n| Posts | Patreon | Pixiv Fanbox | Gumroad | SubscribeStar | DLsite | Discord | Fantia |\n| ----- | ------- | ------------ | ------- | ------------- | ------ | ------- | ------ |\n| posts | patreon | fanbox       | gumroad | subscribestar | dlsite | discord | fantia |\n\n::: tip\n  When `posts` is selected as the value of the parameter **source**, the parameter **id** does not take effect.\n  There is an optinal parameter **limit** which controls the number of posts to fetch, default value is 25.\n  \n  Support for announcements and fancards:\n  - Use `/:source/:id/announcements` to get announcements\n  - Use `/:source/:id/fancards` to get fancards\n:::",
+        "description": "Sources\n\n| Posts | Patreon | Pixiv Fanbox | Gumroad | SubscribeStar | DLsite | Discord | Fantia |\n| ----- | ------- | ------------ | ------- | ------------- | ------ | ------- | ------ |\n| posts | patreon | fanbox       | gumroad | subscribestar | dlsite | discord | fantia |\n\n::: tip\n  When `posts` is selected as the value of the parameter **source**, the parameter **id** does not take effect.\n  There is an optinal parameter **limit** which controls the number of posts to fetch, default value is 25.\n:::",
         "location": "index.ts",
         "module": () => import('@/routes/kemono/index.ts')
       }
     },
     "name": "Kemono",
-    "apiRoutes": {},
     "url": "kemono.su",
     "lang": "en"
   },
@@ -58655,7 +58120,6 @@ export default {
       }
     },
     "name": "中国科普博览",
-    "apiRoutes": {},
     "url": "live.kepu.net.cn",
     "lang": "zh-CN"
   },
@@ -58702,7 +58166,6 @@ export default {
       }
     },
     "name": "其乐",
-    "apiRoutes": {},
     "url": "keylol.com",
     "lang": "zh-CN"
   },
@@ -58780,7 +58243,6 @@ export default {
       }
     },
     "name": "KISS",
-    "apiRoutes": {},
     "url": "www.kisskiss.tv",
     "lang": "ja"
   },
@@ -58820,7 +58282,6 @@ export default {
       }
     },
     "name": "Komiic",
-    "apiRoutes": {},
     "url": "komiic.com",
     "lang": "zh-CN"
   },
@@ -58914,7 +58375,6 @@ export default {
       }
     },
     "name": "Kong API 网关平台",
-    "apiRoutes": {},
     "url": "konghq.com",
     "description": "[Kong](https://konghq.com/) 是一家开源的 API 网关服务商，此处收集其官网的最新博客文章。",
     "lang": "zh-CN"
@@ -58956,7 +58416,6 @@ export default {
       }
     },
     "name": "The Korea Herald",
-    "apiRoutes": {},
     "url": "koreaherald.com"
   },
   "kpmg": {
@@ -58994,7 +58453,6 @@ export default {
       }
     },
     "name": "KPMG",
-    "apiRoutes": {},
     "url": "kpmg.com",
     "categories": [
       "other"
@@ -59104,7 +58562,6 @@ export default {
       }
     },
     "name": "kpopping",
-    "apiRoutes": {},
     "url": "kpopping.com",
     "categories": [
       "new-media"
@@ -59147,7 +58604,6 @@ export default {
       }
     },
     "name": "Ktown4u",
-    "apiRoutes": {},
     "url": "ktown4u.com",
     "lang": "en"
   },
@@ -59212,7 +58668,6 @@ export default {
       }
     },
     "name": "快递 100",
-    "apiRoutes": {},
     "url": "kuaidi100.com",
     "lang": "zh-CN"
   },
@@ -59283,7 +58738,6 @@ export default {
       }
     },
     "name": "Kun Cheng",
-    "apiRoutes": {},
     "url": "kunchengblog.com",
     "lang": "zh-CN"
   },
@@ -59367,7 +58821,6 @@ export default {
       }
     },
     "name": "Kuwait Local",
-    "apiRoutes": {},
     "url": "kuwaitlocal.com",
     "lang": "en"
   },
@@ -59401,7 +58854,6 @@ export default {
       }
     },
     "name": "共同网",
-    "apiRoutes": {},
     "url": "china.kyodonews.net",
     "lang": "zh-CN"
   },
@@ -59440,7 +58892,6 @@ export default {
       }
     },
     "name": "来漫画",
-    "apiRoutes": {},
     "url": "www.laimanhua8.com",
     "lang": "zh-CN"
   },
@@ -59579,7 +59030,6 @@ export default {
       }
     },
     "name": "蓝点网",
-    "apiRoutes": {},
     "url": "landiannews.com",
     "categories": [
       "new-media"
@@ -59651,7 +59101,6 @@ export default {
       }
     },
     "name": "LangChain Blog",
-    "apiRoutes": {},
     "url": "blog.langchain.dev",
     "lang": "en"
   },
@@ -59748,7 +59197,6 @@ export default {
       }
     },
     "name": "蓝桥云课",
-    "apiRoutes": {},
     "url": "lanqiao.cn",
     "lang": "zh-CN"
   },
@@ -59856,7 +59304,6 @@ export default {
       }
     },
     "name": "晚点 LatePost",
-    "apiRoutes": {},
     "url": "latepost.com",
     "lang": "zh-CN"
   },
@@ -59882,7 +59329,6 @@ export default {
       }
     },
     "name": "Layoffs.fyi",
-    "apiRoutes": {},
     "url": "layoffs.fyi",
     "lang": "en"
   },
@@ -60085,7 +59531,6 @@ export default {
       }
     },
     "name": "LeetCode",
-    "apiRoutes": {},
     "url": "leetcode.com",
     "lang": "en"
   },
@@ -60137,7 +59582,6 @@ export default {
       }
     },
     "name": "雷峰网",
-    "apiRoutes": {},
     "url": "leiphone.com",
     "lang": "zh-CN"
   },
@@ -60258,7 +59702,6 @@ export default {
       }
     },
     "name": "Lemmy",
-    "apiRoutes": {},
     "url": "join-lemmy.org",
     "lang": "en"
   },
@@ -60298,7 +59741,6 @@ export default {
       }
     },
     "name": "联想",
-    "apiRoutes": {},
     "url": "lenovo.com.cn",
     "lang": "zh-CN"
   },
@@ -60440,7 +59882,6 @@ export default {
       }
     },
     "name": "旅法师营地",
-    "apiRoutes": {},
     "url": "www.iyingdi.com",
     "lang": "zh-CN"
   },
@@ -60559,7 +60000,6 @@ export default {
       }
     },
     "name": "连享会",
-    "apiRoutes": {},
     "url": "www.lianxh.cn",
     "categories": [
       "programming"
@@ -60600,7 +60040,6 @@ export default {
       }
     },
     "name": "三联生活周刊",
-    "apiRoutes": {},
     "url": "lifeweek.com.cn",
     "lang": "zh-CN"
   },
@@ -60626,7 +60065,6 @@ export default {
       }
     },
     "name": "轻之国度",
-    "apiRoutes": {},
     "url": "lightNovel.us",
     "lang": "zh-CN"
   },
@@ -60666,7 +60104,6 @@ export default {
       }
     },
     "name": "LikeShop",
-    "apiRoutes": {},
     "url": "likeshop.me",
     "lang": "en"
   },
@@ -60796,7 +60233,6 @@ export default {
       }
     },
     "name": "Link3",
-    "apiRoutes": {},
     "url": "link3.to",
     "lang": "en"
   },
@@ -60893,7 +60329,6 @@ export default {
       }
     },
     "name": "LinkedIn",
-    "apiRoutes": {},
     "url": "linkedin.com",
     "lang": "en"
   },
@@ -60927,7 +60362,6 @@ export default {
       }
     },
     "name": "Link Research",
-    "apiRoutes": {},
     "url": "www.linkresearcher.com",
     "lang": "zh-CN",
     "zh": {
@@ -61044,7 +60478,6 @@ export default {
       }
     },
     "name": "Liquipedia",
-    "apiRoutes": {},
     "url": "liquipedia.net",
     "lang": "en"
   },
@@ -61099,7 +60532,6 @@ export default {
       }
     },
     "name": "Literotica",
-    "apiRoutes": {},
     "url": "literotica.com",
     "lang": "en"
   },
@@ -61121,7 +60553,6 @@ export default {
       }
     },
     "name": "木木博客",
-    "apiRoutes": {},
     "url": "liulinblog.com",
     "lang": "zh-CN"
   },
@@ -61162,7 +60593,6 @@ export default {
       }
     },
     "name": "Live Universal Awareness Map",
-    "apiRoutes": {},
     "url": "liveuamap.com",
     "lang": "en"
   },
@@ -61206,7 +60636,6 @@ export default {
       }
     },
     "name": "龙空",
-    "apiRoutes": {},
     "url": "lkong.com",
     "lang": "zh-CN"
   },
@@ -61238,7 +60667,6 @@ export default {
       }
     },
     "name": "Ludwig Maximilian University of Munich",
-    "apiRoutes": {},
     "url": "www.lmu.de",
     "description": "\nThis namespace provides RSS feeds for various sections of the Ludwig Maximilian University of Munich (LMU) website, particularly for job openings in the academic staff section.\n\n::: tip\nFor more information about LMU and their job offerings, visit their official website.\n:::\n",
     "zh": {
@@ -61332,7 +60760,6 @@ export default {
       }
     },
     "name": "Lofter",
-    "apiRoutes": {},
     "url": "www.lofter.com",
     "lang": "zh-CN"
   },
@@ -61403,7 +60830,6 @@ export default {
       }
     },
     "name": "罗戈网",
-    "apiRoutes": {},
     "url": "logclub.com",
     "lang": "zh-CN"
   },
@@ -61477,7 +60903,6 @@ export default {
       }
     },
     "name": "LogoNews 标志情报局",
-    "apiRoutes": {},
     "url": "logonews.cn",
     "lang": "zh-CN"
   },
@@ -61509,7 +60934,6 @@ export default {
       }
     },
     "name": "logrocket blog",
-    "apiRoutes": {},
     "url": "blog.logrocket.com",
     "lang": "en"
   },
@@ -61648,7 +61072,6 @@ export default {
       }
     },
     "name": "L'Orient-Le Jour/L'Orient Today",
-    "apiRoutes": {},
     "url": "lorientlejour.com",
     "description": "RSS feed for the Lebanon-based French-language newspaper L'Orient-Le Jour and its English edition L'Orient Today",
     "lang": "fr"
@@ -61844,7 +61267,6 @@ export default {
       }
     },
     "name": "REPACK скачать",
-    "apiRoutes": {},
     "url": "lrepacks.net",
     "categories": [
       "program-update"
@@ -61929,7 +61351,6 @@ export default {
       }
     },
     "name": "龙腾网",
-    "apiRoutes": {},
     "url": "ltaaa.cn",
     "categories": [
       "new-media"
@@ -61974,7 +61395,6 @@ export default {
       }
     },
     "name": "LuMa",
-    "apiRoutes": {},
     "url": "lu.ma",
     "lang": "zh-CN"
   },
@@ -62157,7 +61577,6 @@ export default {
       }
     },
     "name": "洛谷",
-    "apiRoutes": {},
     "url": "luogu.com.cn",
     "lang": "zh-CN"
   },
@@ -62197,7 +61616,6 @@ export default {
       }
     },
     "name": "罗磊的独立博客",
-    "apiRoutes": {},
     "url": "luolei.org",
     "categories": [
       "blog"
@@ -62239,7 +61657,6 @@ export default {
       }
     },
     "name": "土猛的员外",
-    "apiRoutes": {},
     "url": "luxiangdong.com",
     "lang": "zh-CN"
   },
@@ -62368,7 +61785,6 @@ export default {
       }
     },
     "name": "LiSA",
-    "apiRoutes": {},
     "url": "www.sonymusic.co.jp",
     "lang": "ja"
   },
@@ -62469,7 +61885,6 @@ export default {
       }
     },
     "name": "四月网",
-    "apiRoutes": {},
     "url": "news.m4.cn",
     "lang": "zh-CN"
   },
@@ -62504,7 +61919,6 @@ export default {
       }
     },
     "name": "通用影视采集站视频采集接口路由",
-    "apiRoutes": {},
     "description": "\n::: tip\n该路由适用于各大影视采集站对外提供的统一CMS视频采集接口，API 类似于 `https://网站域名/api.php/provide/vod`\n:::",
     "lang": "zh-CN"
   },
@@ -62544,7 +61958,6 @@ export default {
       }
     },
     "name": "Macfilos",
-    "apiRoutes": {},
     "url": "macfilos.com",
     "lang": "en"
   },
@@ -62615,7 +62028,6 @@ export default {
       }
     },
     "name": "MacUpdate",
-    "apiRoutes": {},
     "url": "macupdate.com",
     "lang": "en"
   },
@@ -62648,7 +62060,6 @@ export default {
       }
     },
     "name": "MagazineLib",
-    "apiRoutes": {},
     "url": "magazinelib.com",
     "lang": "en"
   },
@@ -62688,7 +62099,6 @@ export default {
       }
     },
     "name": "Magnum Photos",
-    "apiRoutes": {},
     "url": "magnumphotos.com",
     "lang": "en"
   },
@@ -62703,7 +62113,6 @@ export default {
       }
     },
     "name": "Email",
-    "apiRoutes": {},
     "lang": "en"
   },
   "malaysiakini": {
@@ -62772,7 +62181,6 @@ export default {
       }
     },
     "name": "Malaysiakini",
-    "apiRoutes": {},
     "url": "malaysiakini.com",
     "description": "Provides an easy-to-use RSS feed for Malaysiakini.com with teaser/full-text fetching.\n::: warning\nA subscription is required for fetching full articles.\nPlease refer to the deployment config for more information.\n:::",
     "lang": "en"
@@ -62799,7 +62207,6 @@ export default {
       }
     },
     "name": "MangaDex",
-    "apiRoutes": {},
     "url": "mangadex.org",
     "lang": "en"
   },
@@ -62915,7 +62322,6 @@ export default {
       }
     },
     "name": "看漫画",
-    "apiRoutes": {},
     "url": "www.manhuagui.com",
     "lang": "zh-CN"
   },
@@ -62978,7 +62384,6 @@ export default {
       }
     },
     "name": "Mashiro's Baumkuchen",
-    "apiRoutes": {},
     "url": "mashiro.best",
     "description": "Muen's blog posts",
     "zh": {
@@ -63154,7 +62559,6 @@ export default {
       }
     },
     "name": "Mastodon",
-    "apiRoutes": {},
     "url": "mastodon.social",
     "description": "::: tip\nOfficial user RSS:\n\n-   RSS: `https://**:instance**/users/**:username**.rss` ([Example](https://pawoo.net/users/pawoo_support.rss))\n-   Atom: ~~`https://**:instance**/users/**:username**.atom`~~ (Only for pawoo.net, [example](https://pawoo.net/users/pawoo_support.atom))\n\nThese feed do not include boosts (a.k.a. reblogs). RSSHub provides a feed for user timeline based on the Mastodon API, but to use that, you may need to create application on a Mastodon instance, and configure your RSSHub instance. Check the [Deploy Guide](https://docs.rsshub.app/deploy/config#route-specific-configurations) for route-specific configurations.\n:::",
     "lang": "en"
@@ -63227,7 +62631,6 @@ export default {
       }
     },
     "name": "Matters",
-    "apiRoutes": {},
     "url": "matters.town",
     "categories": [
       "new-media",
@@ -63375,7 +62778,6 @@ export default {
       }
     },
     "name": "MC百科",
-    "apiRoutes": {},
     "url": "www.mcmod.cn",
     "lang": "zh-CN"
   },
@@ -63414,7 +62816,6 @@ export default {
       }
     },
     "name": "MDPI",
-    "apiRoutes": {},
     "url": "www.mdpi.com",
     "lang": "en"
   },
@@ -63597,7 +62998,6 @@ export default {
       }
     },
     "name": "Medium",
-    "apiRoutes": {},
     "url": "medium.com",
     "lang": "en"
   },
@@ -63632,7 +63032,6 @@ export default {
       }
     },
     "name": "梅斯医学 MedSci",
-    "apiRoutes": {},
     "url": "medsci.cn",
     "lang": "zh-CN"
   },
@@ -65811,7 +65210,6 @@ export default {
       }
     },
     "name": "美食天下",
-    "apiRoutes": {},
     "url": "meishichina.com",
     "categories": [
       "new-media"
@@ -65983,7 +65381,6 @@ export default {
       }
     },
     "name": "Mercari",
-    "apiRoutes": {},
     "url": "jp.mercari.com",
     "zh": {
       "name": "煤炉"
@@ -66006,7 +65403,6 @@ export default {
       }
     },
     "name": "Metacritic",
-    "apiRoutes": {},
     "url": "metacritic.com",
     "lang": "en"
   },
@@ -66068,7 +65464,6 @@ export default {
       }
     },
     "name": "Meteor",
-    "apiRoutes": {},
     "url": "meteor.today",
     "lang": "en"
   },
@@ -66083,7 +65478,6 @@ export default {
       }
     },
     "name": "The Metropolitan Museum of Art",
-    "apiRoutes": {},
     "url": "www.metmuseum.org",
     "lang": "en"
   },
@@ -66136,7 +65530,6 @@ export default {
       }
     },
     "name": "小米",
-    "apiRoutes": {},
     "url": "mi.com",
     "lang": "zh-CN"
   },
@@ -66207,7 +65600,6 @@ export default {
       }
     },
     "name": "Microsoft",
-    "apiRoutes": {},
     "url": "microsoft.com",
     "lang": "en"
   },
@@ -66462,7 +65854,6 @@ export default {
       }
     },
     "name": "MindMeister",
-    "apiRoutes": {},
     "url": "mindmeister.com",
     "lang": "en"
   },
@@ -66579,7 +65970,6 @@ export default {
       }
     },
     "name": "Minecraft",
-    "apiRoutes": {},
     "url": "minecraft.net",
     "lang": "en"
   },
@@ -66631,7 +66021,6 @@ export default {
       }
     },
     "name": "明報",
-    "apiRoutes": {},
     "url": "mingpao.com",
     "lang": "zh-TW"
   },
@@ -66710,7 +66099,6 @@ export default {
       }
     },
     "name": "MiniFlux",
-    "apiRoutes": {},
     "url": "miniflux.app",
     "lang": "en"
   },
@@ -66745,7 +66133,6 @@ export default {
       }
     },
     "name": "Mirror",
-    "apiRoutes": {},
     "url": "mirror.xyz",
     "lang": "en"
   },
@@ -66830,7 +66217,6 @@ export default {
       }
     },
     "name": "鏡週刊 Mirror Media",
-    "apiRoutes": {},
     "url": "mirrormedia.mg",
     "lang": "zh-TW"
   },
@@ -66978,7 +66364,6 @@ export default {
       }
     },
     "name": "Misskey",
-    "apiRoutes": {},
     "url": "misskey.io",
     "lang": "en"
   },
@@ -67138,7 +66523,6 @@ export default {
       }
     },
     "name": "麻省理工科技评论",
-    "apiRoutes": {},
     "url": "mittrchina.com",
     "lang": "zh-CN"
   },
@@ -67241,7 +66625,6 @@ export default {
       }
     },
     "name": "Mixcloud",
-    "apiRoutes": {},
     "url": "www.mixcloud.com",
     "lang": "en"
   },
@@ -67400,7 +66783,6 @@ export default {
       }
     },
     "name": "ModelScope 魔搭社区",
-    "apiRoutes": {},
     "url": "modelscope.cn",
     "lang": "zh-CN"
   },
@@ -67523,7 +66905,6 @@ export default {
       }
     },
     "name": "台灣衛生福利部",
-    "apiRoutes": {},
     "url": "mohw.gov.tw",
     "lang": "zh-TW"
   },
@@ -67639,7 +67020,6 @@ export default {
       }
     },
     "name": "Mox.moe",
-    "apiRoutes": {},
     "url": "mox.moe",
     "lang": "zh-TW"
   },
@@ -67702,7 +67082,6 @@ export default {
       }
     },
     "name": "移动支付网",
-    "apiRoutes": {},
     "url": "mpaypass.com.cn",
     "lang": "zh-CN"
   },
@@ -67740,7 +67119,6 @@ export default {
       }
     },
     "name": "新华每日电讯",
-    "apiRoutes": {},
     "url": "mrdx.cn",
     "lang": "zh-CN"
   },
@@ -67773,7 +67151,6 @@ export default {
       }
     },
     "name": "华储网",
-    "apiRoutes": {},
     "url": "mrm.com.cn",
     "lang": "zh-CN"
   },
@@ -67814,7 +67191,6 @@ export default {
       }
     },
     "name": "MSN",
-    "apiRoutes": {},
     "url": "msn.com",
     "zh": {
       "name": "MSN"
@@ -67857,7 +67233,6 @@ export default {
       }
     },
     "name": "管理世界",
-    "apiRoutes": {},
     "url": "mwm.net.cn",
     "lang": "zh-CN"
   },
@@ -67895,7 +67270,6 @@ export default {
       }
     },
     "name": "美麗島電子報",
-    "apiRoutes": {},
     "url": "my-formosa.com",
     "lang": "zh-TW"
   },
@@ -68125,7 +67499,6 @@ export default {
       }
     },
     "name": "快科技",
-    "apiRoutes": {},
     "url": "m.mydrivers.com",
     "lang": "zh-CN"
   },
@@ -68247,7 +67620,6 @@ export default {
       }
     },
     "name": "MyFigureCollection",
-    "apiRoutes": {},
     "url": "myfigurecollection.net",
     "lang": "en"
   },
@@ -68289,7 +67661,6 @@ export default {
       }
     },
     "name": "MyGoPen",
-    "apiRoutes": {},
     "url": "mygopen.com",
     "lang": "zh-TW"
   },
@@ -68468,7 +67839,6 @@ export default {
       }
     },
     "name": "NASA",
-    "apiRoutes": {},
     "url": "apod.nasa.gov",
     "lang": "en"
   },
@@ -68574,7 +67944,6 @@ export default {
       }
     },
     "name": "National Geographic",
-    "apiRoutes": {},
     "url": "nationalgeographic.com",
     "lang": "en"
   },
@@ -68612,7 +67981,6 @@ export default {
       }
     },
     "name": "National Geographic",
-    "apiRoutes": {},
     "url": "www.nationalgeographic.com",
     "lang": "en"
   },
@@ -68799,7 +68167,6 @@ export default {
       }
     },
     "name": "Nature Journal",
-    "apiRoutes": {},
     "url": "nature.com",
     "description": "::: tip\nYou can get all short name of a journal from [https://www.nature.com/siteindex](https://www.nature.com/siteindex) or [Journal List](#nature-journal-journal-list).\n:::",
     "lang": "en"
@@ -68878,7 +68245,6 @@ export default {
       }
     },
     "name": "Nautiljon",
-    "apiRoutes": {},
     "url": "nautiljon.com",
     "lang": "fr"
   },
@@ -68951,7 +68317,6 @@ export default {
       }
     },
     "name": "每经网",
-    "apiRoutes": {},
     "url": "nbd.com.cn",
     "lang": "zh-CN"
   },
@@ -69002,7 +68367,6 @@ export default {
       }
     },
     "name": "National Bureau of Economic Research",
-    "apiRoutes": {},
     "url": "nber.org",
     "categories": [
       "journal"
@@ -69301,7 +68665,6 @@ export default {
       }
     },
     "name": "国家气候中心",
-    "apiRoutes": {},
     "url": "cmdp.ncc-cma.net",
     "categories": [
       "forecast"
@@ -69427,7 +68790,6 @@ export default {
       }
     },
     "name": "National Cheng Kung University",
-    "apiRoutes": {},
     "url": "www.ncku.edu.tw",
     "lang": "zh-TW"
   },
@@ -69495,7 +68857,6 @@ export default {
       }
     },
     "name": "南昌大学",
-    "apiRoutes": {},
     "url": "jwc.ncu.edu.cn",
     "lang": "zh-CN"
   },
@@ -69609,7 +68970,6 @@ export default {
       }
     },
     "name": "Neat Download Manager",
-    "apiRoutes": {},
     "url": "neatdownloadmanager.com",
     "lang": "en"
   },
@@ -69768,7 +69128,6 @@ export default {
       }
     },
     "name": "中国教育考试网",
-    "apiRoutes": {},
     "url": "www.neea.cn",
     "lang": "zh-CN"
   },
@@ -69815,7 +69174,6 @@ export default {
       }
     },
     "name": "Netflav",
-    "apiRoutes": {},
     "url": "netflav.com",
     "lang": "en"
   },
@@ -69880,7 +69238,6 @@ export default {
       }
     },
     "name": "东北大学",
-    "apiRoutes": {},
     "url": "neunews.neu.edu.cn",
     "lang": "zh-CN"
   },
@@ -69910,7 +69267,6 @@ export default {
       }
     },
     "name": "New Museum",
-    "apiRoutes": {},
     "url": "www.newmuseum.org",
     "lang": "en"
   },
@@ -69978,7 +69334,6 @@ export default {
       }
     },
     "name": "新榜",
-    "apiRoutes": {},
     "url": "newrank.cn",
     "description": "::: warning\n部署时需要配置 NEWRANK_COOKIE，具体见部署文档\n请勿过高频抓取，新榜疑似对每天调用 token 总次数进行了限制，超限会报错\n:::",
     "lang": "zh-CN"
@@ -70074,7 +69429,6 @@ export default {
       }
     },
     "name": "新芽",
-    "apiRoutes": {},
     "url": "newseed.cn",
     "description": "新芽是专注于互联网创业的媒体平台，提供创业资讯、投融资信息、创业活动、创业服务等。",
     "lang": "zh-CN"
@@ -70116,7 +69470,6 @@ export default {
       }
     },
     "name": "上下游 News&Market",
-    "apiRoutes": {},
     "url": "newsmarket.com.tw",
     "lang": "zh-TW"
   },
@@ -70200,7 +69553,6 @@ export default {
       }
     },
     "name": "NEW 字幕组",
-    "apiRoutes": {},
     "url": "newzmz.com",
     "lang": "zh-CN"
   },
@@ -70270,7 +69622,6 @@ export default {
       }
     },
     "name": "Next.js",
-    "apiRoutes": {},
     "url": "nextjs.org",
     "lang": "en"
   },
@@ -70331,7 +69682,6 @@ export default {
       }
     },
     "name": "NGA",
-    "apiRoutes": {},
     "url": "bbs.nga.cn",
     "lang": "zh-CN"
   },
@@ -70372,7 +69722,6 @@ export default {
       }
     },
     "name": "NGOCN",
-    "apiRoutes": {},
     "url": "ngocn2.org",
     "lang": "zh-TW"
   },
@@ -70435,7 +69784,6 @@ export default {
       }
     },
     "name": "nhentai",
-    "apiRoutes": {},
     "url": "nhentai.net",
     "categories": [
       "anime"
@@ -70689,7 +70037,6 @@ export default {
       }
     },
     "name": "鸟哥笔记",
-    "apiRoutes": {},
     "url": "niaogebiji.com",
     "lang": "zh-CN"
   },
@@ -70752,7 +70099,6 @@ export default {
       }
     },
     "name": "Niels Berglund Blog",
-    "apiRoutes": {},
     "url": "nielsberglund.com",
     "lang": "en"
   },
@@ -70881,7 +70227,6 @@ export default {
       }
     },
     "name": "The Nikkei 日本経済新聞",
-    "apiRoutes": {},
     "url": "nikkei.com",
     "lang": "ja"
   },
@@ -71076,7 +70421,6 @@ export default {
       }
     },
     "name": "Nintendo",
-    "apiRoutes": {},
     "url": "nintendo.com",
     "lang": "en"
   },
@@ -71117,7 +70461,6 @@ export default {
       }
     },
     "name": "走进日本",
-    "apiRoutes": {},
     "url": "www.nippon.com",
     "lang": "zh-CN"
   },
@@ -71218,7 +70561,6 @@ export default {
       }
     },
     "name": "南京工程学院",
-    "apiRoutes": {},
     "url": "jwc.njit.edu.cn",
     "lang": "zh-CN"
   },
@@ -71667,7 +71009,6 @@ export default {
       }
     },
     "name": "南京大学",
-    "apiRoutes": {},
     "url": "admission.nju.edu.cn",
     "lang": "zh-CN"
   },
@@ -71706,7 +71047,6 @@ export default {
       }
     },
     "name": "南京中医药大学",
-    "apiRoutes": {},
     "url": "lib.njucm.edu.cn",
     "lang": "zh-CN"
   },
@@ -71734,7 +71074,6 @@ export default {
       }
     },
     "name": "njuferret",
-    "apiRoutes": {},
     "url": "njuferret.github.io",
     "description": "",
     "zh": {
@@ -71771,7 +71110,6 @@ export default {
       }
     },
     "name": "南京邮电大学",
-    "apiRoutes": {},
     "url": "jwc.njupt.edu.cn",
     "lang": "zh-CN"
   },
@@ -71941,7 +71279,6 @@ export default {
       }
     },
     "name": "南京理工大学",
-    "apiRoutes": {},
     "url": "jwc.njust.edu.cn",
     "lang": "zh-CN"
   },
@@ -72011,7 +71348,6 @@ export default {
       }
     },
     "name": "南京晓庄学院",
-    "apiRoutes": {},
     "url": "lib.njxzc.edu.cn",
     "lang": "zh-CN"
   },
@@ -72157,7 +71493,6 @@ export default {
       }
     },
     "name": "内蒙古广播电视台",
-    "apiRoutes": {},
     "url": "nmtv.cn",
     "lang": "zh-CN"
   },
@@ -72198,7 +71533,6 @@ export default {
       }
     },
     "name": "Node.js",
-    "apiRoutes": {},
     "url": "nodejs.org",
     "lang": "en"
   },
@@ -72272,7 +71606,6 @@ export default {
       }
     },
     "name": "Sakamichi Series 坂道系列官网资讯",
-    "apiRoutes": {},
     "url": "news.nogizaka46.com",
     "lang": "zh-CN"
   },
@@ -72305,7 +71638,6 @@ export default {
       }
     },
     "name": "NOSEC 安全讯息平台",
-    "apiRoutes": {},
     "url": "nosec.org",
     "lang": "zh-CN"
   },
@@ -72556,7 +71888,6 @@ export default {
       }
     },
     "name": "Notion",
-    "apiRoutes": {},
     "url": "notion.so",
     "description": ":::warning\nNeed to set up Notion integration, please refer to [Route-specific Configurations](https://docs.rsshub.app/deploy/config#route-specific-configurations) for details.\n:::\n\n:::tip Recommendation\nIt is recommended to use with clipping tools such as Notion Web Clipper.\n:::",
     "lang": "en"
@@ -72770,7 +72101,6 @@ export default {
       }
     },
     "name": "牛客网",
-    "apiRoutes": {},
     "url": "nowcoder.com",
     "lang": "zh-CN"
   },
@@ -72830,7 +72160,6 @@ export default {
       }
     },
     "name": "National Public Radio",
-    "apiRoutes": {},
     "url": "npr.org",
     "lang": "en"
   },
@@ -72909,7 +72238,6 @@ export default {
       }
     },
     "name": "新唐人电视台",
-    "apiRoutes": {},
     "url": "www.ntdtv.com",
     "lang": "zh-CN"
   },
@@ -73077,7 +72405,6 @@ export default {
       }
     },
     "name": "Nanjing University of the Arts 南京艺术学院",
-    "apiRoutes": {},
     "url": "index.nua.edu.cn",
     "lang": "zh-CN"
   },
@@ -73424,7 +72751,6 @@ export default {
       }
     },
     "name": "南京信息工程大学",
-    "apiRoutes": {},
     "url": "bulletin.nuist.edu.cn",
     "description": "::: tip\n路由地址全部按照 **学校官网域名和栏目编号** 设计\n\n使用方法：\n\n以[南信大信息公告栏](https://bulletin.nuist.edu.cn)为例，点开任意一个栏目\n\n获得 URL 中的**分域名**和**栏目编号（可选）**：https://`bulletin`.nuist.edu.cn/`791`/list.htm\n\n将其替换到 RSS 路由地址中即可：\n\n[https://rsshub.app/**nuist**/`bulletin`](https://rsshub.app/nuist/bulletin) 或 [https://rsshub.app/**nuist**/`bulletin`/`791`](https://rsshub.app/nuist/bulletin)\n:::",
     "lang": "zh-CN"
@@ -73458,7 +72784,6 @@ export default {
       }
     },
     "name": "西北农林科技大学",
-    "apiRoutes": {},
     "url": "nwafu.edu.cn",
     "lang": "zh-CN"
   },
@@ -73763,7 +73088,6 @@ export default {
       }
     },
     "name": "Nyaa",
-    "apiRoutes": {},
     "url": "nyaa.si",
     "description": "\n::: tip\nThe 'Nyaa' includes several routes to access different parts of the site:\n1. `/nyaa/search/:query?` - Use this route to search for content with a specific query. For example, `/nyaa/search/bocchi` to search for bocchi related content.\n2. `/nyaa/user/:username?` - Access a user's profile by their username, e.g., `/nyaa/user/ANiTorrent`.\n3. `/nyaa/user/:username/search/:query?` - Search within a specific user's submissions using a query, e.g., `/nyaa/user/ANiTorrent/search/bocchi`.\n4. `/nyaa/sukebei/search/:query?` - This route is for searching adult content with a specific query, e.g., `/nyaa/sukebei/search/hentai`.\n5. `/nyaa/sukebei/user/:username?` - Access an adult content user's profile, e.g., `/nyaa/sukebei/user/milannews`.\n6. `/nyaa/sukebei/user/:username/search/:query?` - Search within a specific user's adult content submissions, e.g., `/nyaa/sukebei/user/milannews/search/hentai`.\n:::",
     "lang": "en"
@@ -73793,7 +73117,6 @@ export default {
       }
     },
     "name": "nymity",
-    "apiRoutes": {},
     "url": "censorbib.nymity.ch",
     "lang": "en"
   },
@@ -74017,7 +73340,6 @@ export default {
       }
     },
     "name": "The New York Times",
-    "apiRoutes": {},
     "url": "nytimes.com",
     "lang": "en"
   },
@@ -74086,7 +73408,6 @@ export default {
       }
     },
     "name": "巨量算数 - 算数指数",
-    "apiRoutes": {},
     "url": "trendinsight.oceanengine.com",
     "lang": "zh-CN"
   },
@@ -74297,7 +73618,6 @@ export default {
       }
     },
     "name": "Odaily 星球日报",
-    "apiRoutes": {},
     "url": "odaily.news",
     "lang": "zh-CN"
   },
@@ -74398,7 +73718,6 @@ export default {
       }
     },
     "name": "隆众资讯",
-    "apiRoutes": {},
     "url": "oilchem.net",
     "lang": "zh-CN"
   },
@@ -74491,7 +73810,6 @@ export default {
       }
     },
     "name": "欧易 OKX",
-    "apiRoutes": {},
     "url": "www.okx.com/zh-hans",
     "lang": "zh-CN"
   },
@@ -74592,7 +73910,6 @@ export default {
       }
     },
     "name": "Ollama",
-    "apiRoutes": {},
     "url": "ollama.com",
     "lang": "en"
   },
@@ -74651,7 +73968,6 @@ export default {
       }
     },
     "name": "东网",
-    "apiRoutes": {},
     "url": "hk.on.cc",
     "lang": "zh-HK"
   },
@@ -74668,7 +73984,6 @@ export default {
       }
     },
     "name": "我不是盐神",
-    "apiRoutes": {},
     "url": "onehu.xyz",
     "lang": "zh-CN"
   },
@@ -74739,7 +74054,6 @@ export default {
       }
     },
     "name": "O&O Software",
-    "apiRoutes": {},
     "url": "oo-software.com",
     "lang": "en"
   },
@@ -74834,7 +74148,6 @@ export default {
       }
     },
     "name": "OpenAI",
-    "apiRoutes": {},
     "url": "openai.com",
     "lang": "en"
   },
@@ -74912,7 +74225,6 @@ export default {
       }
     },
     "name": "Openrice開飯喇",
-    "apiRoutes": {},
     "url": "www.openrice.com",
     "categories": [
       "shopping"
@@ -74970,7 +74282,6 @@ export default {
       }
     },
     "name": "ORCID",
-    "apiRoutes": {},
     "url": "orcid.org",
     "lang": "en"
   },
@@ -75143,7 +74454,6 @@ export default {
       }
     },
     "name": "俺の 3D エロ動画 (oreno3d)",
-    "apiRoutes": {},
     "url": "oreno3d.com",
     "description": "::: tip\nYou can use some RSS parsing libraries (like `feedpraser` in `Python`) to receive the video update messages and download them automatically\n:::",
     "lang": "ja"
@@ -75365,7 +74675,6 @@ export default {
       }
     },
     "name": "开源中国",
-    "apiRoutes": {},
     "url": "oschina.net",
     "lang": "zh-CN",
     "description": "OSCHINA"
@@ -75398,7 +74707,6 @@ export default {
       }
     },
     "name": "oshwhub 立创开源硬件平台",
-    "apiRoutes": {},
     "url": "oshwhub.com",
     "lang": "zh-CN"
   },
@@ -75568,7 +74876,6 @@ export default {
       }
     },
     "name": "OTOBANANA",
-    "apiRoutes": {},
     "url": "otobanana.com",
     "lang": "zh-CN"
   },
@@ -75800,7 +75107,6 @@ export default {
       }
     },
     "name": "中国海洋大学",
-    "apiRoutes": {},
     "url": "it.ouc.edu.cn",
     "lang": "zh-CN"
   },
@@ -75841,7 +75147,6 @@ export default {
       }
     },
     "name": "Oxford University Press",
-    "apiRoutes": {},
     "url": "academic.oup.com",
     "lang": "en"
   },
@@ -75876,7 +75181,6 @@ export default {
       }
     },
     "name": "Outage.Report",
-    "apiRoutes": {},
     "url": "outage.report",
     "lang": "en"
   },
@@ -75930,7 +75234,6 @@ export default {
       }
     },
     "name": "虚词",
-    "apiRoutes": {},
     "url": "p-articles.com",
     "description": "\n::: tip\np-articles provides some official RSS feeds:\n\n-   section: `https://p-articles.com/section/:section`\n-   contributors: `https://p-articles.com/contributors/:author`\n:::",
     "lang": "en"
@@ -75967,7 +75270,6 @@ export default {
       }
     },
     "name": "普世社会科学研究所",
-    "apiRoutes": {},
     "url": "www.pacilution.com"
   },
   "panewslab": {
@@ -76128,7 +75430,6 @@ export default {
       }
     },
     "name": "PANews",
-    "apiRoutes": {},
     "url": "panewslab.com",
     "lang": "zh-CN"
   },
@@ -77388,7 +76689,6 @@ export default {
       }
     },
     "name": "Cool Papers",
-    "apiRoutes": {},
     "url": "papers.cool",
     "categories": [
       "journal"
@@ -77622,7 +76922,6 @@ export default {
       }
     },
     "name": "UK Parliament",
-    "apiRoutes": {},
     "url": "parliament.uk",
     "categories": [
       "government"
@@ -77696,7 +76995,6 @@ export default {
       }
     },
     "name": "Patreon",
-    "apiRoutes": {},
     "url": "www.patreon.com",
     "lang": "en"
   },
@@ -77809,7 +77107,6 @@ export default {
       }
     },
     "name": "Paul Graham",
-    "apiRoutes": {},
     "url": "paulgraham.com",
     "lang": "en"
   },
@@ -77855,7 +77152,6 @@ export default {
       }
     },
     "name": "太平洋科技",
-    "apiRoutes": {},
     "url": "pconline.com.cn",
     "description": "\n::: tip\n太平洋科技是专业IT门户网站,为用户和经销商提供IT资讯和行情报价,涉及电脑,手机,数码产品,软件等.\n:::",
     "lang": "zh-CN"
@@ -77887,7 +77183,6 @@ export default {
       }
     },
     "name": "铅笔道",
-    "apiRoutes": {},
     "url": "www.pencilnews.cn",
     "categories": [
       "new-media"
@@ -77959,7 +77254,6 @@ export default {
       }
     },
     "name": "Penguin Random House",
-    "apiRoutes": {},
     "url": "penguinrandomhouse.com",
     "lang": "en"
   },
@@ -78044,7 +77338,6 @@ export default {
       }
     },
     "name": "人民网",
-    "apiRoutes": {},
     "url": "people.com.cn",
     "lang": "zh-CN"
   },
@@ -78124,7 +77417,6 @@ export default {
       }
     },
     "name": "Phoronix",
-    "apiRoutes": {},
     "url": "phoronix.com",
     "lang": "en"
   },
@@ -78218,7 +77510,6 @@ export default {
       }
     },
     "name": "片源网",
-    "apiRoutes": {},
     "url": "pianyuan.org",
     "lang": "zh-CN"
   },
@@ -78280,41 +77571,15 @@ export default {
         "categories": [
           "social-media"
         ],
-        "example": "/picuki/profile/linustech",
+        "example": "/picuki/profile/stefaniejoosten",
         "parameters": {
-          "id": "Tiktok user id (without @)",
-          "type": {
-            "description": "Type of profile page",
-            "options": [
-              {
-                "value": "profile",
-                "label": "Profile Page"
-              },
-              {
-                "value": "story",
-                "label": "Story Page"
-              }
-            ],
-            "default": "profile"
-          },
-          "functionalFlag": {
-            "description": "Functional flag for video embedding",
-            "options": [
-              {
-                "value": "0",
-                "label": "Off, only show video poster as an image"
-              },
-              {
-                "value": "1",
-                "label": "On"
-              }
-            ],
-            "default": "1"
-          }
+          "id": "Instagram user id",
+          "type": "Type of profile page (profile or tagged)",
+          "functionalFlag": "functional flag, see the table below\n| functionalFlag | Video embedding                         | Fetching Instagram Stories |\n| -------------- | --------------------------------------- | -------------------------- |\n| 0              | off, only show video poster as an image | off                        |\n| 1 (default)    | on                                      | off                        |\n| 10             | on                                      | on                         |\n"
         },
         "features": {
           "requireConfig": false,
-          "requirePuppeteer": true,
+          "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
           "supportPodcast": false,
@@ -78329,9 +77594,9 @@ export default {
           },
           {
             "source": [
-              "www.picuki.com/story/:id"
+              "www.picuki.com/profile-tagged/:id"
             ],
-            "target": "/profile/:id/story"
+            "target": "/profile/:id/tagged"
           }
         ],
         "name": "User Profile - Picuki",
@@ -78341,12 +77606,13 @@ export default {
           "devinmugen",
           "NekoAria"
         ],
+        "description": "\n::: warning\n  Instagram Stories do not have a reliable guid. It is possible that your RSS reader show the same story more than once.\n  Though, every Story expires after 24 hours, so it may be not so serious.\n:::",
         "location": "profile.ts",
         "module": () => import('@/routes/picuki/profile.ts')
       }
     },
-    "name": "TikTok",
-    "url": "tiktok.com",
+    "name": "Instagram",
+    "url": "www.instagram.com",
     "lang": "en"
   },
   "pikabu": {
@@ -78391,7 +77657,6 @@ export default {
       }
     },
     "name": "Pikabu",
-    "apiRoutes": {},
     "url": "pikabu.ru",
     "lang": "ru"
   },
@@ -78465,7 +77730,6 @@ export default {
       }
     },
     "name": "品葱",
-    "apiRoutes": {},
     "url": "pincong.rocks",
     "lang": "zh-CN"
   },
@@ -79048,7 +78312,6 @@ export default {
       }
     },
     "name": "pixiv",
-    "apiRoutes": {},
     "url": "www.pixiv.net",
     "lang": "ja"
   },
@@ -79098,7 +78361,6 @@ export default {
       }
     },
     "name": "pixivision",
-    "apiRoutes": {},
     "url": "www.pixivision.net",
     "lang": "ja"
   },
@@ -79136,7 +78398,6 @@ export default {
       }
     },
     "name": "中国互联网联合辟谣平台",
-    "apiRoutes": {},
     "url": "piyao.org.cn",
     "lang": "zh-CN"
   },
@@ -79513,7 +78774,6 @@ export default {
       }
     },
     "name": "北京大学",
-    "apiRoutes": {},
     "url": "admission.pku.edu.cn",
     "lang": "zh-CN"
   },
@@ -79579,7 +78839,6 @@ export default {
       }
     },
     "name": "PLAYNO.1 玩樂達人",
-    "apiRoutes": {},
     "url": "stno1.playno1.com",
     "lang": "zh-TW"
   },
@@ -79823,7 +79082,6 @@ export default {
       }
     },
     "name": "Plurk",
-    "apiRoutes": {},
     "url": "plurk.com",
     "lang": "en"
   },
@@ -79847,7 +79105,6 @@ export default {
       }
     },
     "name": "Proceedings of The National Academy of Sciences",
-    "apiRoutes": {},
     "url": "pnas.org",
     "lang": "en"
   },
@@ -79901,7 +79158,6 @@ export default {
       }
     },
     "name": "Podwise",
-    "apiRoutes": {},
     "url": "podwise.ai",
     "zh": {
       "name": "Podwise"
@@ -80174,7 +79430,6 @@ export default {
       }
     },
     "name": "PornHub",
-    "apiRoutes": {},
     "url": "pornhub.com",
     "lang": "en"
   },
@@ -80368,7 +79623,6 @@ export default {
       }
     },
     "name": "PlayStation Store",
-    "apiRoutes": {},
     "url": "www.playstation.com",
     "lang": "en"
   },
@@ -80484,7 +79738,6 @@ export default {
       }
     },
     "name": "PSN 中文站",
-    "apiRoutes": {},
     "url": "psnine.com",
     "lang": "zh-CN",
     "categories": [
@@ -80658,7 +79911,6 @@ export default {
       }
     },
     "name": "公視新聞網",
-    "apiRoutes": {},
     "url": "news.pts.org.tw",
     "lang": "zh-TW"
   },
@@ -80996,7 +80248,6 @@ export default {
       }
     },
     "name": "Público",
-    "apiRoutes": {},
     "url": "publico.es"
   },
   "pubmed": {
@@ -81034,7 +80285,6 @@ export default {
       }
     },
     "name": "PubScholar 公益学术平台",
-    "apiRoutes": {},
     "url": "pubscholar.cn",
     "categories": [
       "journal"
@@ -81076,7 +80326,6 @@ export default {
       }
     },
     "name": "北京协和医学院",
-    "apiRoutes": {},
     "url": "mdadmission.pumc.edu.cn",
     "lang": "zh-CN"
   },
@@ -81115,7 +80364,6 @@ export default {
       }
     },
     "name": "PuTTY",
-    "apiRoutes": {},
     "url": "www.chiark.greenend.org.uk",
     "lang": "en"
   },
@@ -81217,7 +80465,6 @@ export default {
       }
     },
     "name": "量子位",
-    "apiRoutes": {},
     "url": "qbitai.com",
     "lang": "zh-CN"
   },
@@ -81325,7 +80572,6 @@ export default {
       }
     },
     "name": "青岛大学",
-    "apiRoutes": {},
     "url": "jwc.qdu.edu.cn",
     "lang": "zh-CN"
   },
@@ -81407,7 +80653,6 @@ export default {
       }
     },
     "name": "前瞻网",
-    "apiRoutes": {},
     "url": "qianzhan.com",
     "lang": "zh-CN"
   },
@@ -81601,7 +80846,6 @@ export default {
       }
     },
     "name": "起点",
-    "apiRoutes": {},
     "url": "qidian.com",
     "lang": "zh-CN"
   },
@@ -81670,7 +80914,6 @@ export default {
       }
     },
     "name": "蜻蜓 FM",
-    "apiRoutes": {},
     "url": "qingting.fm",
     "lang": "zh-CN"
   },
@@ -81713,7 +80956,6 @@ export default {
       }
     },
     "name": "奇葩买家秀",
-    "apiRoutes": {},
     "url": "qipamaijia.com",
     "lang": "zh-CN"
   },
@@ -82384,7 +81626,6 @@ export default {
       }
     },
     "name": "秋爸日字",
-    "apiRoutes": {},
     "url": "qq88.info",
     "lang": "zh-CN"
   },
@@ -82425,7 +81666,6 @@ export default {
       }
     },
     "name": "早报网",
-    "apiRoutes": {},
     "url": "qqorw.cn",
     "lang": "zh-CN"
   },
@@ -82483,7 +81723,6 @@ export default {
       }
     },
     "name": "求是网",
-    "apiRoutes": {},
     "url": "www.qstheory.cn",
     "lang": "zh-CN"
   },
@@ -82592,7 +81831,6 @@ export default {
       }
     },
     "name": "QuestN",
-    "apiRoutes": {},
     "url": "app.questn.com",
     "lang": "zh-CN"
   },
@@ -82753,7 +81991,6 @@ export default {
       }
     },
     "name": "青岛科技大学",
-    "apiRoutes": {},
     "url": "jw.qust.edu.cn",
     "lang": "zh-CN"
   },
@@ -82821,7 +82058,6 @@ export default {
       }
     },
     "name": "和风天气",
-    "apiRoutes": {},
     "url": "qweather.com",
     "lang": "zh-CN"
   },
@@ -83014,7 +82250,6 @@ export default {
       }
     },
     "name": "云听",
-    "apiRoutes": {},
     "url": "radio.cn",
     "lang": "zh-CN"
   },
@@ -83055,7 +82290,6 @@ export default {
       }
     },
     "name": "Radio-Canada.ca",
-    "apiRoutes": {},
     "url": "ici.radio-canada.ca",
     "lang": "en"
   },
@@ -83081,7 +82315,6 @@ export default {
       }
     },
     "name": "Rare Historical Photos",
-    "apiRoutes": {},
     "url": "rarehistoricalphotos.com",
     "lang": "en"
   },
@@ -83121,7 +82354,6 @@ export default {
       }
     },
     "name": "Raspberry Pi",
-    "apiRoutes": {},
     "url": "raspberrypi.com",
     "categories": [
       "programming"
@@ -83203,7 +82435,6 @@ export default {
       }
     },
     "name": "Rawkuma",
-    "apiRoutes": {},
     "url": "rawkuma.com",
     "lang": "en"
   },
@@ -83232,7 +82463,6 @@ export default {
       }
     },
     "name": "Raycast",
-    "apiRoutes": {},
     "url": "raycast.com",
     "categories": [
       "program-update"
@@ -83264,7 +82494,6 @@ export default {
       }
     },
     "name": "React",
-    "apiRoutes": {},
     "url": "react.dev",
     "lang": "en"
   },
@@ -83390,7 +82619,6 @@ export default {
       }
     },
     "name": "Readhub",
-    "apiRoutes": {},
     "url": "readhub.cn",
     "lang": "zh-CN"
   },
@@ -83437,7 +82665,6 @@ export default {
       }
     },
     "name": "Readwise",
-    "apiRoutes": {},
     "url": "readwise.io",
     "lang": "en"
   },
@@ -83467,7 +82694,6 @@ export default {
       }
     },
     "name": "Rebase Network",
-    "apiRoutes": {},
     "url": "rebase.network",
     "lang": "en"
   },
@@ -83507,7 +82733,6 @@ export default {
       }
     },
     "name": "RemNote",
-    "apiRoutes": {},
     "url": "remnote.com",
     "lang": "en"
   },
@@ -83669,7 +82894,6 @@ export default {
       }
     },
     "name": "Reuters",
-    "apiRoutes": {},
     "url": "reuters.com",
     "description": "::: tip\nYou can use `sophi=true` query parameter to invoke the **experimental** method, which can, if possible, fetch more articles(between 20 and 100) with `limit` given. But some articles from the old method might not be available.\n:::",
     "lang": "en"
@@ -83705,7 +82929,6 @@ export default {
       }
     },
     "name": "Radio Free Asia (RFA) 自由亚洲电台",
-    "apiRoutes": {},
     "url": "rfa.org",
     "lang": "en"
   },
@@ -83767,7 +82990,6 @@ export default {
       }
     },
     "name": "恩山无线论坛",
-    "apiRoutes": {},
     "url": "right.com.cn",
     "lang": "zh-CN"
   },
@@ -83837,7 +83059,6 @@ export default {
       }
     },
     "name": "Routledge",
-    "apiRoutes": {},
     "url": "routledge.com",
     "lang": "en"
   },
@@ -83871,7 +83092,6 @@ export default {
       }
     },
     "name": "Royal Society of Chemistry",
-    "apiRoutes": {},
     "url": "pubs.rsc.org",
     "lang": "en"
   },
@@ -84000,7 +83220,6 @@ export default {
       }
     },
     "name": "RSS3",
-    "apiRoutes": {},
     "url": "rss3.io",
     "description": "The RSS3 Network is the a decentralized network designed to promote the free flow of information on the Open Web .",
     "lang": "en"
@@ -84223,7 +83442,6 @@ export default {
       }
     },
     "name": "软餐",
-    "apiRoutes": {},
     "url": "ruancan.com",
     "lang": "zh-CN"
   },
@@ -84336,7 +83554,6 @@ export default {
       }
     },
     "name": "Renmin University of China",
-    "apiRoutes": {},
     "url": "ruc.edu.cn",
     "zh": {
       "name": "中国人民大学"
@@ -84423,7 +83640,6 @@ export default {
       }
     },
     "name": "Rust 语言中文社区",
-    "apiRoutes": {},
     "url": "rustcc.cn",
     "lang": "zh-CN"
   },
@@ -84490,7 +83706,6 @@ export default {
       }
     },
     "name": "Sakamichi Series 坂道系列官网资讯",
-    "apiRoutes": {},
     "url": "sakurazaka46.com",
     "lang": "zh-CN"
   },
@@ -84593,7 +83808,6 @@ export default {
       }
     },
     "name": "上海业余无线电协会",
-    "apiRoutes": {},
     "url": "www.sara.org.cn",
     "lang": "zh-CN"
   },
@@ -84651,7 +83865,6 @@ export default {
       }
     },
     "name": "Saraba1st",
-    "apiRoutes": {},
     "url": "stage1st.com",
     "lang": "zh-CN"
   },
@@ -84902,7 +84115,6 @@ export default {
       }
     },
     "name": "Science Magazine",
-    "apiRoutes": {},
     "url": "science.org",
     "lang": "en"
   },
@@ -84999,7 +84211,6 @@ export default {
       }
     },
     "name": "ScienceDirect",
-    "apiRoutes": {},
     "url": "sciencedirect.com",
     "lang": "en"
   },
@@ -85066,7 +84277,6 @@ export default {
       }
     },
     "name": "科学网",
-    "apiRoutes": {},
     "url": "blog.sciencenet.cn",
     "lang": "zh-CN"
   },
@@ -85233,7 +84443,6 @@ export default {
       }
     },
     "name": "Corona Virus Disease 2019",
-    "apiRoutes": {},
     "url": "scmp.com",
     "lang": "en"
   },
@@ -85396,7 +84605,6 @@ export default {
       }
     },
     "name": "华南师范大学",
-    "apiRoutes": {},
     "url": "cs.scnu.edu.cn",
     "lang": "zh-CN"
   },
@@ -86128,7 +85336,6 @@ export default {
       }
     },
     "name": "山东大学",
-    "apiRoutes": {},
     "url": "www.sdu.edu.cn",
     "lang": "zh-CN"
   },
@@ -86194,7 +85401,6 @@ export default {
       }
     },
     "name": "山东省教育招生考试院",
-    "apiRoutes": {},
     "url": "sdzk.cn",
     "lang": "zh-CN"
   },
@@ -86211,7 +85417,6 @@ export default {
       }
     },
     "name": "SecIN 信息安全技术社区",
-    "apiRoutes": {},
     "url": "sec-in.com",
     "lang": "zh-CN"
   },
@@ -86298,7 +85503,6 @@ export default {
       }
     },
     "name": "安全内参",
-    "apiRoutes": {},
     "url": "secrss.com",
     "lang": "zh-CN"
   },
@@ -86336,7 +85540,6 @@ export default {
       }
     },
     "name": "Seeking Alpha",
-    "apiRoutes": {},
     "url": "seekingalpha.com",
     "lang": "en"
   },
@@ -86395,7 +85598,6 @@ export default {
       }
     },
     "name": "SEGA",
-    "apiRoutes": {},
     "url": "pjsekai.sega.jp",
     "lang": "ja"
   },
@@ -86498,7 +85700,6 @@ export default {
       }
     },
     "name": "SegmentFault",
-    "apiRoutes": {},
     "url": "segmentfault.com",
     "lang": "zh-CN"
   },
@@ -86640,7 +85841,6 @@ export default {
       }
     },
     "name": "色花堂",
-    "apiRoutes": {},
     "url": "sehuatang.net",
     "lang": "zh-CN"
   },
@@ -86686,7 +85886,6 @@ export default {
       }
     },
     "name": "Sensor Tower",
-    "apiRoutes": {},
     "url": "sensortower.com",
     "lang": "en"
   },
@@ -86729,7 +85928,6 @@ export default {
       }
     },
     "name": "三立新聞網",
-    "apiRoutes": {},
     "url": "setn.com",
     "lang": "zh-TW"
   },
@@ -87408,7 +86606,6 @@ export default {
       }
     },
     "name": "上海电力大学",
-    "apiRoutes": {},
     "url": "bwc.shiep.edu.cn",
     "lang": "zh-CN"
   },
@@ -87474,7 +86671,6 @@ export default {
       }
     },
     "name": "上海外国语大学",
-    "apiRoutes": {},
     "url": "shisu.edu.cn",
     "lang": "zh-CN"
   },
@@ -87539,7 +86735,6 @@ export default {
       }
     },
     "name": "上海市教育考试院",
-    "apiRoutes": {},
     "url": "www.shmeea.edu.cn",
     "description": "官方网址：[https://www.shmeea.edu.cn](https://www.shmeea.edu.cn)",
     "lang": "zh-CN"
@@ -87646,7 +86841,6 @@ export default {
       }
     },
     "name": "上海海事大学",
-    "apiRoutes": {},
     "url": "jwc.shmtu.edu.cn",
     "lang": "zh-CN"
   },
@@ -87989,7 +87183,6 @@ export default {
       }
     },
     "name": "秀动网",
-    "apiRoutes": {},
     "url": "www.showstart.com",
     "lang": "zh-CN"
   },
@@ -88176,7 +87369,6 @@ export default {
       }
     },
     "name": "上海大学",
-    "apiRoutes": {},
     "url": "www.shu.edu.cn",
     "description": "上海大学相关网网站",
     "lang": "zh-CN"
@@ -88203,7 +87395,6 @@ export default {
       }
     },
     "name": "水果派",
-    "apiRoutes": {},
     "url": "shuiguopai.com",
     "lang": "zh-CN"
   },
@@ -88369,7 +87560,6 @@ export default {
       }
     },
     "name": "四川农业大学",
-    "apiRoutes": {},
     "url": "www.sicau.edu.cn",
     "lang": "zh-CN"
   },
@@ -88400,7 +87590,6 @@ export default {
       }
     },
     "name": "ACM Special Interest Group on Security Audit and Control",
-    "apiRoutes": {},
     "url": "sigsac.org",
     "lang": "en"
   },
@@ -88442,7 +87631,6 @@ export default {
       }
     },
     "name": "簡訊設計",
-    "apiRoutes": {},
     "url": "blog.simpleinfo.cc",
     "lang": "zh-TW"
   },
@@ -88617,7 +87805,6 @@ export default {
       }
     },
     "name": "新浪",
-    "apiRoutes": {},
     "url": "finance.sina.com.cn",
     "lang": "zh-CN"
   },
@@ -88641,7 +87828,6 @@ export default {
       }
     },
     "name": "星洲网",
-    "apiRoutes": {},
     "url": "sinchew.com.my",
     "lang": "zh-CN"
   },
@@ -88697,7 +87883,6 @@ export default {
       }
     },
     "name": "第一会所",
-    "apiRoutes": {},
     "url": "sis001.com",
     "description": "::: tip\n    第一会所有多个备用网址，本路由默认使用`https://sis001.com`，若该网址无法访问，可以在部署实例的时候通过`SIS001_BASE_URL`环境变量配置要使用的地址，如`https://www.sis001.com`等\n:::",
     "lang": "zh-CN"
@@ -88849,7 +88034,6 @@ export default {
       }
     },
     "name": "上海交通大学",
-    "apiRoutes": {},
     "url": "www.sjtu.edu.cn",
     "lang": "zh-CN"
   },
@@ -89138,7 +88322,6 @@ export default {
       }
     },
     "name": "Skeb",
-    "apiRoutes": {},
     "url": "skeb.jp",
     "lang": "ja"
   },
@@ -89297,7 +88480,6 @@ export default {
       }
     },
     "name": "Skebetter",
-    "apiRoutes": {},
     "url": "skebetter.com",
     "lang": "en"
   },
@@ -89466,7 +88648,6 @@ export default {
       }
     },
     "name": "Smashing Magazine",
-    "apiRoutes": {},
     "url": "smashingmagazine.com",
     "lang": "en"
   },
@@ -89871,7 +89052,6 @@ export default {
       }
     },
     "name": "什么值得买",
-    "apiRoutes": {},
     "url": "post.smzdm.com",
     "description": "::: tip\n网站也提供了部分 RSS: [https://www.smzdm.com/dingyue](https://www.smzdm.com/dingyue)\n:::",
     "lang": "zh-CN"
@@ -90016,7 +89196,6 @@ export default {
       }
     },
     "name": "SoBooks",
-    "apiRoutes": {},
     "url": "sobooks.net",
     "lang": "en"
   },
@@ -90070,7 +89249,6 @@ export default {
       }
     },
     "name": "搜狗",
-    "apiRoutes": {},
     "url": "www.sogou.com",
     "lang": "zh-CN"
   },
@@ -90134,7 +89312,6 @@ export default {
       }
     },
     "name": "搜狐号",
-    "apiRoutes": {},
     "url": "sohu.com",
     "lang": "zh-CN"
   },
@@ -90243,7 +89420,6 @@ export default {
       }
     },
     "name": "Solidot",
-    "apiRoutes": {},
     "url": "www.solidot.org",
     "lang": "zh-CN"
   },
@@ -90284,7 +89460,6 @@ export default {
       }
     },
     "name": "Sony",
-    "apiRoutes": {},
     "url": "sony.com",
     "lang": "en"
   },
@@ -90324,7 +89499,6 @@ export default {
       }
     },
     "name": "云谦的博客",
-    "apiRoutes": {},
     "url": "sorrycc.com",
     "lang": "zh-CN"
   },
@@ -90365,7 +89539,6 @@ export default {
       }
     },
     "name": "希望之声",
-    "apiRoutes": {},
     "url": "soundofhope.org",
     "lang": "en"
   },
@@ -90432,7 +89605,6 @@ export default {
       }
     },
     "name": "SourceForge",
-    "apiRoutes": {},
     "url": "www.sourceforge.net",
     "lang": "en"
   },
@@ -90853,7 +90025,6 @@ export default {
       }
     },
     "name": "Spotify",
-    "apiRoutes": {},
     "url": "open.spotify.com",
     "lang": "en"
   },
@@ -90894,7 +90065,6 @@ export default {
       }
     },
     "name": "Springer",
-    "apiRoutes": {},
     "url": "www.springer.com",
     "lang": "en"
   },
@@ -90928,7 +90098,6 @@ export default {
       }
     },
     "name": "Sputnik News 俄罗斯卫星通讯社",
-    "apiRoutes": {},
     "url": "sputniknews.cn",
     "lang": "zh-CN"
   },
@@ -91427,7 +90596,6 @@ export default {
       }
     },
     "name": "上海证券交易所",
-    "apiRoutes": {},
     "url": "bond.sse.com.cn",
     "lang": "zh-CN"
   },
@@ -91894,7 +91062,6 @@ export default {
       }
     },
     "name": "少数派 sspai",
-    "apiRoutes": {},
     "url": "sspai.com",
     "lang": "zh-CN"
   },
@@ -91935,7 +91102,6 @@ export default {
       }
     },
     "name": "上海第二工业大学",
-    "apiRoutes": {},
     "url": "jwc.sspu.edu.cn",
     "lang": "zh-CN"
   },
@@ -91977,7 +91143,6 @@ export default {
       }
     },
     "name": "創新拿鐵",
-    "apiRoutes": {},
     "url": "startuplatte.com",
     "lang": "zh-TW"
   },
@@ -92053,7 +91218,6 @@ export default {
       }
     },
     "name": "四川工商学院",
-    "apiRoutes": {},
     "url": "stbu.edu.cn",
     "lang": "zh-CN"
   },
@@ -92437,7 +91601,6 @@ export default {
       }
     },
     "name": "证券时报网",
-    "apiRoutes": {},
     "url": "stcn.com",
     "lang": "zh-CN"
   },
@@ -92467,7 +91630,6 @@ export default {
       }
     },
     "name": "中国科技网",
-    "apiRoutes": {},
     "url": "digitalpaper.stdaily.com",
     "lang": "zh-CN"
   },
@@ -92657,7 +91819,6 @@ export default {
       }
     },
     "name": "Steam",
-    "apiRoutes": {},
     "url": "store.steampowered.com",
     "lang": "en"
   },
@@ -92711,7 +91872,6 @@ export default {
       }
     },
     "name": "Stock Edge",
-    "apiRoutes": {},
     "url": "web.stockedge.com",
     "lang": "en"
   },
@@ -92752,7 +91912,6 @@ export default {
       }
     },
     "name": "風傳媒",
-    "apiRoutes": {},
     "url": "storm.mg",
     "lang": "zh-TW"
   },
@@ -92821,7 +91980,6 @@ export default {
       }
     },
     "name": "故事 FM",
-    "apiRoutes": {},
     "url": "storyfm.cn",
     "lang": "zh-CN"
   },
@@ -92869,7 +92027,6 @@ export default {
       }
     },
     "name": "The Strait Times",
-    "apiRoutes": {},
     "url": "straitstimes.com",
     "description": "",
     "lang": "en"
@@ -92887,7 +92044,6 @@ export default {
       }
     },
     "name": "Stratechery by Ben Thompson",
-    "apiRoutes": {},
     "url": "blog.stratechery.com",
     "lang": "en"
   },
@@ -93000,7 +92156,6 @@ export default {
       }
     },
     "name": "Go 语言中文网",
-    "apiRoutes": {},
     "url": "studygolang.com",
     "lang": "zh-CN"
   },
@@ -93015,7 +92170,6 @@ export default {
       }
     },
     "name": "Sub HD",
-    "apiRoutes": {},
     "url": "subhd.tv",
     "lang": "zh-CN"
   },
@@ -93105,7 +92259,6 @@ export default {
       }
     },
     "name": "SupChina",
-    "apiRoutes": {},
     "url": "supchina.com",
     "lang": "zh-CN"
   },
@@ -93120,7 +92273,6 @@ export default {
       }
     },
     "name": "Surfshark",
-    "apiRoutes": {},
     "url": "surfshark.com",
     "lang": "en"
   },
@@ -93158,7 +92310,6 @@ export default {
       }
     },
     "name": "Sustainability Magazine",
-    "apiRoutes": {},
     "url": "sustainabilitymag.com",
     "lang": "en"
   },
@@ -93256,7 +92407,6 @@ export default {
       }
     },
     "name": "南方科技大学",
-    "apiRoutes": {},
     "url": "biddingoffice.sustech.edu.cn",
     "lang": "zh-CN"
   },
@@ -93297,7 +92447,6 @@ export default {
       }
     },
     "name": "swissinfo",
-    "apiRoutes": {},
     "url": "swissinfo.ch",
     "lang": "en"
   },
@@ -93521,7 +92670,6 @@ export default {
       }
     },
     "name": "西南交通大学",
-    "apiRoutes": {},
     "url": "www.swjtu.edu.cn",
     "lang": "zh-CN"
   },
@@ -93733,7 +92881,6 @@ export default {
       }
     },
     "name": "西南石油大学",
-    "apiRoutes": {},
     "url": "swpu.edu.cn",
     "lang": "zh-CN"
   },
@@ -93766,7 +92913,6 @@ export default {
       }
     },
     "name": "SYCL",
-    "apiRoutes": {},
     "url": "sycl.tech",
     "lang": "en"
   },
@@ -96853,7 +95999,6 @@ export default {
       }
     },
     "name": "Syosetu",
-    "apiRoutes": {},
     "url": "syosetu.com",
     "lang": "ja"
   },
@@ -96921,7 +96066,6 @@ export default {
       }
     },
     "name": "中山大学",
-    "apiRoutes": {},
     "url": "cse.sysu.edu.cn",
     "lang": "zh-CN"
   },
@@ -96975,7 +96119,6 @@ export default {
       }
     },
     "name": "园岭小学",
-    "apiRoutes": {},
     "url": "ylxx.szftedu.cn",
     "lang": "zh-CN"
   },
@@ -97388,7 +96531,6 @@ export default {
       }
     },
     "name": "深圳证券交易所",
-    "apiRoutes": {},
     "url": "szse.cn",
     "lang": "zh-CN"
   },
@@ -97480,7 +96622,6 @@ export default {
       }
     },
     "name": "草榴社区",
-    "apiRoutes": {},
     "url": "t66y.com",
     "lang": "zh-CN"
   },
@@ -97536,7 +96677,6 @@ export default {
       }
     },
     "name": "TailwindCSS",
-    "apiRoutes": {},
     "url": "tailwindcss.com",
     "lang": "en"
   },
@@ -97604,7 +96744,6 @@ export default {
       }
     },
     "name": "Taiwan News",
-    "apiRoutes": {},
     "url": "taiwannews.com.tw",
     "lang": "en"
   },
@@ -97645,7 +96784,6 @@ export default {
       }
     },
     "name": "唐书房",
-    "apiRoutes": {},
     "url": "tangshufang.com",
     "lang": "zh-CN"
   },
@@ -97735,7 +96873,6 @@ export default {
       }
     },
     "name": "淘股吧",
-    "apiRoutes": {},
     "url": "tgb.cn",
     "lang": "zh-CN"
   },
@@ -97925,7 +97062,6 @@ export default {
       }
     },
     "name": "TapTap",
-    "apiRoutes": {},
     "url": "www.taptap.io",
     "description": "::: warning\n由于区域限制，需要在有国内 IP 的机器上自建才能正常获取 RSS。而对于《TapTap 国际版》则需要部署在具有海外出口的 IP 上才可正常获取 RSS。\n:::",
     "lang": "zh-CN"
@@ -98057,7 +97193,6 @@ export default {
       }
     },
     "name": "深潮 TechFlow",
-    "apiRoutes": {},
     "url": "techflowpost.com",
     "lang": "zh-CN"
   },
@@ -98116,7 +97251,6 @@ export default {
       }
     },
     "name": "TechPowerUp",
-    "apiRoutes": {},
     "url": "techpowerup.com",
     "lang": "en"
   },
@@ -98138,7 +97272,6 @@ export default {
       }
     },
     "name": "TechSir",
-    "apiRoutes": {},
     "url": "techsir.com",
     "description": "科技先生 TechSir.Com 是新酷科技创新与创业媒体",
     "lang": "zh-CN"
@@ -98342,7 +97475,6 @@ export default {
       }
     },
     "name": "Telegram",
-    "apiRoutes": {},
     "url": "t.me",
     "lang": "en"
   },
@@ -98547,7 +97679,6 @@ export default {
       }
     },
     "name": "特斯拉中国",
-    "apiRoutes": {},
     "url": "tesla.cn",
     "lang": "zh-CN"
   },
@@ -98565,16 +97696,6 @@ export default {
       }
     },
     "name": "RSSHub Test",
-    "apiRoutes": {
-      "/": {
-        "path": "/",
-        "maintainers": [
-          "DIYgod"
-        ],
-        "location": "api-index.ts",
-        "module": () => import('@/routes/test/api-index.ts')
-      }
-    },
     "lang": "en"
   },
   "tfc-taiwan": {
@@ -98607,7 +97728,6 @@ export default {
       }
     },
     "name": "Taiwan FactCheck Center",
-    "apiRoutes": {},
     "url": "tfc-taiwan.org.tw",
     "lang": "zh-TW",
     "zh-TW": {
@@ -98643,7 +97763,6 @@ export default {
       }
     },
     "name": "电玩巴士 TGBUS",
-    "apiRoutes": {},
     "url": "tgbus.com",
     "lang": "zh-CN"
   },
@@ -98762,7 +97881,6 @@ export default {
       }
     },
     "name": "The.bi",
-    "apiRoutes": {},
     "url": "the.bi",
     "categories": [
       "new-media"
@@ -98847,7 +97965,6 @@ export default {
       }
     },
     "name": "TheBlock",
-    "apiRoutes": {},
     "url": "theblock.co",
     "lang": "en"
   },
@@ -98927,7 +98044,6 @@ export default {
       }
     },
     "name": "律动 BlockBeats",
-    "apiRoutes": {},
     "url": "www.theblockbeats.info",
     "lang": "zh-CN"
   },
@@ -98960,7 +98076,6 @@ export default {
       }
     },
     "name": "封面新闻",
-    "apiRoutes": {},
     "url": "thecover.cn",
     "lang": "zh-CN"
   },
@@ -98990,7 +98105,6 @@ export default {
       }
     },
     "name": "The Gradient",
-    "apiRoutes": {},
     "url": "thegradient.pub",
     "lang": "en"
   },
@@ -99194,7 +98308,6 @@ export default {
       }
     },
     "name": "端传媒",
-    "apiRoutes": {},
     "url": "theinitium.com",
     "description": "通过提取文章全文，以提供比官方源更佳的阅读体验。\n\n::: warning\n付费内容全文可能需要登陆获取，详情见部署页面的配置模块。\n:::",
     "lang": "zh-HK"
@@ -99334,7 +98447,6 @@ export default {
       }
     },
     "name": "The Movie Database",
-    "apiRoutes": {},
     "url": "themoviedb.org",
     "description": "::: tip\nRefer to [https://developers.themoviedb.org/3/getting-started/languages](https://developers.themoviedb.org/3/getting-started/languages) for the language parameter in the route.\n:::",
     "lang": "en"
@@ -99350,7 +98462,6 @@ export default {
       }
     },
     "name": "The News Lens 關鍵評論",
-    "apiRoutes": {},
     "url": "thenewslens.com",
     "lang": "zh-TW"
   },
@@ -99549,7 +98660,6 @@ export default {
       }
     },
     "name": "澎湃新闻",
-    "apiRoutes": {},
     "url": "thepaper.cn",
     "description": "以下所有路由可使用参数`old`以采取旧全文获取方法。该方法会另外获取网页中的图片与视频资源。在原始 url 追加`?old=yes`以启用.",
     "lang": "zh-CN"
@@ -99627,7 +98737,6 @@ export default {
       }
     },
     "name": "PetCity 毛孩日常",
-    "apiRoutes": {},
     "url": "thepetcity.co",
     "lang": "zh-TW"
   },
@@ -99670,7 +98779,6 @@ export default {
       }
     },
     "name": "The Verge",
-    "apiRoutes": {},
     "url": "theverge.com",
     "lang": "en"
   },
@@ -99703,7 +98811,6 @@ export default {
       }
     },
     "name": "ThoughtCo",
-    "apiRoutes": {},
     "url": "thoughtco.com",
     "lang": "en"
   },
@@ -99731,7 +98838,6 @@ export default {
       }
     },
     "name": "ThoughtWorks",
-    "apiRoutes": {},
     "url": "www.thoughtworks.com/zh-cn/insights/blog",
     "lang": "zh-CN"
   },
@@ -99761,7 +98867,6 @@ export default {
       }
     },
     "name": "Threads",
-    "apiRoutes": {},
     "url": "threads.net",
     "lang": "en"
   },
@@ -99804,7 +98909,6 @@ export default {
       }
     },
     "name": "THBWiki",
-    "apiRoutes": {},
     "url": "thwiki.cc",
     "lang": "zh-CN"
   },
@@ -100215,7 +99319,6 @@ export default {
       }
     },
     "name": "停水通知",
-    "apiRoutes": {},
     "url": "swj.dl.gov.cn",
     "description": "",
     "lang": "zh-CN"
@@ -100286,7 +99389,6 @@ export default {
       }
     },
     "name": "腾讯研究院",
-    "apiRoutes": {},
     "url": "tisi.org",
     "lang": "zh-CN"
   },
@@ -100437,7 +99539,6 @@ export default {
       }
     },
     "name": "大公文匯網",
-    "apiRoutes": {},
     "url": "www.tkww.hk",
     "lang": "zh-HK"
   },
@@ -100809,7 +99910,6 @@ export default {
       }
     },
     "name": "钛媒体",
-    "apiRoutes": {},
     "url": "tmtpost.com",
     "categories": [
       "new-media"
@@ -100914,7 +100014,6 @@ export default {
       }
     },
     "name": "TokenInsight",
-    "apiRoutes": {},
     "url": "tokeninsight.com",
     "description": "::: tip\nTokenInsight also provides official RSS, you can take a look at [https://api.tokeninsight.com/reference/rss](https://api.tokeninsight.com/reference/rss).\n:::",
     "lang": "en"
@@ -101067,7 +100166,6 @@ export default {
       }
     },
     "name": "同济大学",
-    "apiRoutes": {},
     "url": "bksy.tongji.edu.cn",
     "lang": "zh-CN"
   },
@@ -101113,7 +100211,6 @@ export default {
       }
     },
     "name": "理想生活实验室",
-    "apiRoutes": {},
     "url": "toodaylab.com",
     "lang": "zh-CN"
   },
@@ -101198,7 +100295,6 @@ export default {
       }
     },
     "name": "今日热榜",
-    "apiRoutes": {},
     "url": "tophub.today",
     "description": "::: warning\n由于需要登录后的 Cookie 值才能获取原始链接，所以需要自建，需要在环境变量中配置 `TOPHUB_COOKIE`，详情见部署页面的配置模块。\n:::",
     "lang": "zh-CN"
@@ -101240,7 +100336,6 @@ export default {
       }
     },
     "name": "TOPYS",
-    "apiRoutes": {},
     "url": "topys.cn",
     "lang": "zh-CN"
   },
@@ -101363,7 +100458,6 @@ export default {
       }
     },
     "name": "Towards Data Science",
-    "apiRoutes": {},
     "url": "towardsdatascience.com",
     "lang": "en"
   },
@@ -101423,7 +100517,6 @@ export default {
       }
     },
     "name": "TradingView",
-    "apiRoutes": {},
     "url": "tradingview.com",
     "lang": "en"
   },
@@ -101449,7 +100542,6 @@ export default {
       }
     },
     "name": "Transcript Forest",
-    "apiRoutes": {},
     "url": "www.transcriptforest.com",
     "lang": "en"
   },
@@ -101479,7 +100571,6 @@ export default {
       }
     },
     "name": "Transformer Circuits",
-    "apiRoutes": {},
     "url": "transformer-circuits.pub",
     "lang": "en"
   },
@@ -101538,7 +100629,6 @@ export default {
       }
     },
     "name": "Tribal Football",
-    "apiRoutes": {},
     "url": "tribalfootball.com",
     "lang": "en"
   },
@@ -101614,7 +100704,6 @@ export default {
       }
     },
     "name": "天使动漫论坛",
-    "apiRoutes": {},
     "url": "www.tsdm39.com",
     "categories": [
       "anime"
@@ -101745,7 +100834,6 @@ export default {
       }
     },
     "name": "台視新聞網",
-    "apiRoutes": {},
     "url": "news.ttv.com.tw",
     "lang": "zh-TW"
   },
@@ -101819,7 +100907,6 @@ export default {
       }
     },
     "name": "TV Tropes",
-    "apiRoutes": {},
     "url": "tvtropes.org",
     "lang": "en"
   },
@@ -101936,7 +101023,6 @@ export default {
       }
     },
     "name": "Twitch",
-    "apiRoutes": {},
     "url": "www.twitch.tv",
     "lang": "en"
   },
@@ -102331,7 +101417,6 @@ export default {
       }
     },
     "name": "X (Twitter)",
-    "apiRoutes": {},
     "url": "x.com",
     "description": "Specify options (in the format of query string) in parameter `routeParams` to control some extra features for Tweets\n\n| Key                            | Description                                                                                                                          | Accepts                | Defaults to                               |\n| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------------- |\n| `readable`                     | Enable readable layout                                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `authorNameBold`               | Display author name in bold                                                                                                          | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInTitle`            | Show author name in title                                                                                                            | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showAuthorAsTitleOnly`        | Show only author name as title                                                                                                            | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInDesc`             | Show author name in description (RSS body)                                                                                           | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showQuotedAuthorAvatarInDesc` | Show avatar of quoted Tweet's author in description (RSS body) (Not recommended if your RSS reader extracts images from description) | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorAvatarInDesc`       | Show avatar of author in description (RSS body) (Not recommended if your RSS reader extracts images from description)                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showEmojiForRetweetAndReply`  | Use \"🔁\" instead of \"RT\", \"↩️\" & \"💬\" instead of \"Re\"                                                                                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showSymbolForRetweetAndReply` | Use \" RT \" instead of \"\", \" Re \" instead of \"\"                                                                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `showRetweetTextInTitle`       | Show quote comments in title (if `false`, only the retweeted tweet will be shown in the title)                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `addLinkForPics`               | Add clickable links for Tweet pictures                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `showTimestampInDescription`   | Show timestamp in description                                                                                                        | `0`/`1`/`true`/`false` | `false`                                   |\n| `showQuotedInTitle`            | Show quoted tweet in title                                                                                                           | `0`/`1`/`true`/`false` | `false`                                   |\n| `widthOfPics`                  | Width of Tweet pictures                                                                                                              | Unspecified/Integer    | Unspecified                               |\n| `heightOfPics`                 | Height of Tweet pictures                                                                                                             | Unspecified/Integer    | Unspecified                               |\n| `sizeOfAuthorAvatar`           | Size of author's avatar                                                                                                              | Integer                | `48`                                      |\n| `sizeOfQuotedAuthorAvatar`     | Size of quoted tweet's author's avatar                                                                                               | Integer                | `24`                                      |\n| `includeReplies`               | Include replies, only available in `/twitter/user`                                                                                   | `0`/`1`/`true`/`false` | `false`                                   |\n| `includeRts`                   | Include retweets, only available in `/twitter/user`                                                                                  | `0`/`1`/`true`/`false` | `true`                                    |\n| `forceWebApi`                  | Force using Web API even if Developer API is configured, only available in `/twitter/user` and `/twitter/keyword`                    | `0`/`1`/`true`/`false` | `false`                                   |\n| `count`                        | `count` parameter passed to Twitter API, only available in `/twitter/user`                                                           | Unspecified/Integer    | Unspecified                               |\n| `onlyMedia`                    | Only get tweets with a media                                                                                                             | `0`/`1`/`true`/`false` | `false`                 |\n\nSpecify different option values than default values to improve readability. The URL\n\n```\nhttps://rsshub.app/twitter/user/durov/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150\n```\n\ngenerates\n\n<img loading=\"lazy\" src=\"/img/readable-twitter.png\" alt=\"Readable Twitter RSS of Durov\" />\n\nCurrently supports two authentication methods:\n\n- Using `TWITTER_AUTH_TOKEN` (recommended): Configure a comma-separated list of `auth_token` cookies of logged-in Twitter Web. RSSHub will use this information to directly access Twitter's web API to obtain data.\n\n- Using `TWITTER_USERNAME` `TWITTER_PASSWORD` and `TWITTER_AUTHENTICATION_SECRET`: Configure a comma-separated list of Twitter username and password. RSSHub will use this information to log in to Twitter and obtain data using the mobile API. Please note that if you have not logged in with the current IP address before, it is easy to trigger Twitter's risk control mechanism.\n",
     "lang": "en"
@@ -102404,7 +101489,6 @@ export default {
       }
     },
     "name": "報導者",
-    "apiRoutes": {},
     "url": "twreporter.org",
     "lang": "zh-TW"
   },
@@ -102477,7 +101561,6 @@ export default {
       }
     },
     "name": "通信人家园",
-    "apiRoutes": {},
     "url": "txrjy.com",
     "lang": "zh-CN"
   },
@@ -102573,7 +101656,6 @@ export default {
       }
     },
     "name": "Typora",
-    "apiRoutes": {},
     "url": "typora.io",
     "lang": "en"
   },
@@ -102669,7 +101751,6 @@ export default {
       }
     },
     "name": "U3C3",
-    "apiRoutes": {},
     "url": "u3c3.com",
     "lang": "zh-CN"
   },
@@ -102721,7 +101802,6 @@ export default {
       }
     },
     "name": "U9A9",
-    "apiRoutes": {},
     "url": "u9a9.com",
     "lang": "zh-CN"
   },
@@ -102763,7 +101843,6 @@ export default {
       }
     },
     "name": "Uber",
-    "apiRoutes": {},
     "url": "www.uber.com",
     "lang": "en"
   },
@@ -102827,7 +101906,6 @@ export default {
       }
     },
     "name": "中国科学院大学",
-    "apiRoutes": {},
     "url": "ai.ucas.ac.cn",
     "lang": "zh-CN"
   },
@@ -102867,7 +101945,6 @@ export default {
       }
     },
     "name": "The University of Chicago Press: Journals",
-    "apiRoutes": {},
     "url": "journals.uchicago.edu",
     "lang": "en"
   },
@@ -102975,7 +102052,6 @@ export default {
       }
     },
     "name": "聯合新聞網",
-    "apiRoutes": {},
     "url": "udn.com",
     "lang": "zh-TW"
   },
@@ -103295,7 +102371,6 @@ export default {
       }
     },
     "name": "电子科技大学",
-    "apiRoutes": {},
     "url": "www.uestc.edu.cn",
     "lang": "zh-CN"
   },
@@ -103338,7 +102413,6 @@ export default {
       }
     },
     "name": "对外经济贸易大学",
-    "apiRoutes": {},
     "url": "hr.uibe.edu.cn",
     "lang": "zh-CN"
   },
@@ -103399,7 +102473,6 @@ export default {
       }
     },
     "name": "乌拉邦",
-    "apiRoutes": {},
     "url": "www.ulapia.com",
     "lang": "zh-CN"
   },
@@ -103509,7 +102582,6 @@ export default {
       }
     },
     "name": "Unraid",
-    "apiRoutes": {},
     "url": "unraid.net",
     "lang": "en"
   },
@@ -103671,7 +102743,6 @@ export default {
       }
     },
     "name": "中国石油大学（华东）",
-    "apiRoutes": {},
     "url": "computer.upc.edu.cn",
     "lang": "zh-CN"
   },
@@ -103907,7 +102978,6 @@ export default {
       }
     },
     "name": "USENIX",
-    "apiRoutes": {},
     "url": "usenix.org",
     "lang": "en"
   },
@@ -103940,7 +103010,6 @@ export default {
       }
     },
     "name": "Panda",
-    "apiRoutes": {},
     "url": "usepanda.com",
     "lang": "en"
   },
@@ -104315,7 +103384,6 @@ export default {
       }
     },
     "name": "中国科学技术大学",
-    "apiRoutes": {},
     "url": "ustc.edu.cn",
     "lang": "zh-CN"
   },
@@ -104346,7 +103414,6 @@ export default {
       }
     },
     "name": "苏州科技大学",
-    "apiRoutes": {},
     "url": "jwch.usts.edu.cn",
     "lang": "zh-CN"
   },
@@ -104456,7 +103523,6 @@ export default {
       }
     },
     "name": "UNTAG",
-    "apiRoutes": {},
     "url": "utgd.net",
     "lang": "zh-CN"
   },
@@ -104521,7 +103587,6 @@ export default {
       }
     },
     "name": "v1tx",
-    "apiRoutes": {},
     "url": "v1tx.com",
     "lang": "zh-CN"
   },
@@ -104675,7 +103740,6 @@ export default {
       }
     },
     "name": "V2rayShare",
-    "apiRoutes": {},
     "url": "v2rayshare.com",
     "lang": "zh-CN"
   },
@@ -104734,7 +103798,6 @@ export default {
       }
     },
     "name": "VCB-Studio",
-    "apiRoutes": {},
     "url": "vcb-s.com",
     "lang": "zh-CN"
   },
@@ -104805,7 +103868,6 @@ export default {
       }
     },
     "name": "Vertikal.net",
-    "apiRoutes": {},
     "url": "vertikal.net",
     "lang": "en"
   },
@@ -104934,7 +103996,6 @@ export default {
       }
     },
     "name": "Vimeo",
-    "apiRoutes": {},
     "url": "vimeo.com",
     "lang": "en"
   },
@@ -105053,7 +104114,6 @@ export default {
       }
     },
     "name": "Visual Studio",
-    "apiRoutes": {},
     "url": "visualstudio.com",
     "lang": "en"
   },
@@ -105160,7 +104220,6 @@ export default {
       }
     },
     "name": "Voice of Mongolia",
-    "apiRoutes": {},
     "url": "vom.mn",
     "lang": "en"
   },
@@ -105822,7 +104881,6 @@ export default {
       }
     },
     "name": "Voronoi",
-    "apiRoutes": {},
     "url": "voronoiapp.com",
     "lang": "en"
   },
@@ -105844,7 +104902,6 @@ export default {
       }
     },
     "name": "挖贝网",
-    "apiRoutes": {},
     "url": "www.wabei.cn",
     "description": "挖贝网专注于新三板、A股和港股报道",
     "lang": "zh-CN"
@@ -106107,7 +105164,6 @@ export default {
       }
     },
     "name": "wallhaven",
-    "apiRoutes": {},
     "url": "wallhaven.cc",
     "description": "::: tip\nWhen parameter **Need Details** is set to `true` `yes` `t` `y`, RSS will add the title, uploader, upload time, and category information of each image, which can support the filtering function of RSS reader.\n\nHowever, the number of requests to the site increases a lot when it is turned on, which causes the site to return `Response code 429 (Too Many Requests)`. So you need to specify a smaller `limit` parameter, i.e. add `?limit=<the number of posts for a request>` after the route, here is an example.\n\nFor example [Latest Wallpapers](https://wallhaven.cc/latest), the route turning on **Need Details** is [/wallhaven/latest/true](https://rsshub.app/wallhaven/latest/true), and then specify a smaller `limit`. We can get [/wallhaven/latest/true?limit=5](https://rsshub.app/wallhaven/latest/true?limit=5).\n:::",
     "lang": "en"
@@ -106135,7 +105191,6 @@ export default {
       }
     },
     "name": "WallpaperHub",
-    "apiRoutes": {},
     "url": "wallpaperhub.app",
     "lang": "en"
   },
@@ -106264,7 +105319,6 @@ export default {
       }
     },
     "name": "华尔街见闻",
-    "apiRoutes": {},
     "url": "wallstreetcn.com",
     "lang": "zh-CN"
   },
@@ -106342,7 +105396,6 @@ export default {
       }
     },
     "name": "Warp",
-    "apiRoutes": {},
     "url": "warp.dev",
     "lang": "en"
   },
@@ -106421,7 +105474,6 @@ export default {
       }
     },
     "name": "The Washington Post",
-    "apiRoutes": {},
     "url": "www.washingtonpost.com",
     "lang": "en"
   },
@@ -106488,7 +105540,6 @@ export default {
       }
     },
     "name": "Western Digital",
-    "apiRoutes": {},
     "url": "support.wdc.com",
     "lang": "en"
   },
@@ -106561,7 +105612,6 @@ export default {
       }
     },
     "name": "web.dev",
-    "apiRoutes": {},
     "url": "web.dev",
     "lang": "en"
   },
@@ -106576,7 +105626,6 @@ export default {
       }
     },
     "name": "Web3Caff",
-    "apiRoutes": {},
     "url": "web3caff.com",
     "lang": "en"
   },
@@ -106614,7 +105663,6 @@ export default {
       }
     },
     "name": "WebCatalog",
-    "apiRoutes": {},
     "url": "desktop.webcatalog.io",
     "lang": "en"
   },
@@ -106879,7 +105927,6 @@ export default {
       }
     },
     "name": "微信小程序",
-    "apiRoutes": {},
     "url": "posts.careerengine.us",
     "description": "::: tip\n公众号直接抓取困难，故目前提供几种间接抓取方案，请自行选择\n:::",
     "lang": "zh-CN"
@@ -107258,7 +106305,6 @@ export default {
       }
     },
     "name": "微博",
-    "apiRoutes": {},
     "url": "weibo.com",
     "description": "::: warning\n微博会针对请求的来源地区返回不同的结果。一个已知的例子为：部分视频因未知原因仅限中国大陆境内访问 (CDN 域名为 `locallimit.us.sinaimg.cn` 而非 `f.video.weibocdn.com`)。若一条微博含有这种视频且 RSSHub 实例部署在境外，抓取到的微博可能不含视频。将 RSSHub 部署在境内有助于抓取这种视频，但阅读器也必须处于境内网络环境以加载视频。\n:::\n\n对于微博内容，在 `routeParams` 参数中以 query string 格式指定选项，可以控制输出的样式\n\n| 键                         | 含义                                                               | 接受的值       | 默认值                              |\n| -------------------------- | ------------------------------------------------------------------ | -------------- | ----------------------------------- |\n| readable                   | 是否开启细节排版可读性优化                                         | 0/1/true/false | false                               |\n| authorNameBold             | 是否加粗作者名字                                                   | 0/1/true/false | false                               |\n| showAuthorInTitle          | 是否在标题处显示作者                                               | 0/1/true/false | false（`/weibo/keyword/`中为 true） |\n| showAuthorInDesc           | 是否在正文处显示作者                                               | 0/1/true/false | false（`/weibo/keyword/`中为 true） |\n| showAuthorAvatarInDesc     | 是否在正文处显示作者头像（若阅读器会提取正文图片，不建议开启）     | 0/1/true/false | false                               |\n| showEmojiForRetweet        | 显示 “🔁” 取代 “转发” 两个字                                       | 0/1/true/false | false                               |\n| showRetweetTextInTitle     | 在标题出显示转发评论（置为 false 则在标题只显示被转发微博）        | 0/1/true/false | true                                |\n| addLinkForPics             | 为图片添加可点击的链接                                             | 0/1/true/false | false                               |\n| showTimestampInDescription | 在正文处显示被转发微博的时间戳                                     | 0/1/true/false | false                               |\n| widthOfPics                | 微博配图宽（生效取决于阅读器）                                     | 不指定 / 数字  | 不指定                              |\n| heightOfPics               | 微博配图高（生效取决于阅读器）                                     | 不指定 / 数字  | 不指定                              |\n| sizeOfAuthorAvatar         | 作者头像大小                                                       | 数字           | 48                                  |\n| displayVideo               | 是否直接显示微博视频和 Live Photo，只在博主或个人时间线 RSS 中有效 | 0/1/true/false | true                                |\n| displayArticle             | 是否直接显示微博文章，只在博主或个人时间线 RSS 中有效              | 0/1/true/false | false                               |\n| displayComments            | 是否直接显示热门评论，只在博主或个人时间线 RSS 中有效              | 0/1/true/false | false                               |\n| showEmojiInDescription     | 是否展示正文中的微博表情，关闭则替换为 `[表情名]`                  | 0/1/true/false | true                                |\n| showLinkIconInDescription  | 是否展示正文中的链接图标                                           | 0/1/true/false | true                                |\n| preferMobileLink           | 是否使用移动版链接（默认使用 PC 版）                               | 0/1/true/false | false                               |\n| showRetweeted              | 是否显示转发的微博                                                 | 0/1/true/false | true                               |\n| showBloggerIcons           | 是否显示评论中博主的标志，只在显示热门评论时有效                                           | 0/1/true/false | false                               |\n\n指定更多与默认值不同的参数选项可以改善 RSS 的可读性，如\n\n[https://rsshub.app/weibo/user/1642909335/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweet=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showTimestampInDescription=1&heightOfPics=150](https://rsshub.app/weibo/user/1642909335/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweet=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showTimestampInDescription=1&heightOfPics=150)\n\n的效果为\n\n<img loading=\"lazy\" src=\"/img/readable-weibo.png\" alt=\"微博小秘书的可读微博 RSS\" />",
     "lang": "zh-CN"
@@ -107368,7 +106414,6 @@ export default {
       }
     },
     "name": "轻小说文库",
-    "apiRoutes": {},
     "url": "www.wenku8.net",
     "lang": "zh-CN"
   },
@@ -107478,7 +106523,6 @@ export default {
       }
     },
     "name": "潍坊学院",
-    "apiRoutes": {},
     "url": "jwc.wfu.edu.cn",
     "lang": "zh-CN"
   },
@@ -107780,7 +106824,6 @@ export default {
       }
     },
     "name": "武汉大学",
-    "apiRoutes": {},
     "url": "cs.whu.edu.cn",
     "lang": "zh-CN"
   },
@@ -107818,7 +106861,6 @@ export default {
       }
     },
     "name": "维基新闻",
-    "apiRoutes": {},
     "url": "zh.wikinews.org",
     "lang": "zh-CN"
   },
@@ -107949,7 +106991,6 @@ export default {
       }
     },
     "name": "People + AI Research (PAIR)",
-    "apiRoutes": {},
     "url": "pair.withgoogle.com",
     "lang": "en"
   },
@@ -107987,7 +107028,6 @@ export default {
       }
     },
     "name": "WziFile",
-    "apiRoutes": {},
     "url": "antibody-software.com",
     "lang": "en"
   },
@@ -108034,7 +107074,6 @@ export default {
       }
     },
     "name": "完美世界电竞",
-    "apiRoutes": {},
     "url": "wmpvp.com",
     "lang": "zh-CN"
   },
@@ -108097,7 +107136,6 @@ export default {
       }
     },
     "name": "紳士漫畫",
-    "apiRoutes": {},
     "url": "wnacg.org",
     "lang": "zh-TW"
   },
@@ -108137,7 +107175,6 @@ export default {
       }
     },
     "name": "wohnnet.at",
-    "apiRoutes": {},
     "url": "wohnnet.at",
     "description": "Austrian search engine for real estate",
     "lang": "de"
@@ -108181,7 +107218,6 @@ export default {
       }
     },
     "name": "WordPress",
-    "apiRoutes": {},
     "url": "wordpress.org",
     "categories": [
       "blog"
@@ -108209,7 +107245,6 @@ export default {
       }
     },
     "name": "世界新聞網",
-    "apiRoutes": {},
     "url": "worldjournal.com",
     "lang": "zh-TW"
   },
@@ -108246,7 +107281,6 @@ export default {
       }
     },
     "name": "World of Warships",
-    "apiRoutes": {},
     "url": "worldofwarships.com",
     "zh": {
       "name": "战舰世界"
@@ -108485,7 +107519,6 @@ export default {
       }
     },
     "name": "武汉纺织大学",
-    "apiRoutes": {},
     "url": "wtu.91wllm.com",
     "lang": "zh-CN"
   },
@@ -108562,7 +107595,6 @@ export default {
       }
     },
     "name": "乌有之乡",
-    "apiRoutes": {},
     "url": "wyzxwk.com",
     "lang": "zh-CN"
   },
@@ -108677,7 +107709,6 @@ export default {
       }
     },
     "name": "小刀娱乐网",
-    "apiRoutes": {},
     "url": "xd.x6d.com",
     "lang": "zh-CN"
   },
@@ -108710,7 +107741,6 @@ export default {
       }
     },
     "name": "西安财经大学",
-    "apiRoutes": {},
     "url": "jiaowu.xaufe.edu.cn",
     "lang": "zh-CN"
   },
@@ -108794,7 +107824,6 @@ export default {
       }
     },
     "name": "西安理工大学",
-    "apiRoutes": {},
     "url": "www.xaut.edu.cn",
     "lang": "zh-CN"
   },
@@ -108844,7 +107873,6 @@ export default {
       }
     },
     "name": "西北民族大学",
-    "apiRoutes": {},
     "url": "www.xbmu.edu.cn"
   },
   "xbookcn": {
@@ -108875,7 +107903,6 @@ export default {
       }
     },
     "name": "中文成人文學網",
-    "apiRoutes": {},
     "url": "www.xbookcn.net",
     "lang": "zh-TW"
   },
@@ -108955,7 +107982,6 @@ export default {
       }
     },
     "name": "线报酷",
-    "apiRoutes": {},
     "url": "new.xianbao.fun",
     "lang": "zh-CN"
   },
@@ -109049,7 +108075,6 @@ export default {
       }
     },
     "name": "小黑盒",
-    "apiRoutes": {},
     "url": "xiaoheihe.cn",
     "lang": "zh-CN"
   },
@@ -109147,17 +108172,6 @@ export default {
       }
     },
     "name": "小红书",
-    "apiRoutes": {
-      "/check-cookie": {
-        "path": "/check-cookie",
-        "description": "检查小红书 cookie 是否有效",
-        "maintainers": [
-          "DIYgod"
-        ],
-        "location": "check-cookie.ts",
-        "module": () => import('@/routes/xiaohongshu/check-cookie.ts')
-      }
-    },
     "url": "xiaohongshu.com",
     "lang": "zh-CN"
   },
@@ -109227,7 +108241,6 @@ export default {
       }
     },
     "name": "小米有品",
-    "apiRoutes": {},
     "url": "xiaomiyoupin.com",
     "lang": "zh-CN"
   },
@@ -109265,7 +108278,6 @@ export default {
       }
     },
     "name": "小特社区",
-    "apiRoutes": {},
     "url": "xiaote.com",
     "lang": "zh-CN"
   },
@@ -109368,7 +108380,6 @@ export default {
       }
     },
     "name": "小专栏",
-    "apiRoutes": {},
     "url": "xiaozhuanlan.com",
     "lang": "zh-CN"
   },
@@ -109468,7 +108479,6 @@ export default {
       }
     },
     "name": "西安电子科技大学",
-    "apiRoutes": {},
     "url": "www.xidian.edu.cn",
     "lang": "zh-CN"
   },
@@ -109512,7 +108522,6 @@ export default {
       }
     },
     "name": "喜马拉雅",
-    "apiRoutes": {},
     "url": "ximalaya.com",
     "lang": "zh-CN"
   },
@@ -109552,7 +108561,6 @@ export default {
       }
     },
     "name": "新华网",
-    "apiRoutes": {},
     "url": "xinhuanet.com",
     "categories": [
       "traditional-media"
@@ -109645,7 +108653,6 @@ export default {
       }
     },
     "name": "新片场",
-    "apiRoutes": {},
     "url": "xinpianchang.com",
     "lang": "zh-CN"
   },
@@ -109939,7 +108946,6 @@ export default {
       }
     },
     "name": "西安交通大学",
-    "apiRoutes": {},
     "url": "2yuan.xjtu.edu.cn",
     "lang": "zh-CN"
   },
@@ -109972,7 +108978,6 @@ export default {
       }
     },
     "name": "新快报",
-    "apiRoutes": {},
     "url": "xkb.com.cn",
     "lang": "zh-CN"
   },
@@ -110011,7 +109016,6 @@ export default {
       }
     },
     "name": "X 漫画",
-    "apiRoutes": {},
     "url": "xmanhua.com",
     "lang": "zh-CN"
   },
@@ -110059,7 +109063,6 @@ export default {
       }
     },
     "name": "厦门网",
-    "apiRoutes": {},
     "url": "epaper.xmnn.cn",
     "lang": "zh-CN"
   },
@@ -110095,7 +109098,6 @@ export default {
       }
     },
     "name": "Xiamen University",
-    "apiRoutes": {},
     "url": "soe.xmu.edu.cn",
     "zh": {
       "name": "厦门大学经济学院"
@@ -110207,7 +109209,6 @@ export default {
       }
     },
     "name": "司机社",
-    "apiRoutes": {},
     "url": "xsijishe.com",
     "lang": "zh-CN"
   },
@@ -110560,7 +109561,6 @@ export default {
       }
     },
     "name": "雪球",
-    "apiRoutes": {},
     "url": "danjuanapp.com",
     "lang": "zh-CN"
   },
@@ -110598,7 +109598,6 @@ export default {
       }
     },
     "name": "虎皮椒",
-    "apiRoutes": {},
     "url": "www.xunhupay.com",
     "lang": "zh-CN"
   },
@@ -110660,7 +109659,6 @@ export default {
       }
     },
     "name": "中文播客榜",
-    "apiRoutes": {},
     "url": "xyzrank.com",
     "description": "::: tip\n可以通过指定 `limit` 参数确定榜单排名下限，默认为 250。\n\n若只查看榜单前 50，可在订阅 URL 后加入 `?limit=50`。\n\n即，以 [热门节目](https://xyzrank.com/#/) 为例，路由为[`/xyzrank?limit=50`](https://rsshub.app/xyzrank?limit=50)。\n:::",
     "lang": "zh-CN"
@@ -110858,7 +109856,6 @@ export default {
       }
     },
     "name": "YAMAP",
-    "apiRoutes": {},
     "url": "yamap.com",
     "lang": "ja"
   },
@@ -111003,7 +110000,6 @@ export default {
       }
     },
     "name": "长江大学",
-    "apiRoutes": {},
     "url": "yangtzeu.edu.cn",
     "lang": "zh-CN"
   },
@@ -111036,7 +110032,6 @@ export default {
       }
     },
     "name": "羊城晚报金羊网",
-    "apiRoutes": {},
     "url": "xwlb.com.cn",
     "lang": "zh-CN"
   },
@@ -111418,7 +110413,6 @@ export default {
       }
     },
     "name": "第一财经",
-    "apiRoutes": {},
     "url": "yicai.com",
     "lang": "zh-CN"
   },
@@ -111475,7 +110469,6 @@ export default {
       }
     },
     "name": "意林杂志",
-    "apiRoutes": {},
     "url": "www.yilinzazhi.com",
     "categories": [
       "reading"
@@ -111542,7 +110535,6 @@ export default {
       }
     },
     "name": "月幕 Galgame",
-    "apiRoutes": {},
     "url": "ymgal.games",
     "lang": "zh-CN"
   },
@@ -111576,7 +110568,6 @@ export default {
       }
     },
     "name": "Yonhap News Agency",
-    "apiRoutes": {},
     "url": "yna.co.kr",
     "lang": "ko",
     "zh": {
@@ -111681,7 +110672,6 @@ export default {
       }
     },
     "name": "Yoasobi Official",
-    "apiRoutes": {},
     "url": "www.yoasobi-music.jp",
     "lang": "ja"
   },
@@ -111762,7 +110752,6 @@ export default {
       }
     },
     "name": "日本語多読道場",
-    "apiRoutes": {},
     "url": "yomujp.com",
     "lang": "ja"
   },
@@ -111804,7 +110793,6 @@ export default {
       }
     },
     "name": "优酷",
-    "apiRoutes": {},
     "url": "i.youku.com",
     "lang": "zh-CN"
   },
@@ -111845,7 +110833,6 @@ export default {
       }
     },
     "name": "YouMeMark",
-    "apiRoutes": {},
     "url": "youmemark.com",
     "lang": "zh-CN"
   },
@@ -112121,7 +111108,6 @@ export default {
       }
     },
     "name": "YouTube",
-    "apiRoutes": {},
     "url": "youtube.com",
     "lang": "en"
   },
@@ -112200,7 +111186,6 @@ export default {
       }
     },
     "name": "有知有行",
-    "apiRoutes": {},
     "url": "youzhiyouxing.cn",
     "lang": "zh-CN"
   },
@@ -112336,7 +111321,6 @@ export default {
       }
     },
     "name": "猿料",
-    "apiRoutes": {},
     "url": "yuanliao.info",
     "categories": [
       "bbs"
@@ -112382,7 +111366,6 @@ export default {
       }
     },
     "name": "语雀",
-    "apiRoutes": {},
     "url": "yuque.com",
     "lang": "zh-CN"
   },
@@ -112486,7 +111469,6 @@ export default {
       }
     },
     "name": "游戏打折情报",
-    "apiRoutes": {},
     "url": "yxdzqb.com",
     "lang": "zh-CN"
   },
@@ -112528,7 +111510,6 @@ export default {
       }
     },
     "name": "游戏日报",
-    "apiRoutes": {},
     "url": "news.yxrb.net",
     "lang": "zh-CN"
   },
@@ -112629,7 +111610,6 @@ export default {
       }
     },
     "name": "人人影视",
-    "apiRoutes": {},
     "url": "yysub.net",
     "lang": "zh-CN"
   },
@@ -112694,7 +111674,6 @@ export default {
       }
     },
     "name": "游研社",
-    "apiRoutes": {},
     "url": "yystv.cn",
     "lang": "zh-CN"
   },
@@ -112796,7 +111775,6 @@ export default {
       }
     },
     "name": "再漫画",
-    "apiRoutes": {},
     "url": "manhua.zaimanhua.com",
     "lang": "zh-CN"
   },
@@ -112846,7 +111824,6 @@ export default {
       }
     },
     "name": "ZAKER",
-    "apiRoutes": {},
     "url": "myzaker.com",
     "lang": "zh-CN"
   },
@@ -112927,7 +111904,6 @@ export default {
       }
     },
     "name": "联合早报",
-    "apiRoutes": {},
     "url": "www.zaobao.com",
     "description": "::: warning\n由于 [RSSHub#10309](https://github.com/DIYgod/RSSHub/issues/10309) 中的问题，使用靠近香港的服务器部署将从 hk 版联合早报爬取内容，造成输出的新闻段落顺序错乱。如有订阅此源的需求，建议寻求部署在远离香港的服务器上的 RSSHub，或者在自建时选择远离香港的服务器。\n:::",
     "lang": "zh-CN"
@@ -112969,7 +111945,6 @@ export default {
       }
     },
     "name": "前端早早聊",
-    "apiRoutes": {},
     "url": "www.zaozao.run",
     "lang": "zh-CN"
   },
@@ -113138,7 +112113,6 @@ export default {
       }
     },
     "name": "站酷",
-    "apiRoutes": {},
     "url": "www.zcool.com.cn",
     "lang": "zh-CN"
   },
@@ -113179,7 +112153,6 @@ export default {
       }
     },
     "name": "Zed",
-    "apiRoutes": {},
     "url": "zed.dev",
     "lang": "en"
   },
@@ -113285,7 +112258,6 @@ export default {
       }
     },
     "name": "直播吧",
-    "apiRoutes": {},
     "url": "zhibo8.cc",
     "lang": "zh-CN"
   },
@@ -113335,12 +112307,7 @@ export default {
           "id": "作者 id，可在用户主页 URL 中找到"
         },
         "features": {
-          "requireConfig": [
-            {
-              "name": "ZHIHU_COOKIES",
-              "description": ""
-            }
-          ],
+          "requireConfig": false,
           "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
@@ -113404,12 +112371,7 @@ export default {
           "getAll": "获取全部收藏内容，任意值为打开"
         },
         "features": {
-          "requireConfig": [
-            {
-              "name": "ZHIHU_COOKIES",
-              "description": ""
-            }
-          ],
+          "requireConfig": false,
           "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
@@ -113684,12 +112646,7 @@ export default {
           "isTop": "仅精华，默认为否，其他值为是"
         },
         "features": {
-          "requireConfig": [
-            {
-              "name": "ZHIHU_COOKIES",
-              "description": ""
-            }
-          ],
+          "requireConfig": false,
           "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
@@ -113751,12 +112708,7 @@ export default {
           "id": "专栏 id，可在专栏主页 URL 中找到"
         },
         "features": {
-          "requireConfig": [
-            {
-              "name": "ZHIHU_COOKIES",
-              "description": ""
-            }
-          ],
+          "requireConfig": false,
           "requirePuppeteer": false,
           "antiCrawler": true,
           "supportBT": false,
@@ -114109,17 +113061,6 @@ export default {
       }
     },
     "name": "知乎",
-    "apiRoutes": {
-      "/check-cookie": {
-        "path": "/check-cookie",
-        "description": "检查 zhihu cookie 是否有效",
-        "maintainers": [
-          "DIYgod"
-        ],
-        "location": "check-cookie.ts",
-        "module": () => import('@/routes/zhihu/check-cookie.ts')
-      }
-    },
     "url": "www.zhihu.com",
     "description": "::: tip\n自2024年7月，未登录状态下大部分路由[无法获取全文](https://github.com/DIYgod/RSSHub/issues/16260)。若有需要请在登陆知乎后寻找并添加包含`z_c0`的Cookies至环境变量`ZHIHU_COOKIES`。\n:::",
     "lang": "zh-CN"
@@ -114156,7 +113097,6 @@ export default {
       }
     },
     "name": "智通财经网",
-    "apiRoutes": {},
     "url": "zhitongcaijing.com",
     "lang": "zh-CN"
   },
@@ -114226,7 +113166,6 @@ export default {
       }
     },
     "name": "知园",
-    "apiRoutes": {},
     "url": "zhiy.cc",
     "lang": "zh-CN"
   },
@@ -114291,7 +113230,6 @@ export default {
       }
     },
     "name": "中伦律师事务所",
-    "apiRoutes": {},
     "url": "zhonglun.com",
     "categories": [
       "new-media"
@@ -114358,7 +113296,6 @@ export default {
       }
     },
     "name": "竹白",
-    "apiRoutes": {},
     "url": "zhubai.love",
     "lang": "zh-CN"
   },
@@ -114422,7 +113359,6 @@ export default {
       }
     },
     "name": "中国养猪网",
-    "apiRoutes": {},
     "url": "zhujia.zhuwang.cc",
     "lang": "zh-CN"
   },
@@ -114487,7 +113423,6 @@ export default {
       }
     },
     "name": "FIX 字幕侠",
-    "apiRoutes": {},
     "url": "zimuxia.cn",
     "lang": "zh-CN"
   },
@@ -114504,7 +113439,6 @@ export default {
       }
     },
     "name": "浙江省土地使用权网上交易系统",
-    "apiRoutes": {},
     "url": "zjgtjy.cn",
     "lang": "zh-CN"
   },
@@ -114694,7 +113628,6 @@ export default {
       }
     },
     "name": "浙江大学",
-    "apiRoutes": {},
     "url": "physics.zju.edu.cn",
     "lang": "zh-CN"
   },
@@ -114893,7 +113826,6 @@ export default {
       }
     },
     "name": "浙江大学可视分析小组",
-    "apiRoutes": {},
     "url": "zjuvag.org",
     "lang": "zh-CN"
   },
@@ -114930,7 +113862,6 @@ export default {
       }
     },
     "name": "ZodGame",
-    "apiRoutes": {},
     "url": "zodgame.xyz",
     "lang": "en"
   },
@@ -115068,7 +113999,6 @@ export default {
       }
     },
     "name": "知识星球",
-    "apiRoutes": {},
     "url": "zsxq.com",
     "lang": "zh-CN"
   },
@@ -115160,7 +114090,6 @@ export default {
       }
     },
     "name": "Zuvio",
-    "apiRoutes": {},
     "url": "irs.zuvio.com.tw",
     "lang": "zh-TW"
   },
@@ -115216,7 +114145,6 @@ export default {
       }
     },
     "name": "综艺秀",
-    "apiRoutes": {},
     "url": "zyshow.net",
     "lang": "zh-CN"
   },
@@ -115249,7 +114177,6 @@ export default {
       }
     },
     "name": "zyw",
-    "apiRoutes": {},
     "url": "hot.zyw.asia",
     "lang": "zh-CN"
   }

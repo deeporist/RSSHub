@@ -4428,9 +4428,8 @@
   "/kelownacapnews/:type": [
     "hualiong"
   ],
-  "/kemono/:source?/:id?/:type?": [
-    "nczitzk",
-    "AiraNadih"
+  "/kemono/:source?/:id?": [
+    "nczitzk"
   ],
   "/kepu/live": [
     "nczitzk"
