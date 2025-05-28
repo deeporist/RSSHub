@@ -21422,10 +21422,33 @@
         "title": "Posts",
         "docs": "https://docs.rsshub.app/routes/anime",
         "source": [
-          "/:source/user/:id",
           "/"
         ],
-        "target": "/kemono/:source?/:id?"
+        "target": "/kemono/kemono"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:source/user/:id"
+        ],
+        "target": "/kemono/kemono/:source/:id"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:source/user/:id/announcements"
+        ],
+        "target": "/kemono/kemono/:source/:id/announcements"
+      },
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/:source/user/:id/fancards"
+        ],
+        "target": "/kemono/kemono/:source/:id/fancards"
       }
     ]
   },
@@ -21891,6 +21914,19 @@
           "/"
         ],
         "target": "/leiphone/newsflash"
+      }
+    ]
+  },
+  "lenovo.com.cn": {
+    "_name": "联想",
+    ".": [
+      {
+        "title": "驱动",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/"
+        ],
+        "target": "/lenovo/drive/:selName"
       }
     ]
   },
@@ -27325,9 +27361,10 @@
         "title": "新聞",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
+          "/home/:category",
           "/"
         ],
-        "target": "/now/news/:category?/:id?"
+        "target": "/now/news/:category?"
       }
     ]
   },
@@ -29690,7 +29727,7 @@
     ]
   },
   "picuki.com": {
-    "_name": "Instagram",
+    "_name": "TikTok",
     "www": [
       {
         "title": "User Profile - Picuki",
@@ -29704,9 +29741,9 @@
         "title": "User Profile - Picuki",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
-          "/profile-tagged/:id"
+          "/story/:id"
         ],
-        "target": "/picuki/profile/:id/tagged"
+        "target": "/picuki/profile/:id/story"
       }
     ]
   },
