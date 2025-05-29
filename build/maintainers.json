@@ -4428,8 +4428,9 @@
   "/kelownacapnews/:type": [
     "hualiong"
   ],
-  "/kemono/:source?/:id?": [
-    "nczitzk"
+  "/kemono/:source?/:id?/:type?": [
+    "nczitzk",
+    "AiraNadih"
   ],
   "/kepu/live": [
     "nczitzk"
@@ -8749,6 +8750,9 @@
   ],
   "/zodgame/forum/:fid?": [
     "FeCCC"
+  ],
+  "/zongheng/detail/:id": [
+    "TonyRL"
   ],
   "/zotero/versions": [
     "jasongzy"
