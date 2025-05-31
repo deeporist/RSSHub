@@ -7429,9 +7429,6 @@
   "/thwiki/calendar/:before?/:after?": [
     "aether17"
   ],
-  "/thzt/blog": [
-    "jihuayu"
-  ],
   "/tiddlywiki/releases": [
     "p3psi-boo"
   ],

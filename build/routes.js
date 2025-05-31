@@ -99843,29 +99843,6 @@ export default {
     "url": "thwiki.cc",
     "lang": "zh-CN"
   },
-  "thzt": {
-    "routes": {
-      "/blog": {
-        "path": "/blog",
-        "categories": [
-          "blog"
-        ],
-        "example": "/thzt/blog",
-        "url": "thzt.github.io",
-        "name": "Blog",
-        "maintainers": [
-          "jihuayu"
-        ],
-        "location": "index.ts",
-        "module": () => import('@/routes/thzt/index.ts')
-      }
-    },
-    "name": "thzt",
-    "apiRoutes": {},
-    "url": "thzt.github.io",
-    "description": "",
-    "lang": "zh-CN"
-  },
   "tiddlywiki": {
     "routes": {
       "/releases": {
