@@ -3502,10 +3502,6 @@
     "iamqiz",
     "nczitzk"
   ],
-  "/hedwig/posts/:site": [
-    "zwithz",
-    "GetToSet"
-  ],
   "/hellobtc/information/:channel?": [
     "Fatpandac"
   ],
@@ -7050,9 +7046,7 @@
   "/steam/workshopsearch/:appid?/:routeParams?": [
     "NyaaaDoge"
   ],
-  "/stheadline/std/:category{.+}?": [
-    "TonyRL"
-  ],
+  "/stheadline/std/realtime/:category{.+}?": [],
   "/stockedge/daily-updates/news": [
     "Rjnishant530"
   ],
