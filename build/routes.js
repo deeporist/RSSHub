@@ -279,8 +279,7 @@ export default {
       "/music/djradio/:id/:info?": {
         "path": "/music/djradio/:id/:info?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/163/music/djradio/347317067",
         "parameters": {
@@ -527,8 +526,7 @@ export default {
       "/:id?": {
         "path": "/:id?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/2048/2",
         "parameters": {
@@ -949,8 +947,7 @@ export default {
         },
         "description": "::: tip\n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 标签。将 `公告` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告`](https://rsshub.app/10jqka/realtimenews/公告)。\n  \n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 和 `A股` 标签。将 `公告,A股` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告,A股`](https://rsshub.app/10jqka/realtimenews/公告,A股)。\n:::\n\n| 全部 | 重要 | A股 | 港股 | 美股 | 机会 | 异动 | 公告 |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    ",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "features": {
           "requireConfig": false,
@@ -3070,8 +3067,7 @@ export default {
       "/:category/:subCategory?/:keyword?": {
         "path": "/:category/:subCategory?/:keyword?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/36kr/newsflashes",
         "parameters": {
@@ -3121,8 +3117,7 @@ export default {
       "/news/:category?": {
         "path": "/news/:category?",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "example": "/3dmgame/news",
         "parameters": {
@@ -3740,8 +3735,7 @@ export default {
       "/tribe/set/:id": {
         "path": "/tribe/set/:id",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/500px/tribe/set/f5de0b8aa6d54ec486f5e79616418001",
@@ -4624,8 +4618,7 @@ export default {
       "/:language?/:category?/:type?": {
         "path": "/:language?/:category?/:type?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/7mmtv/zh/censored_list/all",
         "parameters": {
@@ -5401,8 +5394,7 @@ export default {
       "/article/:categoryId/:sortType?/:timeRange?": {
         "path": "/article/:categoryId/:sortType?/:timeRange?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/acfun/article/110",
@@ -5771,8 +5763,7 @@ export default {
       "/category/:category": {
         "path": "/category/:category",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/aeon/category/philosophy",
         "parameters": {
@@ -5827,8 +5818,7 @@ export default {
       "/:type": {
         "path": "/:type",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/aeon/essays",
         "parameters": {
@@ -6814,8 +6804,7 @@ export default {
         "example": "/aibase/news",
         "description": "获取 AI 资讯列表",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "features": {
           "requireConfig": false,
@@ -7873,8 +7862,7 @@ export default {
       "/column/:id": {
         "path": "/column/:id",
         "categories": [
-          "reading",
-          "popular"
+          "reading"
         ],
         "example": "/aisixiang/column/722",
         "parameters": {
@@ -9988,8 +9976,7 @@ export default {
       "/apps/update/:country/:id/:platform?": {
         "path": "/apps/update/:country/:id/:platform?",
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "view": 5,
         "example": "/apple/apps/update/us/id408709785",
@@ -12124,308 +12111,6 @@ export default {
     "url": "bandcamp.com",
     "lang": "en"
   },
-  "bandisoft": {
-    "routes": {
-      "/history/:id?/:language?": {
-        "path": "/history/:id?/:language?",
-        "name": "History",
-        "url": "www.bandisoft.com",
-        "maintainers": [
-          "nczitzk"
-        ],
-        "example": "/bandisoft/history/bandizip",
-        "parameters": {
-          "id": {
-            "description": "ID, `bandizip` by default",
-            "options": [
-              {
-                "label": "Bandizip",
-                "value": "bandizip"
-              },
-              {
-                "label": "Bandizip for Mac",
-                "value": "bandizip.mac"
-              },
-              {
-                "label": "BandiView",
-                "value": "bandiview"
-              },
-              {
-                "label": "Honeycam",
-                "value": "honeycam"
-              }
-            ]
-          },
-          "language": {
-            "description": "Language, `en` by default",
-            "options": [
-              {
-                "label": "English",
-                "value": "en"
-              },
-              {
-                "label": "中文(简体)",
-                "value": "cn"
-              },
-              {
-                "label": "中文(繁體)",
-                "value": "tw"
-              },
-              {
-                "label": "日本語",
-                "value": "jp"
-              },
-              {
-                "label": "Русский",
-                "value": "ru"
-              },
-              {
-                "label": "Español",
-                "value": "es"
-              },
-              {
-                "label": "Français",
-                "value": "fr"
-              },
-              {
-                "label": "Deutsch",
-                "value": "de"
-              },
-              {
-                "label": "Italiano",
-                "value": "it"
-              },
-              {
-                "label": "Slovenčina",
-                "value": "sk"
-              },
-              {
-                "label": "Українська",
-                "value": "uk"
-              },
-              {
-                "label": "Беларуская",
-                "value": "be"
-              },
-              {
-                "label": "Dansk",
-                "value": "da"
-              },
-              {
-                "label": "Polski",
-                "value": "pl"
-              },
-              {
-                "label": "Português Brasileiro",
-                "value": "br"
-              },
-              {
-                "label": "Čeština",
-                "value": "cs"
-              },
-              {
-                "label": "Nederlands",
-                "value": "nl"
-              },
-              {
-                "label": "Slovenščina",
-                "value": "sl"
-              },
-              {
-                "label": "Türkçe",
-                "value": "tr"
-              },
-              {
-                "label": "ภาษาไทย",
-                "value": "th"
-              },
-              {
-                "label": "Ελληνικά",
-                "value": "gr"
-              },
-              {
-                "label": "O'zbek",
-                "value": "uz"
-              },
-              {
-                "label": "Romanian",
-                "value": "ro"
-              },
-              {
-                "label": "한국어",
-                "value": "kr"
-              }
-            ]
-          }
-        },
-        "description": ":::tip\nTo subscribe to [Bandizip Version History](https://www.bandisoft.com/bandizip/history/), where the source URL is `https://www.bandisoft.com/bandizip/history/`, extract the certain parts from this URL to be used as parameters, resulting in the route as [`/bandisoft/history/bandizip`](https://rsshub.app/bandisoft/history/bandizip).\n:::\n\n<details>\n  <summary>More languages</summary>\n\n| Language             | ID  |\n| -------------------- | --- |\n| English              | en  |\n| 中文(简体)           | cn  |\n| 中文(繁體)           | tw  |\n| 日本語               | jp  |\n| Русский              | ru  |\n| Español              | es  |\n| Français             | fr  |\n| Deutsch              | de  |\n| Italiano             | it  |\n| Slovenčina           | sk  |\n| Українська           | uk  |\n| Беларуская           | be  |\n| Dansk                | da  |\n| Polski               | pl  |\n| Português Brasileiro | br  |\n| Čeština              | cs  |\n| Nederlands           | nl  |\n| Slovenščina          | sl  |\n| Türkçe               | tr  |\n| ภาษาไทย              | th  |\n| Ελληνικά             | gr  |\n| Oʻzbek               | uz  |\n| Romanian             | ro  |\n| 한국어               | kr  |\n\n</details>\n",
-        "categories": [
-          "program-update"
-        ],
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportRadar": true,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "radar": [
-          {
-            "source": [
-              "www.bandisoft.com/:id/history"
-            ]
-          }
-        ],
-        "view": 0,
-        "zh": {
-          "path": "/history/:id?/:language?",
-          "name": "更新记录",
-          "url": "www.bandisoft.com",
-          "maintainers": [
-            "nczitzk"
-          ],
-          "example": "/bandisoft/history/bandizip",
-          "parameters": {
-            "id": {
-              "description": "ID, 默认为 `bandizip`，可在对应产品页 URL 中找到",
-              "options": [
-                {
-                  "label": "Bandizip",
-                  "value": "bandizip"
-                },
-                {
-                  "label": "Bandizip for Mac",
-                  "value": "bandizip.mac"
-                },
-                {
-                  "label": "BandiView",
-                  "value": "bandiview"
-                },
-                {
-                  "label": "Honeycam",
-                  "value": "honeycam"
-                }
-              ]
-            },
-            "language": {
-              "description": "地区, 默认为 `en`",
-              "options": [
-                {
-                  "label": "English",
-                  "value": "en"
-                },
-                {
-                  "label": "中文(简体)",
-                  "value": "cn"
-                },
-                {
-                  "label": "中文(繁體)",
-                  "value": "tw"
-                },
-                {
-                  "label": "日本語",
-                  "value": "jp"
-                },
-                {
-                  "label": "Русский",
-                  "value": "ru"
-                },
-                {
-                  "label": "Español",
-                  "value": "es"
-                },
-                {
-                  "label": "Français",
-                  "value": "fr"
-                },
-                {
-                  "label": "Deutsch",
-                  "value": "de"
-                },
-                {
-                  "label": "Italiano",
-                  "value": "it"
-                },
-                {
-                  "label": "Slovenčina",
-                  "value": "sk"
-                },
-                {
-                  "label": "Українська",
-                  "value": "uk"
-                },
-                {
-                  "label": "Беларуская",
-                  "value": "be"
-                },
-                {
-                  "label": "Dansk",
-                  "value": "da"
-                },
-                {
-                  "label": "Polski",
-                  "value": "pl"
-                },
-                {
-                  "label": "Português Brasileiro",
-                  "value": "br"
-                },
-                {
-                  "label": "Čeština",
-                  "value": "cs"
-                },
-                {
-                  "label": "Nederlands",
-                  "value": "nl"
-                },
-                {
-                  "label": "Slovenščina",
-                  "value": "sl"
-                },
-                {
-                  "label": "Türkçe",
-                  "value": "tr"
-                },
-                {
-                  "label": "ภาษาไทย",
-                  "value": "th"
-                },
-                {
-                  "label": "Ελληνικά",
-                  "value": "gr"
-                },
-                {
-                  "label": "O'zbek",
-                  "value": "uz"
-                },
-                {
-                  "label": "Romanian",
-                  "value": "ro"
-                },
-                {
-                  "label": "한국어",
-                  "value": "kr"
-                }
-              ]
-            }
-          },
-          "description": ":::tip\n若订阅 [Bandizip 更新记录](https://cn.bandisoft.com/bandizip/history/)，网址为 `https://cn.bandisoft.com/bandizip/history/`，请截取 `cn` 作为 `category` 参数填入，此时目标路由为 [`/bandisoft/:language?/:id?`](https://rsshub.app/bandisoft/:language?/:id?)。\n:::\n\n<details>\n  <summary>更多语言</summary>\n\n| Language             | ID  |\n| -------------------- | --- |\n| English              | en  |\n| 中文(简体)           | cn  |\n| 中文(繁體)           | tw  |\n| 日本語               | jp  |\n| Русский              | ru  |\n| Español              | es  |\n| Français             | fr  |\n| Deutsch              | de  |\n| Italiano             | it  |\n| Slovenčina           | sk  |\n| Українська           | uk  |\n| Беларуская           | be  |\n| Dansk                | da  |\n| Polski               | pl  |\n| Português Brasileiro | br  |\n| Čeština              | cs  |\n| Nederlands           | nl  |\n| Slovenščina          | sl  |\n| Türkçe               | tr  |\n| ภาษาไทย              | th  |\n| Ελληνικά             | gr  |\n| Oʻzbek               | uz  |\n| Romanian             | ro  |\n| 한국어               | kr  |\n\n</details>\n"
-        },
-        "location": "history.ts",
-        "module": () => import('@/routes/bandisoft/history.ts')
-      }
-    },
-    "name": "Bandisoft",
-    "apiRoutes": {},
-    "url": "bandisoft.com",
-    "categories": [
-      "program-update"
-    ],
-    "description": "",
-    "lang": "en"
-  },
   "bangumi.moe": {
     "routes": {
       "/*": {
@@ -12947,8 +12632,7 @@ export default {
       "/blog": {
         "path": "/blog",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/baoyu/blog",
         "radar": [
@@ -13086,8 +12770,7 @@ export default {
           "channel": "channel, default to `top stories`"
         },
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "description": "Provides a better reading experience (full text articles) over the official ones.\n\n    Support major channels, refer to [BBC RSS feeds](https://www.bbc.co.uk/news/10628494). Eg, `business` for `https://feeds.bbci.co.uk/news/business/rss.xml`.\n\n    -   Channel contains sub-directories, such as `https://feeds.bbci.co.uk/news/world/asia/rss.xml`, replace `/` with `-`, `/bbc/world-asia`.",
         "location": "index.ts",
@@ -13230,8 +12913,7 @@ export default {
       "/:user/:type?": {
         "path": "/:user/:type?",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/behance/mishapetrick",
@@ -13585,8 +13267,7 @@ export default {
       "/user/article/:uid": {
         "path": "/user/article/:uid",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/bilibili/user/article/334958638",
         "parameters": {
@@ -13753,8 +13434,7 @@ export default {
       "/user/dynamic/:uid/:routeParams?": {
         "path": "/user/dynamic/:uid/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/bilibili/user/dynamic/2267573",
@@ -14416,8 +14096,7 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/bilibili/ranking/0",
@@ -14700,8 +14379,7 @@ export default {
       "/user/video/:uid/:embed?": {
         "path": "/user/video/:uid/:embed?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/bilibili/user/video/2267573",
@@ -14803,8 +14481,7 @@ export default {
       "/weekly/:embed?": {
         "path": "/weekly/:embed?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/bilibili/weekly",
         "parameters": {
@@ -14846,8 +14523,7 @@ export default {
       "/announcement/:type": {
         "path": "/announcement/:type",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/binance/announcement/new-cryptocurrency-listing",
@@ -15308,8 +14984,7 @@ export default {
       "/announcement/:type/:lang?": {
         "path": "/announcement/:type/:lang?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/bitget/announcement/all/zh-CN",
@@ -15663,8 +15338,7 @@ export default {
       "/apod": {
         "path": "/apod",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/bjp/apod",
@@ -16110,8 +15784,7 @@ export default {
       "/:site?": {
         "path": "/:site?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/bloomberg/bbiz",
@@ -16937,8 +16610,7 @@ export default {
       "/profile/:handle/:routeParams?": {
         "path": "/profile/:handle/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/bsky/profile/bsky.app",
@@ -18204,8 +17876,7 @@ export default {
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/caixin/weekly",
         "radar": [
@@ -20081,8 +19752,7 @@ export default {
       "/:site/:category/:name": {
         "path": "/:site/:category/:name",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/cctv/tv/lm/xwlb",
         "parameters": {
@@ -24146,8 +23816,7 @@ export default {
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/cngal/weekly",
@@ -25096,8 +24765,7 @@ export default {
       "/huati/:tag": {
         "path": "/huati/:tag",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/coolapk/huati/iPhone",
         "parameters": {
@@ -25160,8 +24828,7 @@ export default {
           "/tuwen/:type?"
         ],
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/coolapk/tuwen",
         "parameters": {
@@ -30798,8 +30465,7 @@ export default {
       "/group/:groupid/:type?": {
         "path": "/group/:groupid/:type?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/douban/group/648102",
@@ -30923,8 +30589,7 @@ export default {
       "/list/:type?/:routeParams?": {
         "path": "/list/:type?/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/douban/list/subject_real_time_hotest",
         "parameters": {
@@ -31158,8 +30823,7 @@ export default {
       "/people/:userid/status/:routeParams?": {
         "path": "/people/:userid/status/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/douban/people/75118396/status",
@@ -31487,8 +31151,7 @@ export default {
       "/user/:name": {
         "path": "/user/:name",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "example": "/dribbble/user/google",
         "parameters": {
@@ -31792,8 +31455,7 @@ export default {
       "/:type?/:category?": {
         "path": "/:type?/:category?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/dx2025",
         "parameters": {
@@ -32500,8 +32162,7 @@ export default {
       "/report/:category": {
         "path": "/report/:category",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/eastmoney/report/strategyreport",
@@ -32791,8 +32452,7 @@ export default {
       "/espresso": {
         "path": "/espresso",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/economist/espresso",
@@ -33394,8 +33054,7 @@ export default {
       "/freegames/:locale?/:country?": {
         "path": "/freegames/:locale?/:country?",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "view": 5,
         "example": "/epicgames/freegames/en-US/US",
@@ -35475,8 +35134,7 @@ export default {
       "/profile/:uid": {
         "name": "User subscriptions",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "path": "/profile/:uid",
         "example": "/follow/profile/41279032429549568",
@@ -35635,8 +35293,7 @@ export default {
       "/news/:lang?": {
         "path": "/news/:lang?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/followin/news",
@@ -37089,8 +36746,7 @@ export default {
       "/kx": {
         "path": "/kx",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 5,
         "example": "/fx678/kx",
@@ -37384,8 +37040,7 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -38486,8 +38141,7 @@ export default {
         },
         "description": "::: tip\n  若订阅 [综合报道](https://www.geekpark.net/column/179)，网址为 `https://www.geekpark.net/column/179`。截取 `https://www.geekpark.net/column/` 到末尾的部分 `179` 作为参数填入，此时路由为 [`/geekpark/179`](https://rsshub.app/geekpark/179)。\n:::\n\n| 栏目                                                         | ID                                     |\n| ------------------------------------------------------------ | -------------------------------------- |\n| [综合报道](https://www.geekpark.net/column/179)              | [179](https://rsshub.app/geekpark/179) |\n| [AI新浪潮观察](https://www.geekpark.net/column/304)          | [304](https://rsshub.app/geekpark/304) |\n| [新造车观察](https://www.geekpark.net/column/305)            | [305](https://rsshub.app/geekpark/305) |\n| [财报解读](https://www.geekpark.net/column/271)              | [271](https://rsshub.app/geekpark/271) |\n| [底稿对话CEO系列](https://www.geekpark.net/column/308)       | [308](https://rsshub.app/geekpark/308) |\n| [Geek Insight 特稿系列](https://www.geekpark.net/column/306) | [306](https://rsshub.app/geekpark/306) |\n| [心科技](https://www.geekpark.net/column/307)                | [307](https://rsshub.app/geekpark/307) |\n| [行业资讯](https://www.geekpark.net/column/2)                | [2](https://rsshub.app/geekpark/2)     |\n  ",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "features": {
           "requireConfig": false,
@@ -38691,8 +38345,7 @@ export default {
       "/hot-article/:type?": {
         "path": "/hot-article/:type?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/hot-article",
@@ -38763,8 +38416,7 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/live",
@@ -39356,8 +39008,7 @@ export default {
         ],
         "example": "/github/activity/DIYgod",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "view": 5,
         "parameters": {
@@ -39672,8 +39323,7 @@ export default {
       "/issue/:user/:repo/:state?/:labels?": {
         "path": "/issue/:user/:repo/:state?/:labels?",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "view": 5,
         "example": "/github/issue/DIYgod/RSSHub/open",
@@ -39982,8 +39632,7 @@ export default {
       "/trending/:since/:language/:spoken_language?": {
         "path": "/trending/:since/:language/:spoken_language?",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/github/trending/daily/javascript/en",
         "view": 5,
@@ -40526,8 +40175,7 @@ export default {
       "/citations/:id": {
         "path": "/citations/:id",
         "categories": [
-          "journal",
-          "popular"
+          "journal"
         ],
         "example": "/google/citations/mlmE4JMAAAAJ",
         "parameters": {
@@ -41369,8 +41017,7 @@ export default {
       "/chinatax/latest": {
         "path": "/chinatax/latest",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/chinatax/latest",
         "parameters": {},
@@ -41570,8 +41217,7 @@ export default {
         },
         "description": "::: tip\n  若订阅 [行政处罚决定](http://www.csrc.gov.cn/csrc/c101971/zfxxgk_zdgk.shtml)，网址为 `http://www.csrc.gov.cn/csrc/c101971/zfxxgk_zdgk.shtml`。截取 `http://www.csrc.gov.cn/csrc/` 到末尾 `/zfxxgk_zdgk.shtml` 的部分 `c101971` 作为参数填入，此时路由为 [`/gov/csrc/zfxxgk_zdgk/c101971`](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101971)。\n:::\n\n#### [主动公开目录](http://www.csrc.gov.cn/csrc/c100035/zfxxgk_zdgk.shtml)\n\n| 频道                                                                    | ID                                                         |\n| ----------------------------------------------------------------------- | ---------------------------------------------------------- |\n| [按主题查看](http://www.csrc.gov.cn/csrc/c101793/zfxxgk_zdgk.shtml)     | [c101793](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101793) |\n| [按体裁文种查看](http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml) | [c101951](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101951) |\n| [按派出机构查看](http://www.csrc.gov.cn/csrc/c101985/zfxxgk_zdgk.shtml) | [c101985](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101985) |\n\n<details>\n<summary>更多频道</summary>\n\n#### [按主题查看](http://www.csrc.gov.cn/csrc/c101793/zfxxgk_zdgk.shtml)\n\n| 频道                                                                              | ID                                                         |\n| --------------------------------------------------------------------------------- | ---------------------------------------------------------- |\n| [综合政务](http://www.csrc.gov.cn/csrc/c101794/zfxxgk_zdgk.shtml)                 | [c101794](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101794) |\n| [发行监管](http://www.csrc.gov.cn/csrc/c101801/zfxxgk_zdgk.shtml)                 | [c101801](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101801) |\n| [公众公司监管（含北交所）](http://www.csrc.gov.cn/csrc/c101828/zfxxgk_zdgk.shtml) | [c101828](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101828) |\n| [证券交易监管](http://www.csrc.gov.cn/csrc/c101832/zfxxgk_zdgk.shtml)             | [c101832](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101832) |\n| [证券经营机构监管](http://www.csrc.gov.cn/csrc/c101837/zfxxgk_zdgk.shtml)         | [c101837](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101837) |\n| [上市公司监管](http://www.csrc.gov.cn/csrc/c101863/zfxxgk_zdgk.shtml)             | [c101863](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101863) |\n| [基金监管](http://www.csrc.gov.cn/csrc/c101876/zfxxgk_zdgk.shtml)                 | [c101876](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101876) |\n| [私募基金监管](http://www.csrc.gov.cn/csrc/c101938/zfxxgk_zdgk.shtml)             | [c101938](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101938) |\n| [区域性股权市场规范发展](http://www.csrc.gov.cn/csrc/c106301/zfxxgk_zdgk.shtml)   | [c106301](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c106301) |\n| [期货监管](http://www.csrc.gov.cn/csrc/c101901/zfxxgk_zdgk.shtml)                 | [c101901](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101901) |\n| [债券监管](http://www.csrc.gov.cn/csrc/c106306/zfxxgk_zdgk.shtml)                 | [c106306](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c106306) |\n| [行政执法](http://www.csrc.gov.cn/csrc/c101925/zfxxgk_zdgk.shtml)                 | [c101925](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101925) |\n| [行政复议](http://www.csrc.gov.cn/csrc/c105938/zfxxgk_zdgk.shtml)                 | [c105938](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105938) |\n| [国际合作](http://www.csrc.gov.cn/csrc/c101931/zfxxgk_zdgk.shtml)                 | [c101931](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101931) |\n| [证券服务机构监管](http://www.csrc.gov.cn/csrc/c105939/zfxxgk_zdgk.shtml)         | [c105939](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105939) |\n| [其他](http://www.csrc.gov.cn/csrc/c101950/zfxxgk_zdgk.shtml)                     | [c101950](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101950) |\n\n#### [按体裁文种查看](http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml)\n\n| 频道                                                                        | ID                                                         |\n| --------------------------------------------------------------------------- | ---------------------------------------------------------- |\n| [机构职能](http://www.csrc.gov.cn/csrc/c101952/zfxxgk_zdgk.shtml)           | [c101952](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101952) |\n| [证监会令](http://www.csrc.gov.cn/csrc/c101953/zfxxgk_zdgk.shtml)           | [c101953](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101953) |\n| [证监会公告](http://www.csrc.gov.cn/csrc/c101954/zfxxgk_zdgk.shtml)         | [c101954](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101954) |\n| [监管规则适用指引](http://www.csrc.gov.cn/csrc/c105948/zfxxgk_zdgk.shtml)   | [c105948](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105948) |\n| [行政许可批复](http://www.csrc.gov.cn/csrc/c101955/zfxxgk_zdgk.shtml)       | [c101955](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101955) |\n| [办事指南](http://www.csrc.gov.cn/csrc/c101968/zfxxgk_zdgk.shtml)           | [c101968](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101968) |\n| [监管对象](http://www.csrc.gov.cn/csrc/c101969/zfxxgk_zdgk.shtml)           | [c101969](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101969) |\n| [统计信息](http://www.csrc.gov.cn/csrc/c101970/zfxxgk_zdgk.shtml)           | [c101970](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101970) |\n| [行政处罚决定](http://www.csrc.gov.cn/csrc/c101971/zfxxgk_zdgk.shtml)       | [c101971](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101971) |\n| [市场禁入决定](http://www.csrc.gov.cn/csrc/c101972/zfxxgk_zdgk.shtml)       | [c101972](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101972) |\n| [行政执法当事人承诺](http://www.csrc.gov.cn/csrc/c106416/zfxxgk_zdgk.shtml) | [c106416](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c106416) |\n| [行政复议](http://www.csrc.gov.cn/csrc/c101973/zfxxgk_zdgk.shtml)           | [c101973](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101973) |\n| [监管措施](http://www.csrc.gov.cn/csrc/c105955/zfxxgk_zdgk.shtml)           | [c105955](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105955) |\n| [预先披露](http://www.csrc.gov.cn/csrc/c101974/zfxxgk_zdgk.shtml)           | [c101974](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101974) |\n| [发审会公告](http://www.csrc.gov.cn/csrc/c101975/zfxxgk_zdgk.shtml)         | [c101975](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101975) |\n| [重组委公告](http://www.csrc.gov.cn/csrc/c101976/zfxxgk_zdgk.shtml)         | [c101976](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101976) |\n| [规划报告](http://www.csrc.gov.cn/csrc/c101977/zfxxgk_zdgk.shtml)           | [c101977](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101977) |\n| [非行政许可事项](http://www.csrc.gov.cn/csrc/c101978/zfxxgk_zdgk.shtml)     | [c101978](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101978) |\n| [其他](http://www.csrc.gov.cn/csrc/c101979/zfxxgk_zdgk.shtml)               | [c101979](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101979) |\n| [备案管理](http://www.csrc.gov.cn/csrc/c106402/zfxxgk_zdgk.shtml)           | [c106402](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c106402) |\n\n#### [按派出机构查看](http://www.csrc.gov.cn/csrc/c101985/zfxxgk_zdgk.shtml)\n\n| 频道                                                                | ID                                                         |\n| ------------------------------------------------------------------- | ---------------------------------------------------------- |\n| [北京](http://www.csrc.gov.cn/csrc/c101986/zfxxgk_zdgk.shtml)       | [c101986](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101986) |\n| [天津](http://www.csrc.gov.cn/csrc/c101987/zfxxgk_zdgk.shtml)       | [c101987](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101987) |\n| [河北](http://www.csrc.gov.cn/csrc/c101988/zfxxgk_zdgk.shtml)       | [c101988](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101988) |\n| [山西](http://www.csrc.gov.cn/csrc/c101989/zfxxgk_zdgk.shtml)       | [c101989](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101989) |\n| [内蒙古](http://www.csrc.gov.cn/csrc/c101990/zfxxgk_zdgk.shtml)     | [c101990](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101990) |\n| [辽宁](http://www.csrc.gov.cn/csrc/c101991/zfxxgk_zdgk.shtml)       | [c101991](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101991) |\n| [吉林](http://www.csrc.gov.cn/csrc/c101992/zfxxgk_zdgk.shtml)       | [c101992](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101992) |\n| [黑龙江](http://www.csrc.gov.cn/csrc/c101993/zfxxgk_zdgk.shtml)     | [c101993](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101993) |\n| [上海](http://www.csrc.gov.cn/csrc/c101994/zfxxgk_zdgk.shtml)       | [c101994](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101994) |\n| [江苏](http://www.csrc.gov.cn/csrc/c101995/zfxxgk_zdgk.shtml)       | [c101995](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101995) |\n| [浙江](http://www.csrc.gov.cn/csrc/c101996/zfxxgk_zdgk.shtml)       | [c101996](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101996) |\n| [安徽](http://www.csrc.gov.cn/csrc/c101997/zfxxgk_zdgk.shtml)       | [c101997](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101997) |\n| [福建](http://www.csrc.gov.cn/csrc/c101998/zfxxgk_zdgk.shtml)       | [c101998](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101998) |\n| [江西](http://www.csrc.gov.cn/csrc/c101999/zfxxgk_zdgk.shtml)       | [c101999](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101999) |\n| [山东](http://www.csrc.gov.cn/csrc/c102000/zfxxgk_zdgk.shtml)       | [c102000](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102000) |\n| [河南](http://www.csrc.gov.cn/csrc/c102001/zfxxgk_zdgk.shtml)       | [c102001](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102001) |\n| [湖北](http://www.csrc.gov.cn/csrc/c102002/zfxxgk_zdgk.shtml)       | [c102002](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102002) |\n| [湖南](http://www.csrc.gov.cn/csrc/c102003/zfxxgk_zdgk.shtml)       | [c102003](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102003) |\n| [广东](http://www.csrc.gov.cn/csrc/c102004/zfxxgk_zdgk.shtml)       | [c102004](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102004) |\n| [广西](http://www.csrc.gov.cn/csrc/c102005/zfxxgk_zdgk.shtml)       | [c102005](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102005) |\n| [海南](http://www.csrc.gov.cn/csrc/c102006/zfxxgk_zdgk.shtml)       | [c102006](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102006) |\n| [重庆](http://www.csrc.gov.cn/csrc/c102007/zfxxgk_zdgk.shtml)       | [c102007](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102007) |\n| [四川](http://www.csrc.gov.cn/csrc/c102008/zfxxgk_zdgk.shtml)       | [c102008](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102008) |\n| [贵州](http://www.csrc.gov.cn/csrc/c102009/zfxxgk_zdgk.shtml)       | [c102009](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102009) |\n| [云南](http://www.csrc.gov.cn/csrc/c102010/zfxxgk_zdgk.shtml)       | [c102010](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102010) |\n| [西藏](http://www.csrc.gov.cn/csrc/c102011/zfxxgk_zdgk.shtml)       | [c102011](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102011) |\n| [陕西](http://www.csrc.gov.cn/csrc/c102012/zfxxgk_zdgk.shtml)       | [c102012](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102012) |\n| [甘肃](http://www.csrc.gov.cn/csrc/c102013/zfxxgk_zdgk.shtml)       | [c102013](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102013) |\n| [青海](http://www.csrc.gov.cn/csrc/c102014/zfxxgk_zdgk.shtml)       | [c102014](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102014) |\n| [宁夏](http://www.csrc.gov.cn/csrc/c102015/zfxxgk_zdgk.shtml)       | [c102015](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102015) |\n| [新疆](http://www.csrc.gov.cn/csrc/c102016/zfxxgk_zdgk.shtml)       | [c102016](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102016) |\n| [深圳](http://www.csrc.gov.cn/csrc/c102017/zfxxgk_zdgk.shtml)       | [c102017](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102017) |\n| [大连](http://www.csrc.gov.cn/csrc/c102018/zfxxgk_zdgk.shtml)       | [c102018](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102018) |\n| [宁波](http://www.csrc.gov.cn/csrc/c102019/zfxxgk_zdgk.shtml)       | [c102019](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102019) |\n| [厦门](http://www.csrc.gov.cn/csrc/c102020/zfxxgk_zdgk.shtml)       | [c102020](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102020) |\n| [青岛](http://www.csrc.gov.cn/csrc/c102021/zfxxgk_zdgk.shtml)       | [c102021](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c102021) |\n| [上海专员办](http://www.csrc.gov.cn/csrc/c105841/zfxxgk_zdgk.shtml) | [c105841](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105841) |\n| [深圳专员办](http://www.csrc.gov.cn/csrc/c105842/zfxxgk_zdgk.shtml) | [c105842](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105842) |\n\n#### [综合政务](http://www.csrc.gov.cn/csrc/c101794/zfxxgk_zdgk.shtml)\n\n| 频道                                                                                    | ID                                                         |\n| --------------------------------------------------------------------------------------- | ---------------------------------------------------------- |\n| [组织机构](http://www.csrc.gov.cn/csrc/c101795/zfxxgk_zdgk.shtml)                       | [c101795](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101795) |\n| [征求意见](http://www.csrc.gov.cn/csrc/c101796/zfxxgk_zdgk.shtml)                       | [c101796](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101796) |\n| [废止规章](http://www.csrc.gov.cn/csrc/c101797/zfxxgk_zdgk.shtml)                       | [c101797](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101797) |\n| [财务预算管理](http://www.csrc.gov.cn/csrc/c105887/zfxxgk_zdgk.shtml)                   | [c105887](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c105887) |\n| [其他](http://www.csrc.gov.cn/csrc/c101799/zfxxgk_zdgk.shtml)                           | [c101799](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101799) |\n| [全国人大建议和政协提案复文公开](http://www.csrc.gov.cn/csrc/c101800/zfxxgk_zdgk.shtml) | [c101800](https://rsshub.app/gov/csrc/zfxxgk_zdgk/c101800) |\n\n</details>\n    ",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "features": {
           "requireConfig": false,
@@ -43992,8 +43638,7 @@ export default {
           "nczitzk"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "radar": [
           {
@@ -44044,8 +43689,7 @@ export default {
       "/nea/sjzz/ghs": {
         "path": "/nea/sjzz/ghs",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/nea/sjzz/ghs",
         "parameters": {},
@@ -44098,8 +43742,7 @@ export default {
       "/npc/:caty": {
         "path": "/npc/:caty",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/npc/c183",
         "parameters": {
@@ -45368,8 +45011,7 @@ export default {
       "/zhengce/zhengceku/:department": {
         "path": "/zhengce/zhengceku/:department",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/zhengce/zhengceku/bmwj",
         "parameters": {
@@ -53398,8 +53040,7 @@ export default {
       "/recommend": {
         "path": "/recommend",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/infoq/recommend",
         "parameters": {},
@@ -54684,8 +54325,7 @@ export default {
       "/ranking/:type": {
         "path": "/ranking/:type",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/ithome/ranking/24h",
         "parameters": {
@@ -55128,8 +54768,7 @@ export default {
           "Felix2yu"
         ],
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "url": "www.javbus.com",
@@ -55154,8 +54793,7 @@ export default {
       "/actors/:id/:filter?": {
         "path": "/actors/:id/:filter?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/javdb/actors/R2Vg",
         "parameters": {
@@ -55279,8 +54917,7 @@ export default {
       "/rankings/:category?/:time?": {
         "path": "/rankings/:category?/:time?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/javdb/rankings",
         "parameters": {
@@ -55445,8 +55082,7 @@ export default {
       "/video_codes/:code/:filter?": {
         "path": "/video_codes/:code/:filter?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/javdb/video_codes/SIVR",
         "parameters": {
@@ -55740,8 +55376,7 @@ export default {
           "id": "Actress name"
         },
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "radar": [
           {
@@ -55966,8 +55601,7 @@ export default {
       "/home": {
         "path": "/home",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 0,
         "example": "/jianshu/home",
@@ -56177,8 +55811,7 @@ export default {
       "/topic/:id/:showUid?": {
         "path": "/topic/:id/:showUid?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/jike/topic/556688fae4b00c57d9dd46ee",
@@ -56221,8 +55854,7 @@ export default {
       "/user/:id": {
         "path": "/user/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/jike/user/3EE02BC9-C5B3-4209-8750-4ED1EE0F67BB",
@@ -56549,8 +56181,7 @@ export default {
       "/lives/:category?": {
         "path": "/lives/:category?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 5,
         "example": "/jinse/lives",
@@ -56897,8 +56528,7 @@ export default {
       "/community": {
         "path": "/community",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/jiuyangongshe/community",
@@ -57616,8 +57246,7 @@ export default {
       "/tab/:tab?": {
         "path": "/tab/:tab?",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "example": "/jpxgmn/tab",
         "parameters": {
@@ -57641,8 +57270,7 @@ export default {
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "example": "/jpxgmn/weekly",
         "radar": [
@@ -57952,8 +57580,7 @@ export default {
       "/category/:category": {
         "path": "/category/:category",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/category/frontend",
         "parameters": {
@@ -58080,8 +57707,7 @@ export default {
       "/dynamic/:id": {
         "path": "/dynamic/:id",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/dynamic/3051900006845944",
         "parameters": {
@@ -58138,8 +57764,7 @@ export default {
       "/posts/:id": {
         "path": "/posts/:id",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/posts/3051900006845944",
         "parameters": {
@@ -58202,8 +57827,7 @@ export default {
       "/trending/:category/:type": {
         "path": "/trending/:category/:type",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/trending/ios/monthly",
         "parameters": {
@@ -59058,8 +58682,7 @@ export default {
       "/post/popular_recent/:period?": {
         "path": "/post/popular_recent/:period?",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/konachan/post/popular_recent/1d",
@@ -63453,8 +63076,7 @@ export default {
       "/cn/:category?": {
         "path": "/cn/:category?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/mckinsey/cn",
@@ -66207,35 +65829,6 @@ export default {
       "name": "美露可利"
     }
   },
-  "meta": {
-    "routes": {
-      "/ai/blog": {
-        "path": "/ai/blog",
-        "categories": [
-          "programming"
-        ],
-        "example": "/meta/ai/blog",
-        "name": "AI Blog",
-        "maintainers": [
-          "TonyRL"
-        ],
-        "url": "ai.meta.com/blog/",
-        "radar": [
-          {
-            "source": [
-              "ai.meta.com/blog/",
-              "ai.meta.com"
-            ]
-          }
-        ],
-        "location": "ai-blog.ts",
-        "module": () => import('@/routes/meta/ai-blog.ts')
-      }
-    },
-    "name": "Meta",
-    "apiRoutes": {},
-    "url": "www.meta.com"
-  },
   "metacritic": {
     "routes": {
       "/:type?/:sort?/:filter?": {
@@ -68672,8 +68265,7 @@ export default {
       "/apod": {
         "path": "/apod",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/nasa/apod",
@@ -68713,8 +68305,7 @@ export default {
       "/dailyphoto": {
         "path": "/dailyphoto",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/natgeo/dailyphoto",
@@ -70514,8 +70105,7 @@ export default {
       "/forum/:fid/:recommend?": {
         "path": "/forum/:fid/:recommend?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "view": 0,
         "example": "/nga/forum/489",
@@ -70713,8 +70303,7 @@ export default {
       "/news/:lang?": {
         "path": "/news/:lang?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/nhk/news/en",
@@ -74153,8 +73742,7 @@ export default {
       "/:lang?": {
         "path": "/:lang?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/nytimes/dual",
@@ -76271,8 +75859,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/panewslab/news",
         "radar": [
@@ -78447,8 +78034,7 @@ export default {
       "/user/:id/:type?": {
         "path": "/user/:id/:type?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/picnob/user/xlisa_olivex",
         "parameters": {
@@ -78498,8 +78084,7 @@ export default {
       "/profile/:id/:type?/:functionalFlag?": {
         "path": "/profile/:id/:type?/:functionalFlag?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/picuki/profile/linustech",
         "parameters": {
@@ -79073,8 +78658,7 @@ export default {
       "/ranking/:mode/:date?": {
         "path": "/ranking/:mode/:date?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 2,
         "example": "/pixiv/ranking/week",
@@ -79161,8 +78745,7 @@ export default {
       "/search/:keyword/:order?/:mode?/:include_ai?": {
         "path": "/search/:keyword/:order?/:mode?/:include_ai?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 2,
         "example": "/pixiv/search/Nezuko/popular",
@@ -79233,8 +78816,7 @@ export default {
       "/user/:id": {
         "path": "/user/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 2,
         "example": "/pixiv/user/15288095",
@@ -80148,8 +79730,7 @@ export default {
       "/category/:caty": {
         "path": "/category/:caty",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/category/popular-with-women",
@@ -80174,8 +79755,7 @@ export default {
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
@@ -80211,8 +79791,7 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
@@ -80323,8 +79902,7 @@ export default {
       "/search/:keyword": {
         "path": "/search/:keyword",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/search/stepsister",
@@ -83767,8 +83345,7 @@ export default {
       "/:category/:topic?": {
         "path": "/:category/:topic?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/reuters/world/us",
@@ -84208,8 +83785,7 @@ export default {
       "/routes/:lang?": {
         "path": "/routes/:lang?",
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "view": 5,
         "example": "/rsshub/routes/en",
@@ -84248,8 +83824,7 @@ export default {
       "/transform/html/:url/:routeParams": {
         "path": "/transform/html/:url/:routeParams",
         "categories": [
-          "other",
-          "popular"
+          "other"
         ],
         "example": "/rsshub/transform/html/https%3A%2F%2Fwechat2rss.xlab.app%2Fposts%2Flist%2F/item=div%5Bclass%3D%27post%2Dcontent%27%5D%20p%20a",
         "parameters": {
@@ -85207,8 +84782,7 @@ export default {
       "/blog/:type?/:time?/:sort?": {
         "path": "/blog/:type?/:time?/:sort?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/sciencenet/blog",
         "parameters": {
@@ -88873,8 +88447,7 @@ export default {
       "/forum/:id?": {
         "path": "/forum/:id?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/sis001/forum/322",
         "parameters": {
@@ -89785,8 +89358,7 @@ export default {
       "/haowen/:day?": {
         "path": "/haowen/:day?",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "example": "/smzdm/haowen/1",
         "parameters": {
@@ -89833,8 +89405,7 @@ export default {
       "/keyword/:keyword": {
         "path": "/keyword/:keyword",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "view": 5,
         "example": "/smzdm/keyword/女装",
@@ -89902,8 +89473,7 @@ export default {
       "/ranking/:rank_type/:rank_id/:hour": {
         "path": "/ranking/:rank_type/:rank_id/:hour",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "view": 5,
         "example": "/smzdm/ranking/pinlei/11/3",
@@ -90377,8 +89947,7 @@ export default {
       "/:type?": {
         "path": "/:type?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/solidot/linux",
@@ -91000,8 +90569,7 @@ export default {
       "/show/:id": {
         "path": "/show/:id",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 4,
         "example": "/spotify/show/5CfCWKI5pZ28U0uOzXkDHe",
@@ -91832,8 +91400,7 @@ export default {
       "/index": {
         "path": "/index",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "view": 0,
         "example": "/sspai/index",
@@ -91864,8 +91431,7 @@ export default {
       "/matrix": {
         "path": "/matrix",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/sspai/matrix",
         "parameters": {},
@@ -97664,8 +97230,7 @@ export default {
       "/:id/:type?/:search?": {
         "path": "/:id/:type?/:search?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/t66y/20/2",
         "parameters": {
@@ -98248,8 +97813,7 @@ export default {
       "/express": {
         "path": "/express",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/techflowpost/express",
@@ -98446,8 +98010,7 @@ export default {
       "/blog": {
         "path": "/blog",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 0,
         "example": "/telegram/blog",
@@ -98478,8 +98041,7 @@ export default {
       "/channel/:username/:routeParams?": {
         "path": "/channel/:username/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/telegram/channel/awesomeRSSHub",
@@ -99091,8 +98653,7 @@ export default {
       "/:channel?/:original?": {
         "path": "/:channel?/:original?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/theblockbeats/newsflash",
@@ -99272,8 +98833,7 @@ export default {
       "/app/:category?": {
         "path": "/app/:category?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/theinitium/app",
         "parameters": {
@@ -99784,8 +99344,7 @@ export default {
       "/:term?": {
         "path": "/:term?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/thepetcity",
         "parameters": {
@@ -100135,8 +99694,7 @@ export default {
       "/news/:type?": {
         "path": "/news/:type?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/timednews/news",
         "parameters": {
@@ -102272,8 +101830,7 @@ export default {
       "/keyword/:keyword/:routeParams?": {
         "path": "/keyword/:keyword/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/twitter/keyword/RSSHub",
@@ -102356,8 +101913,7 @@ export default {
       "/list/:id/:routeParams?": {
         "path": "/list/:id/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/twitter/list/1502570462752219136",
         "parameters": {
@@ -102401,8 +101957,7 @@ export default {
       "/media/:id/:routeParams?": {
         "path": "/media/:id/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 2,
         "example": "/twitter/media/_RSSHub",
@@ -102511,8 +102066,7 @@ export default {
       "/user/:id/:routeParams?": {
         "path": "/user/:id/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/twitter/user/_RSSHub",
@@ -104797,8 +104351,7 @@ export default {
       "/tab/:tabid": {
         "path": "/tab/:tabid",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "view": 0,
         "example": "/v2ex/tab/hot",
@@ -104823,8 +104376,7 @@ export default {
       "/topics/:type": {
         "path": "/topics/:type",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "view": 0,
         "example": "/v2ex/topics/latest",
@@ -106977,8 +106529,7 @@ export default {
       "/mp/msgalbum/:biz/:aid": {
         "path": "/mp/msgalbum/:biz/:aid",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/wechat/mp/msgalbum/MzA3MDM3NjE5NQ==/1375870284640911361",
         "parameters": {
@@ -107213,8 +106764,7 @@ export default {
       "/keyword/:keyword/:routeParams?": {
         "path": "/keyword/:keyword/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/weibo/keyword/RSSHub",
@@ -107356,8 +106906,7 @@ export default {
       "/user/:uid/:routeParams?": {
         "path": "/user/:uid/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/weibo/user/1195230310",
@@ -109076,8 +108625,7 @@ export default {
       "/:label?": {
         "path": "/:label?",
         "categories": [
-          "reading",
-          "popular"
+          "reading"
         ],
         "example": "/xbookcn/精选作品",
         "parameters": {
@@ -109315,8 +108863,7 @@ export default {
         "path": "/user/:user_id/:category/:routeParams?",
         "name": "用户笔记/收藏",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 0,
         "maintainers": [
@@ -109391,8 +108938,7 @@ export default {
       "/crowdfunding": {
         "path": "/crowdfunding",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "example": "/xiaomiyoupin/crowdfunding",
         "parameters": {},
@@ -109422,8 +108968,7 @@ export default {
       "/latest": {
         "path": "/latest",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "example": "/xiaomiyoupin/latest",
         "parameters": {},
@@ -109520,8 +109065,7 @@ export default {
       "/podcast/:id": {
         "path": "/podcast/:id",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 4,
         "example": "/xiaoyuzhou/podcast/6021f949a789fca4eff4492c",
@@ -110354,8 +109898,7 @@ export default {
       "/forum/:fid": {
         "path": "/forum/:fid",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/xsijishe/forum/51",
         "parameters": {
@@ -110389,8 +109932,7 @@ export default {
       "/rank/:type": {
         "path": "/rank/:type",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/xsijishe/rank/weekly",
         "parameters": {
@@ -110755,8 +110297,7 @@ export default {
       "/user/:id/:type?": {
         "path": "/user/:id/:type?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "example": "/xueqiu/user/8152922548",
         "parameters": {
@@ -111164,8 +110705,7 @@ export default {
       "/post/popular_recent/:period?": {
         "path": "/post/popular_recent/:period?",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/yande/post/popular_recent/1d",
@@ -112077,8 +111617,7 @@ export default {
       "/channel/:id/:routeParams?": {
         "path": "/channel/:id/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/youtube/channel/UCDwDMPOZfxVV0x_dz0eQ8KQ",
         "parameters": {
@@ -112222,8 +111761,7 @@ export default {
       "/playlist/:id/:embed?": {
         "path": "/playlist/:id/:embed?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/youtube/playlist/PLqQ1RwlxOgeLTJ1f3fNMSwhjVgaWKo_9Z",
@@ -112301,8 +111839,7 @@ export default {
       "/user/:username/:routeParams?": {
         "path": "/user/:username/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/youtube/user/@JFlaMusic",
@@ -112354,8 +111891,7 @@ export default {
       "/materials/:id?": {
         "path": "/materials/:id?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/youzhiyouxing/materials",
@@ -112761,8 +112297,7 @@ export default {
       "/article/:type?": {
         "path": "/article/:type?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 0,
         "example": "/yyets/article",
@@ -112821,8 +112356,7 @@ export default {
       "/today": {
         "path": "/today",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 5,
         "example": "/yyets/today",
@@ -113290,8 +112824,7 @@ export default {
       "/top/:type": {
         "path": "/top/:type",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/zcool/top/design",
@@ -113328,8 +112861,7 @@ export default {
       "/user/:uid": {
         "path": "/user/:uid",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/zcool/user/baiyong",
@@ -113518,8 +113050,7 @@ export default {
       "/people/activities/:id": {
         "path": "/people/activities/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 0,
         "example": "/zhihu/people/activities/diygod",
@@ -113724,8 +113255,7 @@ export default {
       "/hot/:category?": {
         "path": "/hot/:category?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/hot",
         "view": 0,
@@ -113755,8 +113285,7 @@ export default {
       "/posts/:usertype/:id": {
         "path": "/posts/:usertype/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/posts/people/frederchen",
         "parameters": {
@@ -113918,8 +113447,7 @@ export default {
       "/zhuanlan/:id": {
         "path": "/zhuanlan/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/zhuanlan/googledevelopers",
         "parameters": {
@@ -114478,8 +114006,7 @@ export default {
       "/posts/:id": {
         "path": "/posts/:id",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/zhubai/posts/via",
         "parameters": {
@@ -114504,8 +114031,7 @@ export default {
       "/top20": {
         "path": "/top20",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/zhubai/top20",
         "parameters": {},
