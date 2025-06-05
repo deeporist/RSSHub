@@ -2427,22 +2427,6 @@
   "/eventernote/actors/:name/:id": [
     "KTachibanaM"
   ],
-  "/everia/category/:category": [
-    "KTachibanaM",
-    "AiraNadih"
-  ],
-  "/everia/": [
-    "KTachibanaM",
-    "AiraNadih"
-  ],
-  "/everia/search/:keyword": [
-    "KTachibanaM",
-    "AiraNadih"
-  ],
-  "/everia/tag/:tag": [
-    "KTachibanaM",
-    "AiraNadih"
-  ],
   "/f-droid/apprelease/:app": [
     "garywill"
   ],
@@ -2962,10 +2946,10 @@
   "/gmcmonline/chinacustoms": [
     "nczitzk"
   ],
-  "/go/jihs/idwr/:year?": [
+  "/go/mhlw/pdf/:category{.+}?": [
     "nczitzk"
   ],
-  "/go/mhlw/pdf/:category{.+}?": [
+  "/go/niid/idwr-dl/:year?": [
     "nczitzk"
   ],
   "/gocn/jobs": [
@@ -4473,13 +4457,7 @@
   ],
   "/konachan/post/popular_recent/:period?": [
     "magic-akari",
-    "NekoAria",
-    "sineeeee"
-  ],
-  "/konachan/sfw/post/popular_recent/:period?": [
-    "magic-akari",
-    "NekoAria",
-    "sineeeee"
+    "NekoAria"
   ],
   "/konghq/blog-posts": [
     "piglei"
