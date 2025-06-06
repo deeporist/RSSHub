@@ -10090,6 +10090,15 @@
           "/"
         ],
         "target": "/civitai/models"
+      },
+      {
+        "title": "User Article",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/user/:username",
+          "/user/:username/articles"
+        ],
+        "target": "/civitai/user/:username/articles"
       }
     ]
   },
@@ -12848,6 +12857,35 @@
       }
     ]
   },
+  "everia.club": {
+    "_name": "EVERIA.CLUB",
+    ".": [
+      {
+        "title": "Images with category",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/category/:category"
+        ],
+        "target": "/everia/category/:category"
+      },
+      {
+        "title": "Latest",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/"
+        ],
+        "target": "/everia/"
+      },
+      {
+        "title": "Images with tag",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/everia/tag/:tag"
+      }
+    ]
+  },
   "f-droid.org": {
     "_name": "F-Droid",
     ".": [
@@ -14650,6 +14688,19 @@
       }
     ]
   },
+  "jihs.go.jp": {
+    "_name": "JapanGov",
+    "id-info": [
+      {
+        "title": "感染症発生動向調査週報",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/surveillance/idwr/jp/idwr/:year"
+        ],
+        "target": "/goparams=>{const year=params.year;return`/go/jihs/idwr${year?`/${year}`:\"\"}`}"
+      }
+    ]
+  },
   "mhlw.go.jp": {
     "_name": "JapanGov",
     "www": [
@@ -14660,19 +14711,6 @@
           "/"
         ],
         "target": "/go(_,url)=>{const category=new URL(url).href.match(/mhlw\\.go\\.jp\\/(.*)$/)?.[1]??void 0;return`/mhlw/pdf${category?`/${category}`:\"\"}`}"
-      }
-    ]
-  },
-  "niid.go.jp": {
-    "_name": "JapanGov",
-    "www": [
-      {
-        "title": "感染症発生動向調査週報ダウンロード",
-        "docs": "https://docs.rsshub.app/routes/government",
-        "source": [
-          "/niid/ja/idwr-dl/:year"
-        ],
-        "target": "/goparams=>{const year=params.year;return`/niid/idwr-dl/${year?`/${year}`:\"\"}`}"
       }
     ]
   },
@@ -15498,7 +15536,7 @@
     "_name": "上海市人民政府",
     "www": [
       {
-        "title": "拍卖信息 / 海关法规",
+        "title": "拍卖信息 / 海关法规 / 最新文件",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
           "/"
@@ -21538,9 +21576,19 @@
         "title": "Popular Recent Posts",
         "docs": "https://docs.rsshub.app/routes/picture",
         "source": [
+          "/post",
           "/post"
         ],
         "target": "/konachan/post/popular_recent/:period?"
+      },
+      {
+        "title": "Popular Recent Posts",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/post",
+          "/post"
+        ],
+        "target": "/konachan/sfw/post/popular_recent/:period?"
       }
     ]
   },
