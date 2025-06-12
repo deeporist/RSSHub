@@ -386,6 +386,9 @@
   "/ahjzu/news": [
     "Yuk-0v0"
   ],
+  "/aibase/daily": [
+    "3tuuu"
+  ],
   "/aibase/discover/:id?": [
     "nczitzk"
   ],
@@ -1917,6 +1920,9 @@
   ],
   "/dataguidance/news": [
     "harveyqiu"
+  ],
+  "/daum/potplayer/:lang?": [
+    "nczitzk"
   ],
   "/dayanzai/:category/:fulltext?": [],
   "/dbaplus/": [
