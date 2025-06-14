@@ -507,6 +507,9 @@
   "/android/platform-tools-releases": [
     "nczitzk"
   ],
+  "/android/security-bulletin": [
+    "TonyRL"
+  ],
   "/anime1anime/:category/:name": [
     "cxheng315"
   ],
@@ -6161,6 +6164,9 @@
   ],
   "/pwc/strategyand/sustainability": [
     "mintyfrankie"
+  ],
+  "/python/release": [
+    "nczitzk"
   ],
   "/qbitai/category/:category": [
     "FuryMartin, Geraldxm"
