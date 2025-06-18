@@ -6845,8 +6845,7 @@
         "example": "/aibase/news",
         "description": "获取 AI 资讯列表",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "features": {
           "requireConfig": false,
@@ -7728,7 +7727,8 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/ainvest/news",
         "parameters": {},
@@ -13267,8 +13267,7 @@
           "channel": "channel, default to `top stories`"
         },
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "description": "Provides a better reading experience (full text articles) over the official ones.\n\n    Support major channels, refer to [BBC RSS feeds](https://www.bbc.co.uk/news/10628494). Eg, `business` for `https://feeds.bbci.co.uk/news/business/rss.xml`.\n\n    -   Channel contains sub-directories, such as `https://feeds.bbci.co.uk/news/world/asia/rss.xml`, replace `/` with `-`, `/bbc/world-asia`.",
         "location": "index.ts",
@@ -17155,7 +17154,8 @@
         },
         "name": "Keywords",
         "maintainers": [
-          "untitaker"
+          "untitaker",
+          "DIYgod"
         ],
         "location": "keyword.ts",
         "module": "() => import('@/routes/bsky/keyword.ts')"
@@ -35138,7 +35138,8 @@
       "/express-news": {
         "path": "/express-news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 0,
         "example": "/fastbull/express-news",
@@ -52664,6 +52665,43 @@
     "url": "huxiu.com",
     "lang": "zh-CN"
   },
+  "hyperdash": {
+    "routes": {
+      "/top-traders": {
+        "path": "/top-traders",
+        "categories": [
+          "finance"
+        ],
+        "example": "/hyperdash/top-traders",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "hyperdash.info/"
+            ]
+          }
+        ],
+        "name": "Top Traders",
+        "maintainers": [
+          "pseudoyu"
+        ],
+        "description": "Get the latest top traders data from HyperDash",
+        "location": "top-traders.ts",
+        "module": "() => import('@/routes/hyperdash/top-traders.ts')"
+      }
+    },
+    "name": "HyperDash",
+    "url": "hyperdash.info",
+    "lang": "en"
+  },
   "hypergryph": {
     "routes": {
       "/arknights/announce/:platform?/:group?": {
@@ -64486,6 +64524,50 @@
     "apiRoutes": {},
     "url": "mastodon.social",
     "description": "::: tip\nOfficial user RSS:\n\n-   RSS: `https://**:instance**/users/**:username**.rss` ([Example](https://pawoo.net/users/pawoo_support.rss))\n-   Atom: ~~`https://**:instance**/users/**:username**.atom`~~ (Only for pawoo.net, [example](https://pawoo.net/users/pawoo_support.atom))\n\nThese feed do not include boosts (a.k.a. reblogs). RSSHub provides a feed for user timeline based on the Mastodon API, but to use that, you may need to create application on a Mastodon instance, and configure your RSSHub instance. Check the [Deploy Guide](https://docs.rsshub.app/deploy/config#route-specific-configurations) for route-specific configurations.\n:::",
+    "lang": "en"
+  },
+  "mathpix": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "name": "Blog",
+        "url": "mathpix.com",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/mathpix/blog",
+        "categories": [
+          "blog"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "mathpix.com/blog"
+            ],
+            "target": "/blog"
+          }
+        ],
+        "view": 0,
+        "location": "blog.ts",
+        "module": "() => import('@/routes/mathpix/blog.ts')"
+      }
+    },
+    "name": "Mathpix",
+    "apiRoutes": {},
+    "url": "mathpix.com",
+    "categories": [
+      "blog"
+    ],
+    "description": "",
     "lang": "en"
   },
   "matters": {
@@ -81065,8 +81147,7 @@
       "/av/:catid?": {
         "path": "/av/:catid?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/playno1/av",
         "parameters": {
@@ -103532,6 +103613,37 @@
     "url": "tvb.com",
     "lang": "zh-HK"
   },
+  "tver": {
+    "routes": {
+      "/series/:id": {
+        "path": "/series/:id",
+        "categories": [
+          "traditional-media"
+        ],
+        "example": "/tver/series/srx2o7o3c8",
+        "parameters": {
+          "id": "Series ID (as it appears in URLs). For example, in https://tver.jp/series/srx2o7o3c8, the ID is \"srx2o7o3c8\"."
+        },
+        "radar": [
+          {
+            "source": [
+              "tver.jp/series/:id"
+            ],
+            "target": "/series/:id"
+          }
+        ],
+        "name": "Series",
+        "maintainers": [
+          "yuikisaito"
+        ],
+        "location": "series.ts",
+        "module": "() => import('@/routes/tver/series.ts')"
+      }
+    },
+    "name": "TVer",
+    "url": "tver.jp",
+    "lang": "ja"
+  },
   "tvtropes": {
     "routes": {
       "/featured/:category?": {
@@ -114654,7 +114766,8 @@
       "/znews/:section?": {
         "path": "/znews/:section?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/zaobao/znews/china",
         "parameters": {
