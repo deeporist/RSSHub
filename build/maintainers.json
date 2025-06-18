@@ -1118,8 +1118,7 @@
     "FerrisChi"
   ],
   "/bsky/keyword/:keyword": [
-    "untitaker",
-    "DIYgod"
+    "untitaker"
   ],
   "/bsky/profile/:handle/:routeParams?": [
     "TonyRL"

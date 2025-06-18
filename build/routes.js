@@ -17154,8 +17154,7 @@ export default {
         },
         "name": "Keywords",
         "maintainers": [
-          "untitaker",
-          "DIYgod"
+          "untitaker"
         ],
         "location": "keyword.ts",
         "module": () => import('@/routes/bsky/keyword.ts')
