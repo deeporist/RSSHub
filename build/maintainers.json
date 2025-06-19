@@ -1118,7 +1118,8 @@
     "FerrisChi"
   ],
   "/bsky/keyword/:keyword": [
-    "untitaker"
+    "untitaker",
+    "DIYgod"
   ],
   "/bsky/profile/:handle/:routeParams?": [
     "TonyRL"
@@ -8218,6 +8219,9 @@
   ],
   "/wikinews/latest": [
     "KotoriK"
+  ],
+  "/windsurf/changelog": [
+    "nczitzk"
   ],
   "/winstall/:appId": [
     "TonyRL"
