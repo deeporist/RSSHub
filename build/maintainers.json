@@ -661,6 +661,9 @@
   "/atptour/news/:lang?": [
     "LM1207"
   ],
+  "/augmentcode/blog": [
+    "nczitzk"
+  ],
   "/auto-stats/:category?": [
     "nczitzk"
   ],
@@ -4875,6 +4878,9 @@
   "/mastodon/acct/:acct/statuses/:only_media?": [
     "notofoe"
   ],
+  "/mastodon/tag/:site/:hashtag/:only_media?": [
+    "yuikisaito"
+  ],
   "/mastodon/timeline/:site/:only_media?": [
     "hoilc"
   ],
@@ -8219,6 +8225,9 @@
   ],
   "/wikinews/latest": [
     "KotoriK"
+  ],
+  "/windsurf/blog": [
+    "nczitzk"
   ],
   "/windsurf/changelog": [
     "nczitzk"
