@@ -5014,6 +5014,15 @@
           "/"
         ],
         "target": "/anthropic/news"
+      },
+      {
+        "title": "Research",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/research",
+          "/"
+        ],
+        "target": "/anthropic/research"
       }
     ]
   },
@@ -31909,6 +31918,19 @@
       }
     ]
   },
+  "samrdprc.org.cn": {
+    "_name": "国家市场监督管理总局",
+    "www": [
+      {
+        "title": "召回信息",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/:type1/:type2"
+        ],
+        "target": "/samrdprc/news/:type1/:type2"
+      }
+    ]
+  },
   "samsung.com": {
     "_name": "Samsung",
     "research": [
@@ -32141,6 +32163,20 @@
           "/"
         ],
         "target": "/scnu/cs/match"
+      }
+    ]
+  },
+  "scoop.sh": {
+    "_name": "Scoop",
+    ".": [
+      {
+        "title": "Apps",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/#/apps",
+          "/"
+        ],
+        "target": "/scoop(_,url)=>{const urlObj=new URL(url);const query=urlObj.searchParams.toString()??void 0;return`/scoop/apps${query?`/${query}`:\"\"}`}"
       }
     ]
   },

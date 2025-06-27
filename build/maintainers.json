@@ -528,6 +528,9 @@
   "/anthropic/news": [
     "etShaw-zh"
   ],
+  "/anthropic/research": [
+    "ttttmr"
+  ],
   "/anytxt/release-notes": [
     "nczitzk"
   ],
@@ -6526,6 +6529,9 @@
   "/samd/news/:typeId": [
     "hualiong"
   ],
+  "/samrdprc/news/:type1/:type2": [
+    "a180285"
+  ],
   "/samsung/research/blog": [
     "nczitzk"
   ],
@@ -6609,6 +6615,9 @@
   ],
   "/scnu/cs/match": [
     "fengkx"
+  ],
+  "/scoop/apps/:query?": [
+    "nczitzk"
   ],
   "/sctv/programme/:id?/:limit?/:isFull?": [
     "nczitzk"
