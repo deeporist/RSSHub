@@ -4676,9 +4676,6 @@
   "/line/today/:edition?/:tab?": [
     "nczitzk"
   ],
-  "/lineageos/changes": [
-    "nczitzk"
-  ],
   "/link3/events": [
     "cxheng315"
   ],
@@ -5087,9 +5084,6 @@
     "Indexyz"
   ],
   "/mixcloud/:username/:type?": [
-    "Misaka13514"
-  ],
-  "/mixcloud/:username/playlists/:playlist": [
     "Misaka13514"
   ],
   "/mixi2/community/:id/:media?": [
