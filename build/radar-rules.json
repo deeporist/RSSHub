@@ -22654,6 +22654,19 @@
       }
     ]
   },
+  "lineageos.org": {
+    "_name": "LineageOS",
+    "download": [
+      {
+        "title": "Changes",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/changes"
+        ],
+        "target": "/lineageos/changes"
+      }
+    ]
+  },
   "link3.to": {
     "_name": "Link3",
     ".": [
@@ -26215,6 +26228,14 @@
           "/:username/:type"
         ],
         "target": "/mixcloud/:username/:type?"
+      },
+      {
+        "title": "Playlist",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/playlists/:playlist"
+        ],
+        "target": "/mixcloud/:username/playlists/:playlist"
       }
     ],
     "www": [
@@ -26225,6 +26246,14 @@
           "/:username/:type"
         ],
         "target": "/mixcloud/:username/:type?"
+      },
+      {
+        "title": "Playlist",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/playlists/:playlist"
+        ],
+        "target": "/mixcloud/:username/playlists/:playlist"
       }
     ]
   },
@@ -32393,6 +32422,17 @@
           "/"
         ],
         "target": "/seu/cse/:type?"
+      }
+    ],
+    "cyber": [
+      {
+        "title": "网络空间安全学院 - 通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/list.htm",
+          "/"
+        ],
+        "target": "/seu/cyber/tzgg"
       }
     ],
     "radio": [
