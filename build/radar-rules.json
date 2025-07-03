@@ -13389,6 +13389,19 @@
       }
     ]
   },
+  "fantube.tokyo": {
+    "_name": "FANTUBE",
+    "www": [
+      {
+        "title": "User Posts",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/r18/creator/:identifier"
+        ],
+        "target": "/fantube/r18/creator/:identifier"
+      }
+    ]
+  },
   "fanxinzhui.com": {
     "_name": "追新番",
     ".": [
@@ -32422,6 +32435,17 @@
           "/"
         ],
         "target": "/seu/cse/:type?"
+      }
+    ],
+    "cyber": [
+      {
+        "title": "网络空间安全学院 - 通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/list.htm",
+          "/"
+        ],
+        "target": "/seu/cyber/tzgg"
       }
     ],
     "radio": [
