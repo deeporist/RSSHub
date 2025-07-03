@@ -2510,9 +2510,6 @@
   "/fantia/user/:id": [
     "nczitzk"
   ],
-  "/fantube/r18/creator/:identifier": [
-    "TonyRL"
-  ],
   "/fanxinzhui/": [
     "nczitzk"
   ],
@@ -5920,18 +5917,15 @@
   ],
   "/paulgraham/articles": [
     "Maecenas",
-    "nczitzk",
-    "dvorak0"
+    "nczitzk"
   ],
   "/paulgraham/essays": [
     "Maecenas",
-    "nczitzk",
-    "dvorak0"
+    "nczitzk"
   ],
   "/paulgraham/": [
     "Maecenas",
-    "nczitzk",
-    "dvorak0"
+    "nczitzk"
   ],
   "/pconline/focus/:category?": [
     "CH563"
