@@ -39922,8 +39922,7 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/live",
